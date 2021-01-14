@@ -6,7 +6,18 @@ Rename all files matching **_example_480_490kbps.mp4*, and replacing *_example_4
 
 ```rename 's/_example_480_490kbps//' *_example_480_490kbps.mp4```
 
-#### Find | Applying a command for files that not match the pattern
+#### Grep
+
+```grep -ril ‘what you looking for’ | grep -v '.svn'```
+
+```grep -rl 'HTTP_SERVER' templates/content/ | xargs sed -i 's/HTTP_SERVER/HTTPS_SERVER/g'```
+
+#### Find
+
+```find . -name "product_listing_col.php"```
+
+
+##### Applying a command for files that not match the pattern
 
 
 Find files that not match name **_ePrep_480_490kbps.mp4*, and moving them to inside folder *400x300*.
