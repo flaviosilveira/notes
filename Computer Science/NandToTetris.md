@@ -13,9 +13,9 @@ Fisicamente o bit é armazenado como uma carga elétrica acima ou abaixo de um p
 -Associative laws - expressions where doesn't matter the order of the variables. We can change the parenthesis.
 (X OR (Y OR Z)) = ((X OR Y) OR Z)
 -Distributive Laws - Open a expression (X OR (Y AND Z)) = (X OR y) AND (X OR Z)
--De Morgans Law  / NOT(x AND y) = NOT(x)  OR NOT(y) / NOT(x OR y) = NOR(x) AND NOT(y)
+-De Morgans Law  / NOT(x AND y) = NOT(x)  OR NOT(y) / NOT(x OR y) = NOT(x) AND NOT(y)
 -Idempotence Law - NOT(x) AND NOT(x) = NOT(x)
--Double Negation law
+-Double Negation law - NOT(NOT(x)) = x / NOT(NOT(y)) = y
 
 ### Unit 1.2 Truth Table to Boolean Expression
 -Get all the rows that have 1 as result, and write a expression that only return one in this row.

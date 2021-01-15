@@ -1,0 +1,94 @@
+## Hackeando Tudo
+
+- Não ter Facebook
+- Desabilitar push notifications
+- Saia de grupos do WhatsApp
+- Faça done-lists
+- Complete algo todos os dias
+- Trabalhe com um timer do seu lado
+- Monitore o tempo gasto em cada tarefa
+- Meça tudo que você faz
+- Incorpore Mini recompensas a sua rotina
+- Recrute um productivity buddy
+- Pare para almoçar por pelo menos uma hora
+- Mate o multi tasking
+- Aplique a lei do 80/20
+- Pare de assistir TV
+- Exercite a lei de Parkinson / aplique urgência
+- Comece pela tarefa mais difícil
+- Limpe a mesa antes de trabalhar
+- Ouça música enquanto estiver produzindo / coffitivity
+- Tome nootropics / alphabrain ou ciltep
+- Dress to impress / se vista bem para trabalhar e estudar em casa
+- Aplique a regra dos 2 minutos
+- Arrume sua cama
+- Beba água
+- Beba água com limão assim que sair da cama
+- Tome um multivitaminico
+- Tome 15 minutos de sol
+- Conte suas calorias / calorific, my fitness pal, lose it
+- Coma devagar
+- Faça exercícios físicos diários
+- Durma bem (Temperatura 18˚C)
+- Acordar todo dia no mesmo horário
+- Acorde cedo (compre um despertador, ñ use o do celular)
+- Se pese todo dia. Tenha um caderno ao lado da balança
+- Pule corda
+- Faça um esporte coletivo regularmente
+- Caminhe 5km por dia (Aplicativos Health, Smart distance / Audiobooks)
+- Estacione o carro longe do seu destino
+- Tome Ômega3, 3 a 4 cápsulas por dia
+- Tome banho frio
+- Faça alongamentos
+- Coma folhas de hortelã (Após as refeições)
+- Escove a língua, não só os dentes
+- Escreva um diário de gratidão (presente e futuro)
+- Crie um mantra motivacional
+- Medite
+- Não faça nada por dois minutos
+- Exerça a lei dos 5 minutos (5 minutos para reclamar, lamentar, e pronto!)
+- Diga obrigado a si mesmo, por tudo
+- Escreva seus objetivos
+- Escreva suas ideias
+- Crie uma playlist com 10 músicas da felicidade
+- Entre em contato com a natureza
+- Separe 15 minutos todo dia para brincar / ser criança
+- Faça um diário
+- Crie um album de fotos da felicidade
+- Escute discursos motivacionais / ou TEDs
+- Verbalize 3 vezes o nome da pessoa que acabou de conhecer
+- Conecte duas pessoas que tem algo em comum
+- Agradeça a alguém
+- Ajude uma pessoa por dia
+- Mande uma mensagem para alguém que você ama
+- Inicie uma conversa com um estranho na rua
+- Marque um almoço com alguém
+- Junte-se a pessoas brilhantes
+- Elogie alguém todo dia
+- Faça uma conexão todo dia
+- Desligue o celular assim que você sentar com alguém
+- Desligue o celular em bares e restaurantes
+- Conte até 3 antes de completar a frase de alguém
+- Converse com seu mentor
+- Espere 48 horas antes de comprar qualquer coisa
+- Invista mais, consuma menos
+- Guarde 10% do que você ganha
+- Invista em você mesmo
+- Leia sobre finanças pessoais todos os dias
+- Guarde as moedas em um porquinho
+- Anote seus gastos
+- Substitua o cartão por dinheiro em espécie
+- Ande com duas carteiras (uma cartões e documentos, outra só  dinheiro do dia)
+- Leve sua própria bolsa para o mercado (ñ use o carrinho de compras)
+- Cozinhe em casa / Leve marmitex
+- Faça compras por comparação
+- Trabalhe todo dia em seu projeto paralelo
+- Leia um livro / Audiobooks
+- Leia notícias mundiais / nem que sejam apenas as manchetes (Business insider)
+- Aprenda uma palavra nova por dia / português ou idioma que está aprendendo (Word a day)
+- Leia um artigo do wikipedia por dia
+- Saia da zona de conforto 1x por semana
+- Tire um break para desenhar
+- Ouça Audioboks / podcasts
+- Faça um curso online
+
