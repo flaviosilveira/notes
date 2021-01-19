@@ -36,3 +36,18 @@ Implement a NAND is out of the computer science field, and more in the electroni
 But here I draw how to implement the NAND using NMOS implementation.
 
 ![Nand Implementation](images/nand_implementation.png)
+
+### Unit 1.3 Gate Logic
+- A Logic gate is a simple chip build to deliver a functionality, like OR, AND, NAND and so on.
+- Composite logic gate
+
+- Circuit Implementations - Electrical engineering 
+
+### Unit 1.4 HDL - Hardware description Language
+
+- The interface is unique, and the implementations varies
+VHDL, Verilog
+
+### Unit 1.6
+- Multi-bit - Buses (a latin world that mean many or something like that)
+- Buses are index right to left a[0] - the most right , a[15] - the most left
