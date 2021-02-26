@@ -51,3 +51,80 @@ VHDL, Verilog
 ### Unit 1.6
 - Multi-bit - Buses (a latin world that mean many or something like that)
 - Buses are index right to left a[0] - the most right , a[15] - the most left
+
+### Unit 1.7
+
+##### Multiplexor
+- 3 inputs: A, B, Sel.
+- If Sel == 0, then outputs A, else, if Sel == 1, outputs B.
+
+##### Mux Logic Gates
+- Gates that can behave like in one or several different ways. For example, a Gate that can behave like a AND gate or as a OR gate.
+
+##### DeMultiplexor
+- Inverse of the multiplexor
+- Distribute the single input value, into one of two possible destinations.
+
+![Mux Demux Implementation](images/mux-dmux.png)
+
+
+### Unit 2.1 
+
+Using the chipset that we've built in the previous module, we will now proceed to build a family of adders. Chips design to add numbers, and with that build an ALU, Arithmetic Logic Unit.
+
+#### Binary numbers
+
+##### Convert decimal to binary
+1 0 1 = 1 x 2^2 + 0 x 2^1 + 1 X 2^0
+1 1 0 1 = 1 x 2^3 + 1 x 2^2 + 0 x 2^1 + 1 x 2^0
+
+##### Fixed Length / Word Size
+Example: Limit 8 bits: (2^8) - 1 = 255
+Actually, not, since we need to save one bit to represent negative numbers
+
+So, 255 / 2 = 127 possibilities for positive numbers
+
+#### Decimal to Binary
+
+99 = 64 + 32 + 2 + 1
+01100011
+
+The max power, will be the size of the bits 2^8 = 64, so 8 bits.
+If the result of the power, appears in the sum, you set 1, otherwise 0.
+Example: 2^0 = 1. 1 is in the sum, So 1(binary)
+Another example: 2^1 = 2. 2 is in the sum, So 1(binary)
+Last example: 2^2 = 4. 4 is not in the sum, so 0(binary).
+And so on...
+
+#### Binary Addition
+
+ 0001 0101
++
+ 0101 1100
+-----------
+
+0 + 0 = 0
+1 + 0 = 1
+1 + 1 = 10
+1 + 1 + 1 = 11
+
+So...
+ 0001 0101
++
+ 0101 1100
+ 0111 0001 
+
+##### Overflow
+We just ignore any carry bit that does not fit into the word size.
+
+
+#### Half Adder
+adds two bits
+
+
+
+#### Full Adder
+adds three bits
+
+#### Adder
+Adds two numbers of any size
