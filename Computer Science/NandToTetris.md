@@ -121,10 +121,22 @@ We just ignore any carry bit that does not fit into the word size.
 #### Half Adder
 adds two bits
 
-
-
 #### Full Adder
 adds three bits
 
 #### Adder
 Adds two numbers of any size
+
+### Negative Numbers
+but if we think about negative and positive numbers, we will reduce that to half possibilities
+
+One way to represent negative number is using the first binary as the signal. But that is not a popular way, since we will have a negative 0, that is inelegant. And also if you try to manipulate them you will get in trouble.
+
+Here is what people use. Something called 2's complement
+2 elevado a n - x  (n = bits)
+
+### Computing -x
+Get the number, subtract from a number that is 1 in all spots, then add 1.
+When you subtract from a number that is 1 in all spots, you just flip all the binarys.
+
+To add 1, flip all the binarys from right to left til the first 0 becomes a 1.
