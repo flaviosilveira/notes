@@ -144,3 +144,20 @@ To add 1, flip all the binarys from right to left til the first 0 becomes a 1.
 
 ### Arithmetic Logic Unit
 John Von Neumann -> Von Neumann Architecture
+
+The ALU contains the main functions of a hardware design. 
+In this course, we use 6 inputs to give the output of ours functions.
+
+### Sequential Logic / Memory
+Until now, we just combine stuff since our first initial step, or NandGate. Now we need to do what computers must be able to, store state and data. To do that we will use memory elements.
+
+Implement memory elements, consist of a intricate art involving synchronization, clock and feedback loops.
+
+Remember something, is a thing that is time dependent. Thus, in order to build something that remember information, we need to have a way to represent the progress of time.
+
+### Clock
+In most computers, the passage of time is represented by a master clock that using the hardware circuit send those signals to every chip in the computer. Is a simple sequence of two phases, 0 and 1, low and hight, tic - tac.. 
+
+The time between the beginning of a tic until the beginning of the next one, its called Cycle.
+
+Remember the real logic state of the system. We ignore the first main area of a cycle, because we need to think that we are working with electrical signals, and electrical signals take some time to stabilize. 

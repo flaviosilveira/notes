@@ -39,8 +39,11 @@
 - chef, someone who mix some ingredients and create something. Cook, someone who follows somebody recipes
 
 #### Graham Duncan
-- It's now how weel you play the game, it's deciding what game you want to play. - Kwame Appiah
-- a
+- It's not how weel you play the game, it's deciding what game you want to play. - Kwame Appiah
+
+#### Mike Mapples
+- Living Forward - Michael Hyatt and Daniel Harkavy (Book)
+- A good advice, is more like "I cant answers your question, But that works for me..."
 
 
 
