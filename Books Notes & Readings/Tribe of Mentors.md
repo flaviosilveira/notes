@@ -45,6 +45,20 @@
 - Living Forward - Michael Hyatt and Daniel Harkavy (Book)
 - A good advice, is more like "I cant answers your question, But that works for me..."
 
+#### Soman Chainani
+- Book: The school for good and evil
+- Book: The war of art - Steven Pressfield
+- Book: A little Life - Hanya Yanagihara
+- Make sure you have something every day you are looking forward to.
 
+#### Jesse Williams
+- What woud you do if you weren't be afraid?
+
+#### Dustin Moskovitz
+- We can't control the fact that bad things are going to happen, but it's how we react to them that really matters
+- Book: The 15 commitments of Conscious Leadership - Jim Dethmer
+
+#### Richa Chadda
+- Be so good that they can't ignore you
 
 
