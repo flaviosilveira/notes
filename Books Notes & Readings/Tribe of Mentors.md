@@ -61,4 +61,13 @@
 #### Richa Chadda
 - Be so good that they can't ignore you
 
+#### Max Levchin
+- Book: The master and margarita by Mikhail Bulgakov
+- Movie: Seven Samurai
+- The difference between winning and losing is most often not quitting
+- Focus on your strenghts
 
+#### Neil Strauss
+- Buy: Tile mate key finder
+- "It helped me realize that the secret to change and growth is not willpower, but possitive community."
+- Buy: K-safe / Kitchen Safe
