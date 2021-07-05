@@ -71,3 +71,16 @@
 - Buy: Tile mate key finder
 - "It helped me realize that the secret to change and growth is not willpower, but possitive community."
 - Buy: K-safe / Kitchen Safe
+
+#### Veronica Belmont 
+- 10% happier by Dan Harris
+
+#### Patton Oswalt
+- meditation daily,  twice a day
+
+#### Lewis Cantley
+- the making of the atomic bomb by Richard Rhodes
+
+#### Jerzy Gregorek
+- Book: The Doctor and the soul by Viktor E. Frankl
+- Vegetables
