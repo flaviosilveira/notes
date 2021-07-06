@@ -7,3 +7,7 @@
  - Don’t create ignorant self-serving opinions
  - Try again before ask for some help
  - Never call anything technical “magic”
+
+###
+
+- Code is Cheap, Knowledge is expensive - Anna Filina
