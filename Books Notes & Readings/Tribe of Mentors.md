@@ -84,3 +84,12 @@
 #### Jerzy Gregorek
 - Book: The Doctor and the soul by Viktor E. Frankl
 - Vegetables
+
+#### Aniela Gregorek
+- Book: Man's search for Meaning by Viktor E. Frankl
+- My best investment was spending money on Mentors and personal education
+- No to blame, no to complaints and no to gossip. If I have nothing positive to say, I don't say nothing
+- Creating jars, eliminated the necessity of using force, manipulation, or persuasion.
+- Forest Bathing: take a walk under the trees and the coolness, the smell, and the silence wash over you
+- Sometimes, trying to tame the mind on meditation, just magnifies whatever is happening inside me.
+
