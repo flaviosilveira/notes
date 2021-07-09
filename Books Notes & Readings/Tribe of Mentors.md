@@ -93,3 +93,10 @@
 - Forest Bathing: take a walk under the trees and the coolness, the smell, and the silence wash over you
 - Sometimes, trying to tame the mind on meditation, just magnifies whatever is happening inside me.
 
+#### Amelie Boone
+- Gratitude
+- If you want something, you work for it
+- Look for something where you love the process and the results will follow
+
+#### Joel McHale
+- Deep Survival: Who lives, Who dies and why by Laurence Gonzales
