@@ -32,6 +32,9 @@ HAD + ADVERB + PAST PARTICIPLE
 
 ```had just...had really....had already```
 
+just -> Immediatly after
+already -> early than expected
+
 ```He had just got in the shower when he heard a knock in the door```
 
 ```I ran to the supermarket as fast as I could, but it had already closed when I
