@@ -35,8 +35,10 @@ window.var_name -> works like a global scope
 ```array.filter(Boolean);```
 
 #### The same thing as if (foo == 10) then doSomething();
-```let foo = 10;  
-foo === 10 && doSomething();```;
+```
+let foo = 10;  
+foo === 10 && doSomething();
+```
 
 #### The same thing as if (foo != 5) then doSomething();
 ```foo === 5 || doSomething();```
