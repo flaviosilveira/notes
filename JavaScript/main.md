@@ -1,5 +1,50 @@
 # JavaScript
 
+## Execution Context
+
+Memory component - Also know as variable environment, this memory component is responsable for store variables and functions as key-values pairs.
+
+Code component - Also know as Thread of execution. Code component is the place where code is executed line by line.
+
+Javascript is synchronous, single thread language. It can only execute one command at time and in specific order.
+
+### Example 1
+
+```
+var a = 2;
+var b = 4;
+
+var sum = a + b;
+
+console.log(sum);
+```
+
+Browser will execute the code in two phase. Memory and Code.
+Javascript will scan thought all the code and allocate memory for all variables and functions.
+Variables will be set as undefinied and for functions it will keep the entire code of the function.
+
+In the second phase, it starts going thrhough the whole code line by line. As it encounters var a = 2, it assign it to the memory, the same for b. And then it calculate the sum and store it in the memory. It will print the sum and destroy everything.
+
+### Example 2
+```
+var n = 2;
+
+function square(num) {
+ var ans = num * num;
+ return ans;
+}
+
+var square2 = square(n);
+var square4 = square(4);
+```
+It will work as in the example 1. When it face the function, it will allocated the function in the memory and jump to the next line.
+
+When the function is called, Javascript will create a new memory/code context. For all the parameters and variables it will allocated memory as undefinied and the execute code line by line. Once the function returns the value, it will destroy that context.
+
+Keep in mind that When a function is invoked in JavaScript, JavaScript creates an execution context. Execution context will get complicated as we nest functions inside a function.
+
+---
+
 var -> Exists in all the code
 let -> Just exists in the block where it was definied
 const -> works exactly like let, but for constants
