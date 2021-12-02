@@ -88,3 +88,10 @@ Potaito / potato == The same thing
 
 Too soon, Too schmon == If is too soon is bad
 
+## Guns expressions
+
+- I called shotgun first!
+- She wants to ride shotgun!
+
+- We really dodged a bullet on that trip... (escape from a negative situation)
+- Let's not jump the gun here. (Start before the beginning)
