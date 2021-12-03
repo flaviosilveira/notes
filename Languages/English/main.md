@@ -95,3 +95,7 @@ Too soon, Too schmon == If is too soon is bad
 
 - We really dodged a bullet on that trip... (escape from a negative situation)
 - Let's not jump the gun here. (Start before the beginning)
+
+- Under the gun - Under pressure
+- straight shooter - direct talk
+- pull the trigger - take action
