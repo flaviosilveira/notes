@@ -88,3 +88,26 @@ foo === 10 && doSomething();
 #### The same thing as if (foo != 5) then doSomething();
 ```foo === 5 || doSomething();```
 
+---
+
+### Topics - Advanced Javascript
+
+- Closures
+- Prototypes
+- Async
+- Event Loop
+- Microtasks, promises, callbacks
+- Debugging and profile your code
+-- Start using debugger
+-- V8 snapshots / Flamegraphs
+- Webpack
+- Babbel
+- 
+
+---
+
+### Wait Performance
+
+Let's assume I need to doSomething(1) and doSomething(2). Without async/await they'd execute one after another, leading to long latency. But with async, or equivalently with callbacks, the execution can be interleaved. Here's an illustration:
+
+![Wait JS Performance](./images/wait-performance.png)
