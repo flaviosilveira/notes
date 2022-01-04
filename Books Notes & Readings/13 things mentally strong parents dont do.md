@@ -22,7 +22,7 @@ Teach them face their fears and encourage them to coach themselves.
 
 ## Don't give your child power over you
 
-- Don't get sucked into debates that allow your child to delay following your directions.
+- Don't get stucked into debates that allow your child to delay following your directions.
 
 ## Don't expect perfection
 

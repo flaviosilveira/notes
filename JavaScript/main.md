@@ -45,9 +45,9 @@ Keep in mind that When a function is invoked in JavaScript, JavaScript creates a
 
 ---
 
-var -> Exists in all the code
-let -> Just exists in the block where it was definied
-const -> works exactly like let, but for constants
+- var -> Exists in all the code
+- let -> Just exists in the block where it was definied
+- const -> works exactly like let, but for constants
 
 ```
 var i = "Valor Inicial de i";
@@ -65,10 +65,10 @@ window.var_name -> works like a global scope
 ```array.reduce((a,b) => a+b);```
 
 #### Max
-```array.reduce((a,b) => a>b:a?b);```
+```array.reduce((a,b) => a>b?a:b);```
 
 #### Min
-```array.reduce((a,b) => a<b:a?b);```
+```array.reduce((a,b) => a<b?a:b);```
 
 #### Sort Asc
 ```array.sort((a,b)=>a-b);```
