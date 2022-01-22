@@ -47,6 +47,8 @@ This is called "shadowing" the property.
 Async was introduced in JavaScript ES8.
 An easy way to work with Promises.
 
+Await is only used with an async function
+
 ## Event Loop
 
 Definition: Has one simple job. Monitor the call stack and the call back Queue.
@@ -57,13 +59,18 @@ Definition: Has one simple job. Monitor the call stack and the call back Queue.
 
 A way to manipulate single thread / Event Loop to run multiple things at time.
 
-
-
 ## Callbacks
+
+Definition: A JavaScript callback is a function which is to be executed after another function has finished execution.
 
 ## Promises
 
 Promises were introduced in JavaScript ES6.
+
+### States of Promises
+- Pending
+- Resolved
+- Rejected
 
 ## Debugging and profile your code -- Start using debugger -- V8 snapshots / Flamegraphs
 
