@@ -98,6 +98,27 @@ console.log([...new Set(numbers)])
 // [2, 3, 4, 5, 6, 7, 32]
 ```
 
+---
+
+### Destructuring
+
+```
+//setting defaults on the individual values and the whole object works too
+myFunc = function({x = 5,y = 8,z = 13} = {x:1,y:2,z:3}) {
+    console.log(x,y,z);
+};
+
+myFunc(); //1 2 3  (hits the object literal default)
+myFunc({}); //5 8 13   (hits the value defaults)
+```
+
+```
+let myFunc = function({x = 5,y = 8,z = 13} = {}) {
+    console.log(x,y,z);
+};
+
+myFunc({y:15,x:10,a:1}); //10 15 13
+```
 
 ---
 
