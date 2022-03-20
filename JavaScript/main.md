@@ -127,3 +127,41 @@ myFunc({y:15,x:10,a:1}); //10 15 13
 Let's assume I need to doSomething(1) and doSomething(2). Without async/await they'd execute one after another, leading to long latency. But with async, or equivalently with callbacks, the execution can be interleaved. Here's an illustration:
 
 ![Wait JS Performance](./images/wait-performance.png)
+
+---
+
+### Buffers
+The Buffer class in Node.js is designed to handle raw binary data.
+
+```
+const buffer = Buffer.alloc(8);
+// This will print out 8 bytes of zero:
+// <Buffer 00 00 00 00 00 00 00 00>
+```
+
+```
+// String to Base64
+return Buffer.from(str).toString('base64');
+```
+
+```
+// Base 64 to String Ascii
+return Buffer.from(str, 'base64').toString('ascii');
+```
+
+---
+
+### Generics
+
+A way to keep some components / functions flexible for whom use it.
+When you use any, you cant capture the type that was passed as parameter, you just have a any information.
+With Generic type, you can capture the type.
+
+```
+function identity<Type>(arg: Type): Type {
+  return arg;
+}
+
+let output = identity<string>("myString");
+```
+
