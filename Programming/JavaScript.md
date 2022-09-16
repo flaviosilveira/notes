@@ -1,5 +1,16 @@
 ## JS
 
+### Use hexadecimal and binaries
+
+Just start a number with 0x for hexa and 0b for binary.
+
+```
+word = "hello world"
+word[10]
+word[0xA]
+word[0b1010]
+```
+
 References
 [https://betterprogramming.pub/6-typescript-code-patterns-to-make-your-code-more-robust-bbe54354f39f](https://betterprogramming.pub/6-typescript-code-patterns-to-make-your-code-more-robust-bbe54354f39f)
 
