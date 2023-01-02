@@ -16,3 +16,15 @@ As pessoas precisam crescer por intermédio de frustrações habilidosas, caso c
 ```
 Nadar no seco - Uma prática que não é real.
 ```
+
+```
+Não é possível escolher uma resposta, quando não se consegue enxergar que existem opções
+```
+
+```
+O bambu e o Carvalho durante a tempestade.  A rigidez do Carvalho o mata.
+```
+
+```
+Heráclito - ... tanto a água quanto o homem mudam incessantemente
+```
