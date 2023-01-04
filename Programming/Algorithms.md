@@ -1,4 +1,13 @@
 # Algorithms
+Measures to check a good Algorith: Time and space complexity.
+
+## Time complexity
+Measure of how much time is spended as a algorithm grows
+
+## Space Complexity
+Measure of how much working storage or extra storage is needed as a algorithm grows
+
+We use Big O notation to represent those, time and complexity.
 
 ## Linear Search
 
@@ -11,4 +20,3 @@ than the linear search.
 But, binary Search Has a pre requisite of have the inputs sorted.
 Combining the operation of sort the input and search, linear search will be more efficiently.
 
-```O(log n) ```

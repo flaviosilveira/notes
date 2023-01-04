@@ -10,7 +10,8 @@ Seja como a água...
 ```
 
 ```
-As pessoas precisam crescer por intermédio de frustrações habilidosas, caso contrário não terão incentivo para criar seus próprios meios e caminhos para lidar com o mundo.
+As pessoas precisam crescer por intermédio de frustrações habilidosas, 
+caso contrário não terão incentivo para criar seus próprios meios e caminhos para lidar com o mundo.
 ```
 
 ```
