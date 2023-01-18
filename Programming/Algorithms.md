@@ -20,3 +20,5 @@ than the linear search.
 But, binary Search Has a pre requisite of have the inputs sorted.
 Combining the operation of sort the input and search, linear search will be more efficiently.
 
+## Merge Sort
+Get the array and break it into subarrays, until we have an array with one element.

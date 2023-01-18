@@ -190,3 +190,47 @@ const test2 = +test;
 ```
 This is a Unary Plus, not a Pre Increment operator.
 
+---
+
+### Unknow versus any
+
+- Unknow can just be unknow or any
+- Any can be anything
+
+---
+
+### Shallow Copy versus Deep Copy
+
+#### Shallow Copy
+Both original object and cloned object internally point to the same referenced object, same memory address.
+
+#### Deep Copy
+avoiding shallow copy:
+
+- Using spread operator
+- Using Object.assign operator
+- Using JSON.stringify and JSON.parse
+
+##### SPREAD OPERATOR
+
+Now, what a spread operator does? It deep copies the data if it is not nested. For nested data, it deeply copies the topmost data and shallow copies of the nested data.
+
+```
+const obj1 = {
+  name: 'aa',
+  age: {
+    birth: '1985-11-14',
+    int: 37
+  },
+  race: 'latin'
+}
+
+const obj2 = {...obj1};
+
+obj1.name = 'bb';
+obj1.age.int = 40;
+
+
+console.log(obj2);
+// { name: 'aa', age: { birth: '1985-11-14', int: 40 }, race: 'latin' }
+```

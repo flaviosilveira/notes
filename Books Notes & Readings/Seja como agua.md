@@ -29,3 +29,27 @@ O bambu e o Carvalho durante a tempestade.  A rigidez do Carvalho o mata.
 ```
 Heráclito - ... tanto a água quanto o homem mudam incessantemente
 ```
+
+```
+Se esvaziar a xícara, nõa cabe mais chá
+```
+
+```
+Krishnamurti
+```
+
+```
+Não importa se com os olhos abertos ou fechados, andando ou parado, o que importa é o espaço da calma mental
+```
+
+```
+O Inimigo do desenvolvimento é o medo da dor. Quando se sente incomodado, você interrompe a sequência e torna-se fóbico.
+A solução é incorporar momentos desconfortáveis.
+```
+
+```
+Encontraremos a verdade quando examinarmos o problema. O problema nunca está separado da resposta.
+O problema é a resposta.
+```
+
+
