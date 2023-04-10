@@ -52,4 +52,17 @@ Encontraremos a verdade quando examinarmos o problema. O problema nunca está se
 O problema é a resposta.
 ```
 
+```
+Saber não é o bastante, precisamos aplicar. Não é suficiente querer, devemos fazer
+```
+
+O que poode estar nos detendo, é o apego a resultados
+
+Realize uma ação pequena, deixe que ela lhe transmita confiança, e deixe a confiança criar a energia para realizar mais ações.
+
+Afirmações positivas, como algo em processo. Exemplo: Invés de "sou forte e preparado" pensar "Treino todos os dias para ficar forte e preparado"
+
+Todas as dúvidas, suposições, preocuopações, análises, julgamentos, necessidades e perfeccionismoso que consomem tanta energia não existem aqui.
+
+
 
