@@ -1,0 +1,6 @@
+- I will teach you to be rich
+- The 4 hour work week
+- Rich Dad - Poor dad
+- The cashflow quadrant
+- Think and grow rich
+- Lean In
