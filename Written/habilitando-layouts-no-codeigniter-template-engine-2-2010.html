@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Vida e Tecnologia  | Habilitando Layouts No CodeIgniter (Template Engine) – Parte 2</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="generator" content="Hugo 0.59.1" />
+    
+    
+      <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+    
+
+    
+    
+      <link href="/dist/css/app.4c68f34631ae16452eb7705d00567cd8.css" rel="stylesheet">
+    
+
+    
+
+    
+      
+    
+
+    
+    
+    <meta property="og:title" content="Habilitando Layouts No CodeIgniter (Template Engine) – Parte 2" />
+<meta property="og:description" content="
+  
+    Atenção!! Este artigo foi escrito em cima da versão 1 do Codeigniter. Para detalhes de como usar com a versão 2 do framework clique aqui.
+  
+
+
+Continuando a parte 1 deste post.
+Se você perdeu a primeira parte clique aqui para ler a primeira parte.
+
+5 &#8211; Construindo sua View
+
+Sua View deve ser feita normalmente, como voce já está acostumado a fazer, com o nome que você colocaria normalmente.
+Apenas com o conteúdo que muda de uma página para outra.
+
+O HTML que você colocar aqui na View irá substituir a variável {content_for_layout} que definimos no layout acima.
+Vou colocar nessa nossa view de exemplo apenas um título e um parágrafo para demonstrar.
+Ficando assim:
+
+title = &ldquo;habilitando layouts no codeigniter template engine 2&rdquo;
+
+&lt;p&gt;Paragrafo teste teste teste teste.&lt;/p&gt;
+
+
+
+Chamei essa view de home.php.
+
+6 &#8211; Desenvolvendo a Classe
+
+Quando definimos nosso Hook no passo 2, setamos que a pasta onde ficaria nossa classe seria a pasta hooks que vem por padrão no projeto do CodeIgniter.
+
+Vamos criar nossa classe dentro dessa pasta, e, com o nome que também especificamos na definição do Hook que foi Layout.php
+Se você não seguiu o exemplo, faça suas devidas adaptações.
+
+A classe é um pouco extensa, leia com atenção.
+Para ajudar ela está com os comentários do próprio Mozart Petter." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://flaviosilveira.com/2010/habilitando-layouts-no-codeigniter-template-engine-2/" />
+<meta property="article:published_time" content="2010-02-18T00:00:00+00:00" />
+<meta property="article:modified_time" content="2010-02-18T00:00:00+00:00" />
+<meta itemprop="name" content="Habilitando Layouts No CodeIgniter (Template Engine) – Parte 2">
+<meta itemprop="description" content="
+  
+    Atenção!! Este artigo foi escrito em cima da versão 1 do Codeigniter. Para detalhes de como usar com a versão 2 do framework clique aqui.
+  
+
+
+Continuando a parte 1 deste post.
+Se você perdeu a primeira parte clique aqui para ler a primeira parte.
+
+5 &#8211; Construindo sua View
+
+Sua View deve ser feita normalmente, como voce já está acostumado a fazer, com o nome que você colocaria normalmente.
+Apenas com o conteúdo que muda de uma página para outra.
+
+O HTML que você colocar aqui na View irá substituir a variável {content_for_layout} que definimos no layout acima.
+Vou colocar nessa nossa view de exemplo apenas um título e um parágrafo para demonstrar.
+Ficando assim:
+
+title = &ldquo;habilitando layouts no codeigniter template engine 2&rdquo;
+
+&lt;p&gt;Paragrafo teste teste teste teste.&lt;/p&gt;
+
+
+
+Chamei essa view de home.php.
+
+6 &#8211; Desenvolvendo a Classe
+
+Quando definimos nosso Hook no passo 2, setamos que a pasta onde ficaria nossa classe seria a pasta hooks que vem por padrão no projeto do CodeIgniter.
+
+Vamos criar nossa classe dentro dessa pasta, e, com o nome que também especificamos na definição do Hook que foi Layout.php
+Se você não seguiu o exemplo, faça suas devidas adaptações.
+
+A classe é um pouco extensa, leia com atenção.
+Para ajudar ela está com os comentários do próprio Mozart Petter.">
+
+
+<meta itemprop="datePublished" content="2010-02-18T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2010-02-18T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="1277">
+
+
+
+<meta itemprop="keywords" content="" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Habilitando Layouts No CodeIgniter (Template Engine) – Parte 2"/>
+<meta name="twitter:description" content="
+  
+    Atenção!! Este artigo foi escrito em cima da versão 1 do Codeigniter. Para detalhes de como usar com a versão 2 do framework clique aqui.
+  
+
+
+Continuando a parte 1 deste post.
+Se você perdeu a primeira parte clique aqui para ler a primeira parte.
+
+5 &#8211; Construindo sua View
+
+Sua View deve ser feita normalmente, como voce já está acostumado a fazer, com o nome que você colocaria normalmente.
+Apenas com o conteúdo que muda de uma página para outra.
+
+O HTML que você colocar aqui na View irá substituir a variável {content_for_layout} que definimos no layout acima.
+Vou colocar nessa nossa view de exemplo apenas um título e um parágrafo para demonstrar.
+Ficando assim:
+
+title = &ldquo;habilitando layouts no codeigniter template engine 2&rdquo;
+
+&lt;p&gt;Paragrafo teste teste teste teste.&lt;/p&gt;
+
+
+
+Chamei essa view de home.php.
+
+6 &#8211; Desenvolvendo a Classe
+
+Quando definimos nosso Hook no passo 2, setamos que a pasta onde ficaria nossa classe seria a pasta hooks que vem por padrão no projeto do CodeIgniter.
+
+Vamos criar nossa classe dentro dessa pasta, e, com o nome que também especificamos na definição do Hook que foi Layout.php
+Se você não seguiu o exemplo, faça suas devidas adaptações.
+
+A classe é um pouco extensa, leia com atenção.
+Para ajudar ela está com os comentários do próprio Mozart Petter."/>
+
+  </head>
+
+  <body class="ma0 avenir bg-near-white">
+
+    
+   
+  
+
+  <header>
+    <div class="bg-black">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="http://flaviosilveira.com" class="f3 fw2 hover-white no-underline white-90 dib">
+      Vida e Tecnologia
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+      
+
+
+
+<a href="https://twitter.com/flaviosilveira" target="_blank" class="link-transition twitter link dib z-999 pt3 pt0-l mr1" title="Twitter link" rel="noopener" aria-label="follow on Twitter——Opens in a new window">
+  <svg height="32px"  style="enable-background:new 0 0 67 67;" version="1.1" viewBox="0 0 67 67" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M37.167,22.283c-2.619,0.953-4.274,3.411-4.086,6.101  l0.063,1.038l-1.048-0.127c-3.813-0.487-7.145-2.139-9.974-4.915l-1.383-1.377l-0.356,1.017c-0.754,2.267-0.272,4.661,1.299,6.271  c0.838,0.89,0.649,1.017-0.796,0.487c-0.503-0.169-0.943-0.296-0.985-0.233c-0.146,0.149,0.356,2.076,0.754,2.839  c0.545,1.06,1.655,2.097,2.871,2.712l1.027,0.487l-1.215,0.021c-1.173,0-1.215,0.021-1.089,0.467  c0.419,1.377,2.074,2.839,3.918,3.475l1.299,0.444l-1.131,0.678c-1.676,0.976-3.646,1.526-5.616,1.568  C19.775,43.256,19,43.341,19,43.405c0,0.211,2.557,1.397,4.044,1.864c4.463,1.377,9.765,0.783,13.746-1.568  c2.829-1.673,5.657-5,6.978-8.221c0.713-1.716,1.425-4.851,1.425-6.354c0-0.975,0.063-1.102,1.236-2.267  c0.692-0.678,1.341-1.419,1.467-1.631c0.21-0.403,0.188-0.403-0.88-0.043c-1.781,0.636-2.033,0.551-1.152-0.402  c0.649-0.678,1.425-1.907,1.425-2.267c0-0.063-0.314,0.042-0.671,0.233c-0.377,0.212-1.215,0.53-1.844,0.72l-1.131,0.361l-1.027-0.7  c-0.566-0.381-1.361-0.805-1.781-0.932C39.766,21.902,38.131,21.944,37.167,22.283z M33,64C16.432,64,3,50.569,3,34S16.432,4,33,4  s30,13.431,30,30S49.568,64,33,64z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/></svg>
+
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" width="8px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+</span></a>
+
+
+
+
+<a href="https://www.linkedin.com/in/flaviosilveira" target="_blank" class="link-transition linkedin link dib z-999 pt3 pt0-l mr1" title="LinkedIn link" rel="noopener" aria-label="follow on LinkedIn——Opens in a new window">
+  <svg  height="32px"  style="enable-background:new 0 0 65 65;" version="1.1" viewBox="0 0 65 65" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <path d="M50.837,48.137V36.425c0-6.275-3.35-9.195-7.816-9.195  c-3.604,0-5.219,1.983-6.119,3.374V27.71h-6.79c0.09,1.917,0,20.427,0,20.427h6.79V36.729c0-0.609,0.044-1.219,0.224-1.655  c0.49-1.22,1.607-2.483,3.482-2.483c2.458,0,3.44,1.873,3.44,4.618v10.929H50.837z M22.959,24.922c2.367,0,3.842-1.57,3.842-3.531  c-0.044-2.003-1.475-3.528-3.797-3.528s-3.841,1.524-3.841,3.528c0,1.961,1.474,3.531,3.753,3.531H22.959z M34,64  C17.432,64,4,50.568,4,34C4,17.431,17.432,4,34,4s30,13.431,30,30C64,50.568,50.568,64,34,64z M26.354,48.137V27.71h-6.789v20.427  H26.354z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" width="8px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+</span></a>
+
+
+<a href="https://github.com/flaviosilveira" target="_blank" class="link-transition github link dib z-999 pt3 pt0-l mr1" title="Github link" rel="noopener" aria-label="follow on Github——Opens in a new window">
+  <svg  height="32px"  style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+  <path d="M256,32C132.3,32,32,134.8,32,261.7c0,101.5,64.2,187.5,153.2,217.9c11.2,2.1,15.3-5,15.3-11.1   c0-5.5-0.2-19.9-0.3-39.1c-62.3,13.9-75.5-30.8-75.5-30.8c-10.2-26.5-24.9-33.6-24.9-33.6c-20.3-14.3,1.5-14,1.5-14   c22.5,1.6,34.3,23.7,34.3,23.7c20,35.1,52.4,25,65.2,19.1c2-14.8,7.8-25,14.2-30.7c-49.7-5.8-102-25.5-102-113.5   c0-25.1,8.7-45.6,23-61.6c-2.3-5.8-10-29.2,2.2-60.8c0,0,18.8-6.2,61.6,23.5c17.9-5.1,37-7.6,56.1-7.7c19,0.1,38.2,2.6,56.1,7.7   c42.8-29.7,61.5-23.5,61.5-23.5c12.2,31.6,4.5,55,2.2,60.8c14.3,16.1,23,36.6,23,61.6c0,88.2-52.4,107.6-102.3,113.3   c8,7.1,15.2,21.1,15.2,42.5c0,30.7-0.3,55.5-0.3,63c0,6.1,4,13.3,15.4,11C415.9,449.1,480,363.1,480,261.7   C480,134.8,379.7,32,256,32z"/>
+</svg>
+
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" width="8px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+</span></a>
+
+
+
+
+
+    </div>
+  </div>
+</nav>
+
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+
+    <header class="mt4 w-100">
+      <p class="f6 b helvetica tracked">
+          
+        POSTS
+      </p>
+      <h1 class="f1 athelas mb1">Habilitando Layouts No CodeIgniter (Template Engine) – Parte 2</h1>
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2010-02-18T00:00:00Z">February 18, 2010</time>
+      
+      
+    </header>
+
+    <section class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><div id="atencao">
+  <p>
+    Atenção!! Este artigo foi escrito em cima da versão 1 do Codeigniter. Para detalhes de como usar com a versão 2 do framework <a href="http://flaviosilveira.com/2011/codeigniter-2-templates-e-layouts">clique aqui</a>.
+  </p>
+</div>
+
+<p>Continuando a parte 1 deste post.<br/>
+Se você perdeu a primeira parte <a href="http://flaviosilveira.com/2010/habilitando-layouts-no-codeigniter-template-engine-1">clique aqui para ler a primeira parte</a>.</p>
+
+<p><strong>5 &#8211; Construindo sua View</strong></p>
+
+<p>Sua View deve ser feita normalmente, como voce já está acostumado a fazer, com o nome que você colocaria normalmente.<br/>
+Apenas com o conteúdo que muda de uma página para outra.</p>
+
+<p>O HTML que você colocar aqui na View irá substituir a variável <em>{content_for_layout}</em> que definimos no layout acima.<br/>
+Vou colocar nessa nossa view de exemplo apenas um título e um parágrafo para demonstrar.<br/>
+Ficando assim:</p>
+
+<p>title = &ldquo;habilitando layouts no codeigniter template engine 2&rdquo;</p>
+
+<p>&lt;p&gt;Paragrafo teste teste teste teste.&lt;/p&gt;</p>
+
+<p></pre></p>
+
+<p>Chamei essa view de <em>home.php</em>.</p>
+
+<p><strong>6 &#8211; Desenvolvendo a Classe</strong></p>
+
+<p>Quando definimos nosso Hook no passo 2, setamos que a pasta onde ficaria nossa classe seria a pasta hooks que vem por padrão no projeto do CodeIgniter.</p>
+
+<p>Vamos criar nossa classe dentro dessa pasta, e, com o nome que também especificamos na definição do Hook que foi Layout.php<br/>
+Se você não seguiu o exemplo, faça suas devidas adaptações.</p>
+
+<p>A classe é um pouco extensa, leia com atenção.<br/>
+Para ajudar ela está com os comentários do próprio <a href="http://www.mozartpetter.com/pt/">Mozart Petter</a>.</p>
+
+<p>title = &ldquo;habilitando layouts no codeigniter template engine 2&rdquo;
+&lt;?php if (!defined(&lsquo;BASEPATH&rsquo;)) exit(&lsquo;No direct script access allowed&rsquo;);</p>
+
+<p>/**
+ * Layout Class
+ *
+ * @package hooks
+ * @description Implementa as views do tipo layout no framework.
+ */</p>
+
+<p>class Layout
+{</p>
+
+<p>public $base_url;</p>
+
+<p>/**
+* Metodo que executa as implementacoes.
+* Este metodo e chamado atraves do arquivo hooks.php
+* na pasta config.
+*
+* @return
+*/
+public function init()
+{
+// Instancia do CI.
+$CI =&amp; get_instance();</p>
+
+<p>// Definindo o base_url.
+$this-&gt;base_url = $CI-&gt;config-&gt;slash_item(&lsquo;base_url&rsquo;);</p>
+
+<p>// Pegando a saida que o CI gera normalmente.
+$output = $CI-&gt;output-&gt;get_output();</p>
+
+<p>// Pegando o valor de title, se definido no controller.
+$title = (isset($CI-&gt;title)) ? $CI-&gt;title : &ldquo;;</p>
+
+<p>// Links CSS definidos no controlador.
+$css = (isset($CI-&gt;css)) ? $this-&gt;createCSSLinks($CI-&gt;css) : &ldquo;;</p>
+
+<p>// Links JS definidos no controlador.
+$js = (isset($CI-&gt;js)) ? $this-&gt;createJSLinks($CI-&gt;js) : &ldquo;;</p>
+
+<p>// Se layout estiver definido e a regexp nao bater.
+if (isset($CI-&gt;layout) &amp;&amp; !preg_match(&lsquo;/(.+).php$/&rsquo;, $CI-&gt;layout))
+{
+$CI-&gt;layout .= &lsquo;.php&rsquo;;
+}
+else
+{
+$CI-&gt;layout = &lsquo;default.php&rsquo;;
+}</p>
+
+<p>// Definindo caminho completo do layout.
+$layout = LAYOUTPATH . $CI-&gt;layout;</p>
+
+<p>// Se o layout for diferente do default, e o arquivo nao existir.
+if ($CI-&gt;layout !== &lsquo;default.php&rsquo; &amp;&amp; !file_exists($layout))
+{
+// Exibe a mensagem, se o layout for diferente de &lsquo;.php&rsquo;.
+}</p>
+
+<p>// Se o arquivo layout existir.
+if (file_exists($layout))
+{
+// Carrega o conteudo do  arquivo.
+$layout = $CI-&gt;load-&gt;file($layout, true);</p>
+
+<p>// Substitui o texto {content_for_layout} pelo valor de output em layout.
+$view = str_replace(&lsquo;{content_for_layout}&lsquo;, $output, $layout);</p>
+
+<p>// Substitui o texto {title_for_layout} pelo valor de title em view.
+$view = str_replace(&lsquo;{title_for_layout}&lsquo;, $title, $view);</p>
+
+<p>// Links CSS.
+$view = str_replace(&lsquo;{css_for_layout}&lsquo;, $css, $view);</p>
+
+<p>// Links JS.
+$view = str_replace(&lsquo;{js_for_layout}&lsquo;, $js, $view);
+}
+else
+{
+$view = $output;
+}</p>
+
+<p>echo $view;
+}</p>
+
+<p>/**
+* Gera os links CSS utilizados no layout.
+*
+* @return void
+*/
+private function createCSSLinks($links)
+{
+$html = &ldquo;&rdquo;;</p>
+
+<p>for ($i = 0; $i &lt; count($links); $i++)
+{
+$html .= &ldquo;&lt;link rel=&lsquo;stylesheet&rsquo; type=&lsquo;text/css&rsquo; href=&lsquo;&rdquo; . $this-&gt;base_url . CSSPATH . $links[$i] . &ldquo;.css&rsquo; media=&lsquo;screen&rsquo; /&gt;n&rdquo;;
+}</p>
+
+<p>return $html;</p>
+
+<p>}</p>
+
+<p>/**
+* Gera os links JS utilizados no layout.
+*
+* @return void
+*/
+private function createJSLinks($links)
+{
+$html = &ldquo;&rdquo;;</p>
+
+<p>for ($i = 0; $i &lt; count($links); $i++)
+{
+$html .= &ldquo;&lt;script type=&lsquo;text/javascript&rsquo; src=&lsquo;&rdquo; . $this-&gt;base_url . JSPATH . $links[$i] . &ldquo;.js&rsquo;&gt;&lt;/script&gt; n&rdquo;;
+}</p>
+
+<p>return $html;
+}</p>
+
+<p>}
+</pre></p>
+
+<p><strong>7 &#8211; Fazendo as chamadas no Controller</strong></p>
+
+<p>Chegou o momento final!<br/>
+É hora de juntar tudo isso que fizemos até agora.</p>
+
+<p>A construção do seu controller é normal, como você está acostumado, mas temos que inserir algumas variáveis globais nele.</p>
+
+<ul>
+<li>Uma para o Layout default do controller, para que você não precise fazer a mesma definição várias vezes.</li>
+<li>Uma para o título, onde você pode definir um default para todos as páginas que vão surgir desse controller mas, o interessante é estar um título por página.</li>
+<li>Outra para guardar um Array dos CSS&#8217;s que você vai usar na página.</li>
+<li>E por último, outro Array para guardar os JavaScripts que você vai usar na página.</li>
+</ul>
+
+<p>Vejamos como fica.<br/>
+Acompanhe pelos comentários.</p>
+
+<p>title = &ldquo;habilitando layouts no codeigniter template engine 2&rdquo;</p>
+
+<p>/**
+ *
+ */
+class Principal extends Controller
+{</p>
+
+<p>/**
+* Layout default utilizado pelo controlador.
+*/
+public $layout = &lsquo;default&rsquo;;</p>
+
+<p>/**
+* Titulo default.
+*/
+public $title = &lsquo;::: Titulo default :::&lsquo;;</p>
+
+<p>/**
+* Definindo os css default.
+*/
+public $css = array(&lsquo;default&rsquo;);</p>
+
+<p>/**
+* Carregando os js default.
+*/
+public $js = array(&lsquo;home&rsquo;);</p>
+
+<p>/**
+* Construtora.
+* @return
+*/
+function Principal()
+{</p>
+
+<p>parent::Controller();</p>
+
+<p>}</p>
+
+<p>// Metodoo index
+function index()
+{
+// Carregando a view.
+$this-&gt;load-&gt;view(&lsquo;home&rsquo;);
+}</p>
+
+<p>// Metodo teste
+function teste()
+{
+//Title
+$this-&gt;title = &lsquo;::: TESTE Título :::&lsquo;;</p>
+
+<p>//CSS
+$this-&gt;css = array(&lsquo;test&rsquo;);</p>
+
+<p>//JS
+$this-&gt;js = array(&lsquo;jquery&rsquo;);</p>
+
+<p>// Carregando a View
+$this-&gt;load-&gt;view(&lsquo;teste&rsquo;);
+}</p>
+
+<p>}</p>
+
+<p>?&gt;</p>
+
+<p></pre></p>
+
+<p>Vamos reparar no seguinte.<br/>
+Há dois métodos nesse controller que vão chamar páginas diferentes, o index e o teste.</p>
+
+<p>Para o index não definimos nada de Layout, Titulo, CSS ou JS.<br/>
+Ou seja, vai vir tudo do valor default que usamos quando definimos as variáveis globais.</p>
+
+<p>Já no método teste, por algum motivo precisamos de um CSS, um JS e um Título diferente.<br/>
+Então redefinimos esses valores no nosso método com o que precisamos.</p>
+
+<p>A gente poderia ter definido um outro Layout caso tivesse a necessidade, da mesma forma com que fiz com esses valores.<br/>
+Aí, claro, teria que criar um outro Layout na pasta layouts.</p>
+
+<hr />
+
+<p><span id="explicacao"> </span><br/>
+<strong>UPDATE 20 DE NOVEMBRO DE 2010</strong><br/>
+Detalhe importante observado pelo <a href="http://diegofelix.com.br/">Diego Felix</a> (<a href="http://twitter.com/diegofelix">@diegofelix</a>), que comentou esse detalhe abaixo nos comentários, no dia 16 de setembro desse mesmo ano.</p>
+
+<p>&nbsp;</p>
+
+<p>Eu tenho como costume em meus projetos com CI, retirar a pasta system no qual ele vem por padrão.<br/>
+Faço então a alteração da variável <em>$system_folder</em> no arquivo de configuração e tudo segue sem problemas.</p>
+
+<p>Exceto esse tutorial, que não leva em consideração essa pasta system.<br/>
+Você tem duas opções para consertar isso:</p>
+
+<p><strong>Primeiro:</strong><br/>
+No local onde são definidas as variáveis contantes, adicionar sua pasta system antes de <em>$application_folder</em>.<br/>
+Exemplo: <em>define(&#8216;LAYOUTPATH&#8217;, &#8216;system/&#8217; . $application_folder.&#8217;/layouts/&#8217;);</em></p>
+
+<p>Particularmente acho essa solução acima atrasada, por deixar o projeto estático.<br/>
+Se ocorrer de você alterar a pasta system, terá que alterar nesse local também. Chato.</p>
+
+<p><strong>Segundo:</strong><br/>
+Seguindo essa linha de raciocínio, de não deixar o projeto estático, prefiro fazer o seguinte:<br/>
+No local onde são definidas as variáveis constantes, adicionar a variável <em>$system_folder</em>.<br/>
+Exemplo: <em>define(&#8216;LAYOUTPATH&#8217;, $system_folder . &#8216;/&#8217; . $application_folder.&#8217;/layouts/&#8217;);</em></p>
+
+<p>Mas há um detalhe.<br/>
+No arquivo <em>index.php</em>, em torno da linha 53, é adicionado a variável <em>$system_folder</em> o seu caminho completo do servidor. Isso, claro, vai gerar problemas para o projeto.<br/>
+O que eu faço então é pegar as variáveis constantes que usam a pasta system, e jogar antes desse bloco.<br/>
+Se você seguir pelo projeto exemplo, verá que as coloquei logo depois do comentário <em>&#8220;END OF USER CONFIGURABLE SETTINGS&#8221;</em>.</p>
+
+<p>Feito isso, caso você altera sua pasta system, basta alterar no local de sempre para o projeto continuar funcionando.</p>
+
+<hr />
+
+<p>Pessoal é isso!<br/>
+Fazia tempo que queria escrever sobre isso, espero que ajude a galera por aí.<br/>
+Dúvidas podem mandar sem problemas, vou responder no que estiver a meu alcance.</p>
+
+<p>Se você teve dificuldades, <a href="../../assets/uploads/2010/02/projetoExemplo.zip" title="Baixar projeto Exemplo">baixe o projeto pronto aqui</a> e dê uma olhada mais de perto.</p>
+
+<p>Agradeço novamente ao <a href="http://www.mozartpetter.com/pt/" title="Mozart Petter Developer">Mozart Petter</a>, grande Brother, que implementou essa solução que uso até hoje em meus projetos. E, como sempre, também ao pessoal que garante minhas 30 visitas diárias, Valeu!</p>
+
+<p>É isso pessoal.<br/>
+Até a próxima!!!</p><ul class="pa0">
+  
+</ul>
+<div class="mt6">
+      
+        <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "flaviosilveira" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+      
+      
+      </div>
+    </section>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="http://flaviosilveira.com" >
+    &copy; 2020 Vida e Tecnologia
+  </a>
+    <div>
+
+
+
+<a href="https://twitter.com/flaviosilveira" target="_blank" class="link-transition twitter link dib z-999 pt3 pt0-l mr1" title="Twitter link" rel="noopener" aria-label="follow on Twitter——Opens in a new window">
+  <svg height="32px"  style="enable-background:new 0 0 67 67;" version="1.1" viewBox="0 0 67 67" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M37.167,22.283c-2.619,0.953-4.274,3.411-4.086,6.101  l0.063,1.038l-1.048-0.127c-3.813-0.487-7.145-2.139-9.974-4.915l-1.383-1.377l-0.356,1.017c-0.754,2.267-0.272,4.661,1.299,6.271  c0.838,0.89,0.649,1.017-0.796,0.487c-0.503-0.169-0.943-0.296-0.985-0.233c-0.146,0.149,0.356,2.076,0.754,2.839  c0.545,1.06,1.655,2.097,2.871,2.712l1.027,0.487l-1.215,0.021c-1.173,0-1.215,0.021-1.089,0.467  c0.419,1.377,2.074,2.839,3.918,3.475l1.299,0.444l-1.131,0.678c-1.676,0.976-3.646,1.526-5.616,1.568  C19.775,43.256,19,43.341,19,43.405c0,0.211,2.557,1.397,4.044,1.864c4.463,1.377,9.765,0.783,13.746-1.568  c2.829-1.673,5.657-5,6.978-8.221c0.713-1.716,1.425-4.851,1.425-6.354c0-0.975,0.063-1.102,1.236-2.267  c0.692-0.678,1.341-1.419,1.467-1.631c0.21-0.403,0.188-0.403-0.88-0.043c-1.781,0.636-2.033,0.551-1.152-0.402  c0.649-0.678,1.425-1.907,1.425-2.267c0-0.063-0.314,0.042-0.671,0.233c-0.377,0.212-1.215,0.53-1.844,0.72l-1.131,0.361l-1.027-0.7  c-0.566-0.381-1.361-0.805-1.781-0.932C39.766,21.902,38.131,21.944,37.167,22.283z M33,64C16.432,64,3,50.569,3,34S16.432,4,33,4  s30,13.431,30,30S49.568,64,33,64z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/></svg>
+
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" width="8px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+</span></a>
+
+
+
+
+<a href="https://www.linkedin.com/in/flaviosilveira" target="_blank" class="link-transition linkedin link dib z-999 pt3 pt0-l mr1" title="LinkedIn link" rel="noopener" aria-label="follow on LinkedIn——Opens in a new window">
+  <svg  height="32px"  style="enable-background:new 0 0 65 65;" version="1.1" viewBox="0 0 65 65" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <path d="M50.837,48.137V36.425c0-6.275-3.35-9.195-7.816-9.195  c-3.604,0-5.219,1.983-6.119,3.374V27.71h-6.79c0.09,1.917,0,20.427,0,20.427h6.79V36.729c0-0.609,0.044-1.219,0.224-1.655  c0.49-1.22,1.607-2.483,3.482-2.483c2.458,0,3.44,1.873,3.44,4.618v10.929H50.837z M22.959,24.922c2.367,0,3.842-1.57,3.842-3.531  c-0.044-2.003-1.475-3.528-3.797-3.528s-3.841,1.524-3.841,3.528c0,1.961,1.474,3.531,3.753,3.531H22.959z M34,64  C17.432,64,4,50.568,4,34C4,17.431,17.432,4,34,4s30,13.431,30,30C64,50.568,50.568,64,34,64z M26.354,48.137V27.71h-6.789v20.427  H26.354z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" width="8px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+</span></a>
+
+
+<a href="https://github.com/flaviosilveira" target="_blank" class="link-transition github link dib z-999 pt3 pt0-l mr1" title="Github link" rel="noopener" aria-label="follow on Github——Opens in a new window">
+  <svg  height="32px"  style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+  <path d="M256,32C132.3,32,32,134.8,32,261.7c0,101.5,64.2,187.5,153.2,217.9c11.2,2.1,15.3-5,15.3-11.1   c0-5.5-0.2-19.9-0.3-39.1c-62.3,13.9-75.5-30.8-75.5-30.8c-10.2-26.5-24.9-33.6-24.9-33.6c-20.3-14.3,1.5-14,1.5-14   c22.5,1.6,34.3,23.7,34.3,23.7c20,35.1,52.4,25,65.2,19.1c2-14.8,7.8-25,14.2-30.7c-49.7-5.8-102-25.5-102-113.5   c0-25.1,8.7-45.6,23-61.6c-2.3-5.8-10-29.2,2.2-60.8c0,0,18.8-6.2,61.6,23.5c17.9-5.1,37-7.6,56.1-7.7c19,0.1,38.2,2.6,56.1,7.7   c42.8-29.7,61.5-23.5,61.5-23.5c12.2,31.6,4.5,55,2.2,60.8c14.3,16.1,23,36.6,23,61.6c0,88.2-52.4,107.6-102.3,113.3   c8,7.1,15.2,21.1,15.2,42.5c0,30.7-0.3,55.5-0.3,63c0,6.1,4,13.3,15.4,11C415.9,449.1,480,363.1,480,261.7   C480,134.8,379.7,32,256,32z"/>
+</svg>
+
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" width="8px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+</span></a>
+
+
+
+
+</div>
+  </div>
+</footer>
+
+    
+
+  <script src="/dist/js/app.3fc0f988d21662902933.js"></script>
+
+
+  </body>
+</html>

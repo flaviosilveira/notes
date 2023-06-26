@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Vida e Tecnologia  | CodeIgniter ‘metido’ a Ruby on Rails. (ciforms.sh)</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="generator" content="Hugo 0.59.1" />
+    
+    
+      <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+    
+
+    
+    
+      <link href="/dist/css/app.4c68f34631ae16452eb7705d00567cd8.css" rel="stylesheet">
+    
+
+    
+
+    
+      
+    
+
+    
+    
+    <meta property="og:title" content="CodeIgniter ‘metido’ a Ruby on Rails. (ciforms.sh)" />
+<meta property="og:description" content="Salve Galera&#8230;
+
+Vocês sabem, muitos projetos em sistemas são similares, sempre aquela mesma coisa&#8230;Listar, Inserir, Editar e Remover.
+Isso me levou a querer criar algo para facilitar tudo isso.
+
+Vendo meu Amigo Fábio Tomio mandando ver no Ruby On Rails, ele me mostrou que criava um cadastro (Listar, Inserir, Editar e Remover) muito facilmente, com apenas um comando no terminal, usando a funcão Scaffold se não me engano.
+
+Inspirado nisso, resolvi fazer um Shell Script que geraria todas as views, controller e model prontas com essas opções.
+
+Introdução
+
+
+Chamei de CiForms.
+Essa é uma versão de teste. É a versão Zero.
+Fiz esse script como estudo. Não tenho pretensões de lucros, suporte, nem nada com ele.
+
+
+Porque não usar o Scaffolding do CodeIgniter
+
+
+O Scaffolding do CodeIgniter não é aproveitável para o desenvolvimento de um projeto, ele não segue o padrão MVC do Framework. Como consta no manual, ele é apenas uma maneira de popular rapidamente uma tabela.
+" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://flaviosilveira.com/2009/codeigniter-metido-a-ruby/" />
+<meta property="article:published_time" content="2009-04-16T00:00:00+00:00" />
+<meta property="article:modified_time" content="2009-04-16T00:00:00+00:00" />
+<meta itemprop="name" content="CodeIgniter ‘metido’ a Ruby on Rails. (ciforms.sh)">
+<meta itemprop="description" content="Salve Galera&#8230;
+
+Vocês sabem, muitos projetos em sistemas são similares, sempre aquela mesma coisa&#8230;Listar, Inserir, Editar e Remover.
+Isso me levou a querer criar algo para facilitar tudo isso.
+
+Vendo meu Amigo Fábio Tomio mandando ver no Ruby On Rails, ele me mostrou que criava um cadastro (Listar, Inserir, Editar e Remover) muito facilmente, com apenas um comando no terminal, usando a funcão Scaffold se não me engano.
+
+Inspirado nisso, resolvi fazer um Shell Script que geraria todas as views, controller e model prontas com essas opções.
+
+Introdução
+
+
+Chamei de CiForms.
+Essa é uma versão de teste. É a versão Zero.
+Fiz esse script como estudo. Não tenho pretensões de lucros, suporte, nem nada com ele.
+
+
+Porque não usar o Scaffolding do CodeIgniter
+
+
+O Scaffolding do CodeIgniter não é aproveitável para o desenvolvimento de um projeto, ele não segue o padrão MVC do Framework. Como consta no manual, ele é apenas uma maneira de popular rapidamente uma tabela.
+">
+
+
+<meta itemprop="datePublished" content="2009-04-16T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2009-04-16T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="523">
+
+
+
+<meta itemprop="keywords" content="" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="CodeIgniter ‘metido’ a Ruby on Rails. (ciforms.sh)"/>
+<meta name="twitter:description" content="Salve Galera&#8230;
+
+Vocês sabem, muitos projetos em sistemas são similares, sempre aquela mesma coisa&#8230;Listar, Inserir, Editar e Remover.
+Isso me levou a querer criar algo para facilitar tudo isso.
+
+Vendo meu Amigo Fábio Tomio mandando ver no Ruby On Rails, ele me mostrou que criava um cadastro (Listar, Inserir, Editar e Remover) muito facilmente, com apenas um comando no terminal, usando a funcão Scaffold se não me engano.
+
+Inspirado nisso, resolvi fazer um Shell Script que geraria todas as views, controller e model prontas com essas opções.
+
+Introdução
+
+
+Chamei de CiForms.
+Essa é uma versão de teste. É a versão Zero.
+Fiz esse script como estudo. Não tenho pretensões de lucros, suporte, nem nada com ele.
+
+
+Porque não usar o Scaffolding do CodeIgniter
+
+
+O Scaffolding do CodeIgniter não é aproveitável para o desenvolvimento de um projeto, ele não segue o padrão MVC do Framework. Como consta no manual, ele é apenas uma maneira de popular rapidamente uma tabela.
+"/>
+
+  </head>
+
+  <body class="ma0 avenir bg-near-white">
+
+    
+   
+  
+
+  <header>
+    <div class="bg-black">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="http://flaviosilveira.com" class="f3 fw2 hover-white no-underline white-90 dib">
+      Vida e Tecnologia
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+      
+
+
+
+<a href="https://twitter.com/flaviosilveira" target="_blank" class="link-transition twitter link dib z-999 pt3 pt0-l mr1" title="Twitter link" rel="noopener" aria-label="follow on Twitter——Opens in a new window">
+  <svg height="32px"  style="enable-background:new 0 0 67 67;" version="1.1" viewBox="0 0 67 67" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M37.167,22.283c-2.619,0.953-4.274,3.411-4.086,6.101  l0.063,1.038l-1.048-0.127c-3.813-0.487-7.145-2.139-9.974-4.915l-1.383-1.377l-0.356,1.017c-0.754,2.267-0.272,4.661,1.299,6.271  c0.838,0.89,0.649,1.017-0.796,0.487c-0.503-0.169-0.943-0.296-0.985-0.233c-0.146,0.149,0.356,2.076,0.754,2.839  c0.545,1.06,1.655,2.097,2.871,2.712l1.027,0.487l-1.215,0.021c-1.173,0-1.215,0.021-1.089,0.467  c0.419,1.377,2.074,2.839,3.918,3.475l1.299,0.444l-1.131,0.678c-1.676,0.976-3.646,1.526-5.616,1.568  C19.775,43.256,19,43.341,19,43.405c0,0.211,2.557,1.397,4.044,1.864c4.463,1.377,9.765,0.783,13.746-1.568  c2.829-1.673,5.657-5,6.978-8.221c0.713-1.716,1.425-4.851,1.425-6.354c0-0.975,0.063-1.102,1.236-2.267  c0.692-0.678,1.341-1.419,1.467-1.631c0.21-0.403,0.188-0.403-0.88-0.043c-1.781,0.636-2.033,0.551-1.152-0.402  c0.649-0.678,1.425-1.907,1.425-2.267c0-0.063-0.314,0.042-0.671,0.233c-0.377,0.212-1.215,0.53-1.844,0.72l-1.131,0.361l-1.027-0.7  c-0.566-0.381-1.361-0.805-1.781-0.932C39.766,21.902,38.131,21.944,37.167,22.283z M33,64C16.432,64,3,50.569,3,34S16.432,4,33,4  s30,13.431,30,30S49.568,64,33,64z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/></svg>
+
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" width="8px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+</span></a>
+
+
+
+
+<a href="https://www.linkedin.com/in/flaviosilveira" target="_blank" class="link-transition linkedin link dib z-999 pt3 pt0-l mr1" title="LinkedIn link" rel="noopener" aria-label="follow on LinkedIn——Opens in a new window">
+  <svg  height="32px"  style="enable-background:new 0 0 65 65;" version="1.1" viewBox="0 0 65 65" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <path d="M50.837,48.137V36.425c0-6.275-3.35-9.195-7.816-9.195  c-3.604,0-5.219,1.983-6.119,3.374V27.71h-6.79c0.09,1.917,0,20.427,0,20.427h6.79V36.729c0-0.609,0.044-1.219,0.224-1.655  c0.49-1.22,1.607-2.483,3.482-2.483c2.458,0,3.44,1.873,3.44,4.618v10.929H50.837z M22.959,24.922c2.367,0,3.842-1.57,3.842-3.531  c-0.044-2.003-1.475-3.528-3.797-3.528s-3.841,1.524-3.841,3.528c0,1.961,1.474,3.531,3.753,3.531H22.959z M34,64  C17.432,64,4,50.568,4,34C4,17.431,17.432,4,34,4s30,13.431,30,30C64,50.568,50.568,64,34,64z M26.354,48.137V27.71h-6.789v20.427  H26.354z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" width="8px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+</span></a>
+
+
+<a href="https://github.com/flaviosilveira" target="_blank" class="link-transition github link dib z-999 pt3 pt0-l mr1" title="Github link" rel="noopener" aria-label="follow on Github——Opens in a new window">
+  <svg  height="32px"  style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+  <path d="M256,32C132.3,32,32,134.8,32,261.7c0,101.5,64.2,187.5,153.2,217.9c11.2,2.1,15.3-5,15.3-11.1   c0-5.5-0.2-19.9-0.3-39.1c-62.3,13.9-75.5-30.8-75.5-30.8c-10.2-26.5-24.9-33.6-24.9-33.6c-20.3-14.3,1.5-14,1.5-14   c22.5,1.6,34.3,23.7,34.3,23.7c20,35.1,52.4,25,65.2,19.1c2-14.8,7.8-25,14.2-30.7c-49.7-5.8-102-25.5-102-113.5   c0-25.1,8.7-45.6,23-61.6c-2.3-5.8-10-29.2,2.2-60.8c0,0,18.8-6.2,61.6,23.5c17.9-5.1,37-7.6,56.1-7.7c19,0.1,38.2,2.6,56.1,7.7   c42.8-29.7,61.5-23.5,61.5-23.5c12.2,31.6,4.5,55,2.2,60.8c14.3,16.1,23,36.6,23,61.6c0,88.2-52.4,107.6-102.3,113.3   c8,7.1,15.2,21.1,15.2,42.5c0,30.7-0.3,55.5-0.3,63c0,6.1,4,13.3,15.4,11C415.9,449.1,480,363.1,480,261.7   C480,134.8,379.7,32,256,32z"/>
+</svg>
+
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" width="8px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+</span></a>
+
+
+
+
+
+    </div>
+  </div>
+</nav>
+
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+
+    <header class="mt4 w-100">
+      <p class="f6 b helvetica tracked">
+          
+        POSTS
+      </p>
+      <h1 class="f1 athelas mb1">CodeIgniter ‘metido’ a Ruby on Rails. (ciforms.sh)</h1>
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2009-04-16T00:00:00Z">April 16, 2009</time>
+      
+      
+    </header>
+
+    <section class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p>Salve Galera&#8230;</p>
+
+<p>Vocês sabem, muitos projetos em sistemas são similares, sempre aquela mesma coisa&#8230;Listar, Inserir, Editar e Remover.<br/>
+Isso me levou a querer criar algo para facilitar tudo isso.</p>
+
+<p>Vendo meu Amigo <a href="http://www.fabiotomio.com" title="Fábio's Blogs">Fábio Tomio</a> mandando ver no <a href="http://www.rubyonrails.pro.br/">Ruby On Rails</a>, ele me mostrou que criava um cadastro (Listar, Inserir, Editar e Remover) muito facilmente, com apenas um comando no terminal, usando a funcão Scaffold se não me engano.</p>
+
+<p>Inspirado nisso, resolvi fazer um Shell Script que geraria todas as views, controller e model prontas com essas opções.</p>
+
+<p><strong>Introdução</strong></p>
+
+<ul>
+<li>Chamei de CiForms.</li>
+<li>Essa é uma versão de teste. É a versão Zero.</li>
+<li>Fiz esse script como estudo. Não tenho pretensões de lucros, suporte, nem nada com ele.</li>
+</ul>
+
+<p><strong>Porque não usar o Scaffolding do CodeIgniter</strong></p>
+
+<ul>
+<li>O Scaffolding do CodeIgniter não é aproveitável para o desenvolvimento de um projeto, ele não segue o padrão MVC do Framework. Como consta no manual, ele é apenas uma maneira de popular rapidamente uma tabela.</li>
+</ul>
+
+<p><strong>Limitações dessa versão</strong></p>
+
+<ul>
+<li>É um shell Script. Vai rodar apenas em base Unix. Fiz testes no Linux distribuição Ubuntu 8.10 e no Leopard MAC OSX 10.5.6. Não vai rodar no Windows.</li>
+<li>Por enquanto está rodando apenas em DataBase MySQL, Tive problemas com a função listFields com outros bancos.</li>
+<li>Você deve estar com o módulo Rewrite do apache instalado, e usando o .htaccess como indicado no manual do CodeIgniter para fazer suas URL amigáveis, senão a navegação vai ficar super esquisita.</li>
+<li>Você deverá chamar o script de dentro da sua pasta Application e as pastas Controllers, Models e Views não podem ter sido renomeadas.</li>
+</ul>
+
+<p><strong>Como Usar</strong></p>
+
+<ul>
+<li>É bem simples. Basta chamar o script, passando o nome da tabela e em seguida o de sua PK.</li>
+<li>O script tem uma opção para ajuda (-h ou &#8211;help) e para verificar a versão (-V ou &#8211;version)</li>
+</ul>
+
+<p><strong>Exemplo prático</strong></p>
+
+<p>Baixe o Sheel Script <a href="../../assets/uploads/ciforms.sh" title="Baixe o arquivo">clicando aqui</a>.</p>
+
+<p>É necessário colocar o sheel dentro da pasta applications.<br/>
+<img class="alignnone size-full wp-image-83" title="picture-1" src="../../assets/uploads/2009/04/picture-1.png" alt="picture-1" width="541" height="316" /><br style='clear: both;' /></p>
+
+<p>Em seguida Vamos executá-lo no terminal.<br/>
+Para chamar o script, apontamos o caminho atual (./) e depois seu nome (ciforms.sh).<br/>
+Repare que se não passar os parâmetros corretos ele não irá executar e irá lhe oferecer o help.<br/>
+<img class="alignnone size-full wp-image-91" title="picture-8" src="../../assets/uploads/2009/04/picture-8.png" alt="picture-8" width="596" height="83" /><br style='clear: both;' /></p>
+
+<p>Colocando corretamente os parâmetros (Nome da tabela e em seguida a Primary Key da tabela)<br/>
+<img class="alignnone size-full wp-image-85" title="picture-3" src="../../assets/uploads/2009/04/picture-3.png" alt="picture-3" width="598" height="76" /><br style='clear: both;' /></p>
+
+<p>O Script é executado e você já pode conferir nas pastas que foram criados os arquivos .php.<br/>
+Um controller, um model, e três views.<br/>
+<img class="alignnone size-full wp-image-86" title="picture-4" src="../../assets/uploads/2009/04/picture-4.png" alt="picture-4" width="618" height="420" /><br style='clear: both;' /></p>
+
+<p>Basta agora chamar no browser o seu site, em seguida o nome da tabela.<br/>
+Aqui está a listagem, onde você tem o Id do registro e os opções para Editar ou Remover.<br/>
+<img class="alignnone size-full wp-image-87" title="picture-5" src="../../assets/uploads/2009/04/picture-5.png" alt="picture-5" width="546" height="234" /><br style='clear: both;' /></p>
+
+<p>Após Editar você volta para a listagem.<br/>
+<img class="alignnone size-full wp-image-88" title="picture-6" src="../../assets/uploads/2009/04/picture-6.png" alt="picture-6" width="450" height="294" /><br style='clear: both;' /></p>
+
+<p>Após clicar em remover, você repara na listagem com um registro a menos.<br/>
+<img class="alignnone size-full wp-image-89" title="picture-7" src="../../assets/uploads/2009/04/picture-7.png" alt="picture-7" width="511" height="195" /><br style='clear: both;' /></p>
+
+<p>Fique a vontade para abrir o código e conferir como são feitas as chamadas e tudo mais. O Shell vai gerar tudo em uma linha só. Se você usa o Eclipse ou o Aptana como editor basta dar um Ctrl+Shift+F para identar tudo automaticamente.</p>
+
+<p>Os Arquivos php não contam com praticamente nenhum comentário, pois tive problemas do Shell em relação a eles.</p>
+
+<p>Devo mexer em breve nele para funcionar com Postgres. Até lá, um abraço a todos.</p><ul class="pa0">
+  
+</ul>
+<div class="mt6">
+      
+        <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "flaviosilveira" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+      
+      
+      </div>
+    </section>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="http://flaviosilveira.com" >
+    &copy; 2020 Vida e Tecnologia
+  </a>
+    <div>
+
+
+
+<a href="https://twitter.com/flaviosilveira" target="_blank" class="link-transition twitter link dib z-999 pt3 pt0-l mr1" title="Twitter link" rel="noopener" aria-label="follow on Twitter——Opens in a new window">
+  <svg height="32px"  style="enable-background:new 0 0 67 67;" version="1.1" viewBox="0 0 67 67" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M37.167,22.283c-2.619,0.953-4.274,3.411-4.086,6.101  l0.063,1.038l-1.048-0.127c-3.813-0.487-7.145-2.139-9.974-4.915l-1.383-1.377l-0.356,1.017c-0.754,2.267-0.272,4.661,1.299,6.271  c0.838,0.89,0.649,1.017-0.796,0.487c-0.503-0.169-0.943-0.296-0.985-0.233c-0.146,0.149,0.356,2.076,0.754,2.839  c0.545,1.06,1.655,2.097,2.871,2.712l1.027,0.487l-1.215,0.021c-1.173,0-1.215,0.021-1.089,0.467  c0.419,1.377,2.074,2.839,3.918,3.475l1.299,0.444l-1.131,0.678c-1.676,0.976-3.646,1.526-5.616,1.568  C19.775,43.256,19,43.341,19,43.405c0,0.211,2.557,1.397,4.044,1.864c4.463,1.377,9.765,0.783,13.746-1.568  c2.829-1.673,5.657-5,6.978-8.221c0.713-1.716,1.425-4.851,1.425-6.354c0-0.975,0.063-1.102,1.236-2.267  c0.692-0.678,1.341-1.419,1.467-1.631c0.21-0.403,0.188-0.403-0.88-0.043c-1.781,0.636-2.033,0.551-1.152-0.402  c0.649-0.678,1.425-1.907,1.425-2.267c0-0.063-0.314,0.042-0.671,0.233c-0.377,0.212-1.215,0.53-1.844,0.72l-1.131,0.361l-1.027-0.7  c-0.566-0.381-1.361-0.805-1.781-0.932C39.766,21.902,38.131,21.944,37.167,22.283z M33,64C16.432,64,3,50.569,3,34S16.432,4,33,4  s30,13.431,30,30S49.568,64,33,64z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/></svg>
+
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" width="8px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+</span></a>
+
+
+
+
+<a href="https://www.linkedin.com/in/flaviosilveira" target="_blank" class="link-transition linkedin link dib z-999 pt3 pt0-l mr1" title="LinkedIn link" rel="noopener" aria-label="follow on LinkedIn——Opens in a new window">
+  <svg  height="32px"  style="enable-background:new 0 0 65 65;" version="1.1" viewBox="0 0 65 65" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <path d="M50.837,48.137V36.425c0-6.275-3.35-9.195-7.816-9.195  c-3.604,0-5.219,1.983-6.119,3.374V27.71h-6.79c0.09,1.917,0,20.427,0,20.427h6.79V36.729c0-0.609,0.044-1.219,0.224-1.655  c0.49-1.22,1.607-2.483,3.482-2.483c2.458,0,3.44,1.873,3.44,4.618v10.929H50.837z M22.959,24.922c2.367,0,3.842-1.57,3.842-3.531  c-0.044-2.003-1.475-3.528-3.797-3.528s-3.841,1.524-3.841,3.528c0,1.961,1.474,3.531,3.753,3.531H22.959z M34,64  C17.432,64,4,50.568,4,34C4,17.431,17.432,4,34,4s30,13.431,30,30C64,50.568,50.568,64,34,64z M26.354,48.137V27.71h-6.789v20.427  H26.354z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" width="8px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+</span></a>
+
+
+<a href="https://github.com/flaviosilveira" target="_blank" class="link-transition github link dib z-999 pt3 pt0-l mr1" title="Github link" rel="noopener" aria-label="follow on Github——Opens in a new window">
+  <svg  height="32px"  style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+  <path d="M256,32C132.3,32,32,134.8,32,261.7c0,101.5,64.2,187.5,153.2,217.9c11.2,2.1,15.3-5,15.3-11.1   c0-5.5-0.2-19.9-0.3-39.1c-62.3,13.9-75.5-30.8-75.5-30.8c-10.2-26.5-24.9-33.6-24.9-33.6c-20.3-14.3,1.5-14,1.5-14   c22.5,1.6,34.3,23.7,34.3,23.7c20,35.1,52.4,25,65.2,19.1c2-14.8,7.8-25,14.2-30.7c-49.7-5.8-102-25.5-102-113.5   c0-25.1,8.7-45.6,23-61.6c-2.3-5.8-10-29.2,2.2-60.8c0,0,18.8-6.2,61.6,23.5c17.9-5.1,37-7.6,56.1-7.7c19,0.1,38.2,2.6,56.1,7.7   c42.8-29.7,61.5-23.5,61.5-23.5c12.2,31.6,4.5,55,2.2,60.8c14.3,16.1,23,36.6,23,61.6c0,88.2-52.4,107.6-102.3,113.3   c8,7.1,15.2,21.1,15.2,42.5c0,30.7-0.3,55.5-0.3,63c0,6.1,4,13.3,15.4,11C415.9,449.1,480,363.1,480,261.7   C480,134.8,379.7,32,256,32z"/>
+</svg>
+
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" width="8px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+</span></a>
+
+
+
+
+</div>
+  </div>
+</footer>
+
+    
+
+  <script src="/dist/js/app.3fc0f988d21662902933.js"></script>
+
+
+  </body>
+</html>

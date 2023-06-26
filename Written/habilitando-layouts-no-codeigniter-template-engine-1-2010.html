@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Vida e Tecnologia  | Habilitando Layouts No CodeIgniter (Template Engine) – Parte 1</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="generator" content="Hugo 0.59.1" />
+    
+    
+      <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+    
+
+    
+    
+      <link href="/dist/css/app.4c68f34631ae16452eb7705d00567cd8.css" rel="stylesheet">
+    
+
+    
+
+    
+      
+    
+
+    
+    
+    <meta property="og:title" content="Habilitando Layouts No CodeIgniter (Template Engine) – Parte 1" />
+<meta property="og:description" content="
+  
+    Atenção!! Este artigo foi escrito em cima da versão 1 do Codeigniter. Para detalhes de como usar com a versão 2 do framework clique aqui.
+  
+
+
+Vejo muitos desenvolvedores criticarem o CodeIgniter por ele não utilizar o conceito de Layout ou ter um Template Engine dentro dele.
+
+Template engine ou o conceito Layouts , falando em um exemplo rápido e prático seria mais ou menos o seguinte:
+Pense que você tem um topo e um rodapé que nunca mudam no seu portal.
+Ou seja, muda apenas o meio das páginas. Veja a figura abaixo.
+
+
+
+E aí? Você vai ter que colocar esse topo e esse rodapé em todas as páginas que você chamar?
+Ou você é malandro e vai fazer um include dentro das telas?" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://flaviosilveira.com/2010/habilitando-layouts-no-codeigniter-template-engine-1/" />
+<meta property="article:published_time" content="2010-02-18T00:00:00+00:00" />
+<meta property="article:modified_time" content="2010-02-18T00:00:00+00:00" />
+<meta itemprop="name" content="Habilitando Layouts No CodeIgniter (Template Engine) – Parte 1">
+<meta itemprop="description" content="
+  
+    Atenção!! Este artigo foi escrito em cima da versão 1 do Codeigniter. Para detalhes de como usar com a versão 2 do framework clique aqui.
+  
+
+
+Vejo muitos desenvolvedores criticarem o CodeIgniter por ele não utilizar o conceito de Layout ou ter um Template Engine dentro dele.
+
+Template engine ou o conceito Layouts , falando em um exemplo rápido e prático seria mais ou menos o seguinte:
+Pense que você tem um topo e um rodapé que nunca mudam no seu portal.
+Ou seja, muda apenas o meio das páginas. Veja a figura abaixo.
+
+
+
+E aí? Você vai ter que colocar esse topo e esse rodapé em todas as páginas que você chamar?
+Ou você é malandro e vai fazer um include dentro das telas?">
+
+
+<meta itemprop="datePublished" content="2010-02-18T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2010-02-18T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="1291">
+
+
+
+<meta itemprop="keywords" content="" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Habilitando Layouts No CodeIgniter (Template Engine) – Parte 1"/>
+<meta name="twitter:description" content="
+  
+    Atenção!! Este artigo foi escrito em cima da versão 1 do Codeigniter. Para detalhes de como usar com a versão 2 do framework clique aqui.
+  
+
+
+Vejo muitos desenvolvedores criticarem o CodeIgniter por ele não utilizar o conceito de Layout ou ter um Template Engine dentro dele.
+
+Template engine ou o conceito Layouts , falando em um exemplo rápido e prático seria mais ou menos o seguinte:
+Pense que você tem um topo e um rodapé que nunca mudam no seu portal.
+Ou seja, muda apenas o meio das páginas. Veja a figura abaixo.
+
+
+
+E aí? Você vai ter que colocar esse topo e esse rodapé em todas as páginas que você chamar?
+Ou você é malandro e vai fazer um include dentro das telas?"/>
+
+  </head>
+
+  <body class="ma0 avenir bg-near-white">
+
+    
+   
+  
+
+  <header>
+    <div class="bg-black">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="http://flaviosilveira.com" class="f3 fw2 hover-white no-underline white-90 dib">
+      Vida e Tecnologia
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+      
+
+
+
+<a href="https://twitter.com/flaviosilveira" target="_blank" class="link-transition twitter link dib z-999 pt3 pt0-l mr1" title="Twitter link" rel="noopener" aria-label="follow on Twitter——Opens in a new window">
+  <svg height="32px"  style="enable-background:new 0 0 67 67;" version="1.1" viewBox="0 0 67 67" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M37.167,22.283c-2.619,0.953-4.274,3.411-4.086,6.101  l0.063,1.038l-1.048-0.127c-3.813-0.487-7.145-2.139-9.974-4.915l-1.383-1.377l-0.356,1.017c-0.754,2.267-0.272,4.661,1.299,6.271  c0.838,0.89,0.649,1.017-0.796,0.487c-0.503-0.169-0.943-0.296-0.985-0.233c-0.146,0.149,0.356,2.076,0.754,2.839  c0.545,1.06,1.655,2.097,2.871,2.712l1.027,0.487l-1.215,0.021c-1.173,0-1.215,0.021-1.089,0.467  c0.419,1.377,2.074,2.839,3.918,3.475l1.299,0.444l-1.131,0.678c-1.676,0.976-3.646,1.526-5.616,1.568  C19.775,43.256,19,43.341,19,43.405c0,0.211,2.557,1.397,4.044,1.864c4.463,1.377,9.765,0.783,13.746-1.568  c2.829-1.673,5.657-5,6.978-8.221c0.713-1.716,1.425-4.851,1.425-6.354c0-0.975,0.063-1.102,1.236-2.267  c0.692-0.678,1.341-1.419,1.467-1.631c0.21-0.403,0.188-0.403-0.88-0.043c-1.781,0.636-2.033,0.551-1.152-0.402  c0.649-0.678,1.425-1.907,1.425-2.267c0-0.063-0.314,0.042-0.671,0.233c-0.377,0.212-1.215,0.53-1.844,0.72l-1.131,0.361l-1.027-0.7  c-0.566-0.381-1.361-0.805-1.781-0.932C39.766,21.902,38.131,21.944,37.167,22.283z M33,64C16.432,64,3,50.569,3,34S16.432,4,33,4  s30,13.431,30,30S49.568,64,33,64z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/></svg>
+
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" width="8px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+</span></a>
+
+
+
+
+<a href="https://www.linkedin.com/in/flaviosilveira" target="_blank" class="link-transition linkedin link dib z-999 pt3 pt0-l mr1" title="LinkedIn link" rel="noopener" aria-label="follow on LinkedIn——Opens in a new window">
+  <svg  height="32px"  style="enable-background:new 0 0 65 65;" version="1.1" viewBox="0 0 65 65" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <path d="M50.837,48.137V36.425c0-6.275-3.35-9.195-7.816-9.195  c-3.604,0-5.219,1.983-6.119,3.374V27.71h-6.79c0.09,1.917,0,20.427,0,20.427h6.79V36.729c0-0.609,0.044-1.219,0.224-1.655  c0.49-1.22,1.607-2.483,3.482-2.483c2.458,0,3.44,1.873,3.44,4.618v10.929H50.837z M22.959,24.922c2.367,0,3.842-1.57,3.842-3.531  c-0.044-2.003-1.475-3.528-3.797-3.528s-3.841,1.524-3.841,3.528c0,1.961,1.474,3.531,3.753,3.531H22.959z M34,64  C17.432,64,4,50.568,4,34C4,17.431,17.432,4,34,4s30,13.431,30,30C64,50.568,50.568,64,34,64z M26.354,48.137V27.71h-6.789v20.427  H26.354z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" width="8px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+</span></a>
+
+
+<a href="https://github.com/flaviosilveira" target="_blank" class="link-transition github link dib z-999 pt3 pt0-l mr1" title="Github link" rel="noopener" aria-label="follow on Github——Opens in a new window">
+  <svg  height="32px"  style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+  <path d="M256,32C132.3,32,32,134.8,32,261.7c0,101.5,64.2,187.5,153.2,217.9c11.2,2.1,15.3-5,15.3-11.1   c0-5.5-0.2-19.9-0.3-39.1c-62.3,13.9-75.5-30.8-75.5-30.8c-10.2-26.5-24.9-33.6-24.9-33.6c-20.3-14.3,1.5-14,1.5-14   c22.5,1.6,34.3,23.7,34.3,23.7c20,35.1,52.4,25,65.2,19.1c2-14.8,7.8-25,14.2-30.7c-49.7-5.8-102-25.5-102-113.5   c0-25.1,8.7-45.6,23-61.6c-2.3-5.8-10-29.2,2.2-60.8c0,0,18.8-6.2,61.6,23.5c17.9-5.1,37-7.6,56.1-7.7c19,0.1,38.2,2.6,56.1,7.7   c42.8-29.7,61.5-23.5,61.5-23.5c12.2,31.6,4.5,55,2.2,60.8c14.3,16.1,23,36.6,23,61.6c0,88.2-52.4,107.6-102.3,113.3   c8,7.1,15.2,21.1,15.2,42.5c0,30.7-0.3,55.5-0.3,63c0,6.1,4,13.3,15.4,11C415.9,449.1,480,363.1,480,261.7   C480,134.8,379.7,32,256,32z"/>
+</svg>
+
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" width="8px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+</span></a>
+
+
+
+
+
+    </div>
+  </div>
+</nav>
+
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+
+    <header class="mt4 w-100">
+      <p class="f6 b helvetica tracked">
+          
+        POSTS
+      </p>
+      <h1 class="f1 athelas mb1">Habilitando Layouts No CodeIgniter (Template Engine) – Parte 1</h1>
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2010-02-18T00:00:00Z">February 18, 2010</time>
+      
+      
+    </header>
+
+    <section class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><div id="atencao">
+  <p>
+    Atenção!! Este artigo foi escrito em cima da versão 1 do Codeigniter. Para detalhes de como usar com a versão 2 do framework <a href="http://flaviosilveira.com/2011/codeigniter-2-templates-e-layouts">clique aqui</a>.
+  </p>
+</div>
+
+<p>Vejo muitos desenvolvedores criticarem o CodeIgniter por ele não utilizar o conceito de Layout ou ter um Template Engine dentro dele.</p>
+
+<p>Template engine ou o conceito Layouts , falando em um exemplo rápido e prático seria mais ou menos o seguinte:<br/>
+Pense que você tem um topo e um rodapé que nunca mudam no seu portal.<br/>
+Ou seja, muda apenas o meio das páginas. Veja a figura abaixo.</p>
+
+<p><img class="alignnone size-full wp-image-345" title="Screen shot 2011-05-20 at 2.22.38 PM" src="../../assets/uploads/2010/02/Screen-shot-2011-05-20-at-2.22.38-PM.png" alt="" width="239" height="217" /><br/>
+<br style="clear: both;" /><br/>
+E aí? Você vai ter que colocar esse topo e esse rodapé em todas as páginas que você chamar?<br/>
+Ou você é malandro e vai fazer um include dentro das telas?</p>
+
+<p>O Include seria uma solução interessante mais uma Template Engine faria isso sozinho para você.</p>
+
+<p>Pra quem não conhece nenhuma solução para isso, o <a href="http://www.smarty.net/">Smarty</a> é uma template Engine das mais conhecidas no mundo do PHP.<br/>
+Você tem uma lista com outras sugestões de Templates Engine nesse link da <a href="http://www.webresourcesdepot.com/19-promising-php-template-engines/">web Resources</a><br/>
+Outros frameworks como o CakePHP tem uma solução dentro dele que faz esse trabalho.</p>
+
+<p>Nesses tempos que desenvolvo em CodeIgniter já vi bizarrices do tipo colocar o Smarty dentro do CodeIgniter ou trazer bibliotecas de outras frameworks para o Core do CodeIgniter.</p>
+
+<p>Mas podemos estender o Core do Framework e fazer ele trabalhar junto com a gente sem precisar de muitas manobras e malabarismos. Na documentação do CodeIgniter achamos essa prática com o nome de Hooks ou se preferir o português ganchos.</p>
+
+<p>Há alguns anos um cara que considero um dos Gurus do desenvolvimento, <a href="http://www.mozartpetter.com/pt/">Mozart Petter</a>, o qual tive a honra de trabalhar junto, pesquisou uma solução nesse sentido para que não precisássemos abandonar o CodeIgniter.</p>
+
+<p>Você encontra vários links pesquisando no google por Layouts in CodeIgniter, onde destaco o seguinte Blog <a href="http://hasin.wordpress.com/2007/03/05/adding-yield-codeigniter/">http://hasin.wordpress.com/2007/03/05/adding-yield-codeigniter/</a></p>
+
+<p>Abaixo vou colocar uma solução em 7 passos para você implementar isso em seu projeto de CI.<br/>
+É importante que você procure entender em cada passo como o CodeIgniter vai visualizar isso tudo.<br/>
+<em>*Não se deixe confundir. É fácil. Se ficar difícil há algo errado, volte e reveja os passos.</em></p>
+
+<p>Como os códigos são muito extensos, vou dividir em dois posts.<br/>
+Parte 1 &#8211; Esse (passo 1 ao 4) e Parte 2 (passo 5 ao 7) que você <a href="http://flaviosilveira.com/2010/habilitando-layouts-no-codeigniter-template-engine-2">acessa aqui</a>.</p>
+
+<p>Para quem não estiver com muita paciência, estou disponibilizando também um exemplo pronto de tudo funcionando que você pode <a href="../../assets/uploads/2010/02/projetoExemplo.zip">baixar aqui</a>.<br/>
+Apenas confira se o .htaccess serve para o seu servidor ou máquina.</p>
+
+<p><strong>DETALHE IMPORTANTE:</strong><br/>
+Esse projeto de exemplo foi atualizado no dia 20 de novembro de 2010. Sugestão do <a href="http://diegofelix.com.br/">Diego Felix</a> (<a href="http://twitter.com/diegofelix">@diegofelix</a>).<br/>
+Confira a explicação da alteração no final da segunda parte ou <a href="http://flaviosilveira.com/2010/habilitando-layouts-no-codeigniter-template-engine-2/#explicacao">clicando aqui</a>.</p>
+
+<p><strong>1 &#8211; Habilitando o Codeigniter para estender o Core</strong></p>
+
+<p>A primeira coisa a fazer é habilitar o codeIgniter para estender o Core, permitir os hooks.<br/>
+Isso é feito no arquivo config.php dentro da pasta config.<br/>
+Procure a variável $config[&#8216;enable_hooks&#8217;] e troque seu valor para TRUE, ficando como abaixo.</p>
+
+<p>title = &ldquo;habilitando layouts no codeigniter template engine 1&rdquo;
+|&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&ndash;
+| Enable/Disable System Hooks
+|&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&ndash;
+|
+| If you would like to use the &ldquo;hooks&rdquo; feature you must enable it by
+| setting this variable to TRUE (boolean).  See the user guide for details.
+|
+*/
+$config[&lsquo;enable_hooks&rsquo;] = TRUE;
+</pre></p>
+
+<p>Pronto! Próximo passo.</p>
+
+<p><strong>2 &#8211; Definindo um Hook</strong></p>
+
+<p>Dentro da pasta config temos um arquivo onde deve ser feitas as definições dos hooks que você quer utilizar.<br/>
+É o arquivo hooks.php. Para cada hook é preciso definir um array com alguns parâmetros para que o CodeIgniter saiba o que fazer.</p>
+
+<p><em>Importante:</em> O índice do array vai funcionar apenas como nome do seu hook. Você não vai usá-lo em nenhum lugar a princípio.</p>
+
+<p>Para o nosso Hook vamos definir.</p>
+
+<ul>
+<li>O nome da Classe que você precisa.</li>
+<li>O nome do método da classe que você deseja chamar.</li>
+<li>O nome do arquivo onde está desenvolvida a classe.</li>
+<li>O directório onde ela se encontra.</li>
+</ul>
+
+<p>Fica da seguinte forma:</p>
+
+<p>title = &ldquo;habilitando layouts no codeigniter template engine 1&rdquo;
+&lsquo;function&rsquo; =&gt; &lsquo;init&rsquo;,
+&lsquo;filename&rsquo; =&gt; &lsquo;Layout.php&rsquo;,
+&lsquo;filepath&rsquo; =&gt; &lsquo;hooks&rsquo;);
+</pre></p>
+
+<p>Esses itens podem variar de acordo com o que você quiser ou precisar fazer.<br/>
+O manual é uma grande referência para te ajudar com isto e traz alguns detalhes que não abordo aqui.</p>
+
+<p>Certo! Você habilitou e definiu um Hook, ou gancho. Vamos para o próximo passo.</p>
+
+<p><strong>3 &#8211; Adicionando algumas constantes necessárias</strong></p>
+
+<p>No arquivo index da aplicação são definidas algumas constantes que ajudam no desenvolvimento da nossa aplicação, como por exemplo,<br/>
+a extensão dos arquivos que serão usados, constante EXT, e o BASEPATH que traz o caminho da pasta do sistema.</p>
+
+<p>Vamos adicionar aqui mais 3 constantes que vai nos facilitar lá na frente quando formos fazer nossa classe.</p>
+
+<ul>
+<li>LAYOUTPATH &#8211; Caminho onde ficará os layouts que construirmos.</li>
+<li>JSPATH &#8211; Caminho onde ficará os arquivos com javascript.</li>
+<li>CSSPATH &#8211; Caminho onde ficará os arquivos de estilo. CSS.</li>
+</ul>
+
+<p>Ficando da seguinte forma:</p>
+
+<p>title = &ldquo;habilitando layouts no codeigniter template engine 1&rdquo;
+|&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;
+| DEFINE APPLICATION CONSTANTS
+|&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;
+|
+| EXT       - The file extension.  Typically &ldquo;.php&rdquo;
+| SELF      - The name of THIS file (typically &ldquo;index.php&rdquo;)
+| FCPATH    - The full server path to THIS file
+| BASEPATH  - The full server path to the &ldquo;system&rdquo; folder
+| APPPATH   - The full server path to the &ldquo;application&rdquo; folder
+|
+*/
+define(&lsquo;EXT&rsquo;, &lsquo;.php&rsquo;);
+define(&lsquo;SELF&rsquo;, pathinfo(<strong>FILE</strong>, PATHINFO_BASENAME));
+define(&lsquo;FCPATH&rsquo;, str_replace(SELF, &ldquo;, <strong>FILE</strong>));
+define(&lsquo;BASEPATH&rsquo;, $system_folder.&lsquo;/&rsquo;);
+define(&lsquo;LAYOUTPATH&rsquo;, $application_folder.&lsquo;/layouts/&rsquo;);
+define(&lsquo;JSPATH&rsquo;, $application_folder . &lsquo;/js/&rsquo;);
+define(&lsquo;CSSPATH&rsquo;, $application_folder . &lsquo;/css/&rsquo;);
+</pre></p>
+
+<p>Reparem que usei a variável <em>$application_folder</em>, que é definida no mesmo arquivo, para completar o caminho das minhas constantes.<br/>
+Você pode e deve mudar isso de acordo com seu projeto.</p>
+
+<p>Essas constantes vão facilitar também para caso você precise mudar o caminho dos arquivos CSS por exemplo. Basta alterar aqui.</p>
+
+<p><strong>4 &#8211; Construindo seu Layout</strong></p>
+
+<p>Vamos agora construir o seu Layout.<br/>
+Seria aquele topo e aquele rodapé que você não quer mexer. Ou um menu lateral.<br/>
+Você pode construir o que quiser.</p>
+
+<p>O local onde vamos criar nossos layouts foi definido na constante LAYOUTPATH.</p>
+
+<p>Você pode ter quantos layouts quiser e nomeá-los como quiser.<br/>
+Mas quando formos construir a classe você verá que definimos um Layout default para quando nenhum for chamado.<br/>
+É esse que vamos criar agora. default.php</p>
+
+<p>No exemplo abaixo eu criei um topo que tem um menu e um rodapé simples.</p>
+
+<p>title = &ldquo;habilitando layouts no codeigniter template engine 1&rdquo;
+&ldquo;<a href="http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd&quot;&gt;">http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd&quot;&gt;</a>
+&lt;html&gt;
+&lt;head&gt;</p>
+
+<p>&lt;meta http-equiv=&ldquo;Content-Type&rdquo; content=&ldquo;text/html; charset=iso-8859-1&rdquo;&gt;
+&lt;title&gt;{title_for_layout}&lt;/title&gt;</p>
+
+<p>{css_for_layout}
+            {js_for_layout}</p>
+
+<p>&lt;/head&gt;
+&lt;body&gt;
+&lt;div id=&ldquo;geral&rdquo;&gt;</p>
+
+<p>&lt;div id=&ldquo;topo&rdquo;&gt;
+&lt;ul id=&ldquo;menu&rdquo;&gt;
+&lt;li&gt;&lt;a href=&ldquo;#&rdquo;&gt;Link&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&ldquo;#&rdquo;&gt;Link&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&ldquo;#&rdquo;&gt;Link&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&ldquo;#&rdquo;&gt;Link&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&ldquo;#&rdquo;&gt;Link&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&ldquo;#&rdquo;&gt;Link&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&ldquo;#&rdquo;&gt;Link&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;</p>
+
+<p>&lt;div id=&ldquo;meio&rdquo;&gt;</p>
+
+<p>{content_for_layout}</p>
+
+<p>&lt;/div&gt;</p>
+
+<p>&lt;br style=&ldquo;clear: both;&rdquo; /&gt;</p>
+
+<p>&lt;div id=&ldquo;rodape&rdquo;&gt;
+&lt;p class=&ldquo;rodape&rdquo;&gt;
+Todos os direitos reservados - Bla Bla Bla
+&lt;/p&gt;
+&lt;/div&gt;</p>
+
+<p>&lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;</p>
+
+<p></pre></p>
+
+<p>É necessário prestar atenção em 4 variáveis que deixamos soltas no meio desse HTML do Layout.</p>
+
+<ul>
+<li>Primeira &#8211; {title_for_layout}</li>
+<li>Segunda &#8211; {css_for_layout}</li>
+<li>Terceira &#8211; {js_for_layout}</li>
+<li>Quarta &#8211; {content_for_layout}</li>
+</ul>
+
+<p>Explicando rapidamente:<br/>
+Essas Strings vão ser substituídas de acordo com o que definirmos no Controller em um próximo passo.</p>
+
+<p>No lugar de {title_for_layout} irá o título da página. É legal podermos definir um título pelo controlador para deixá-lo dinâmico e assim ajudar no SEO.</p>
+
+<p>No lugar de {css_for_layout} e {js_for_layout} entrarão os arquivos de CSS e JavaScript que definirmos para nossa página.<br/>
+Você não precisa chamar todos os CSS ou JavaScripts se não for usá-los. Essa é uma grande sacada dessa solução.<br/>
+Lembro de pegar projetos em Smarty onde estavão definidos inúmeros JavaScripts e CSS em um top.php onde em várias páginas eles nem era usados.</p>
+
+<p>Por último, no lugar de {content_for_layout} irá o conteúdo da nossa View.<br/>
+É o meio, o que muda.<br/>
+É o que vamos fazer no próximo passo que está no <a href="http://flaviosilveira.com/2010/habilitando-layouts-no-codeigniter-template-engine-2">próximo post</a>.</p><ul class="pa0">
+  
+</ul>
+<div class="mt6">
+      
+        <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "flaviosilveira" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+      
+      
+      </div>
+    </section>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="http://flaviosilveira.com" >
+    &copy; 2020 Vida e Tecnologia
+  </a>
+    <div>
+
+
+
+<a href="https://twitter.com/flaviosilveira" target="_blank" class="link-transition twitter link dib z-999 pt3 pt0-l mr1" title="Twitter link" rel="noopener" aria-label="follow on Twitter——Opens in a new window">
+  <svg height="32px"  style="enable-background:new 0 0 67 67;" version="1.1" viewBox="0 0 67 67" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M37.167,22.283c-2.619,0.953-4.274,3.411-4.086,6.101  l0.063,1.038l-1.048-0.127c-3.813-0.487-7.145-2.139-9.974-4.915l-1.383-1.377l-0.356,1.017c-0.754,2.267-0.272,4.661,1.299,6.271  c0.838,0.89,0.649,1.017-0.796,0.487c-0.503-0.169-0.943-0.296-0.985-0.233c-0.146,0.149,0.356,2.076,0.754,2.839  c0.545,1.06,1.655,2.097,2.871,2.712l1.027,0.487l-1.215,0.021c-1.173,0-1.215,0.021-1.089,0.467  c0.419,1.377,2.074,2.839,3.918,3.475l1.299,0.444l-1.131,0.678c-1.676,0.976-3.646,1.526-5.616,1.568  C19.775,43.256,19,43.341,19,43.405c0,0.211,2.557,1.397,4.044,1.864c4.463,1.377,9.765,0.783,13.746-1.568  c2.829-1.673,5.657-5,6.978-8.221c0.713-1.716,1.425-4.851,1.425-6.354c0-0.975,0.063-1.102,1.236-2.267  c0.692-0.678,1.341-1.419,1.467-1.631c0.21-0.403,0.188-0.403-0.88-0.043c-1.781,0.636-2.033,0.551-1.152-0.402  c0.649-0.678,1.425-1.907,1.425-2.267c0-0.063-0.314,0.042-0.671,0.233c-0.377,0.212-1.215,0.53-1.844,0.72l-1.131,0.361l-1.027-0.7  c-0.566-0.381-1.361-0.805-1.781-0.932C39.766,21.902,38.131,21.944,37.167,22.283z M33,64C16.432,64,3,50.569,3,34S16.432,4,33,4  s30,13.431,30,30S49.568,64,33,64z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/></svg>
+
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" width="8px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+</span></a>
+
+
+
+
+<a href="https://www.linkedin.com/in/flaviosilveira" target="_blank" class="link-transition linkedin link dib z-999 pt3 pt0-l mr1" title="LinkedIn link" rel="noopener" aria-label="follow on LinkedIn——Opens in a new window">
+  <svg  height="32px"  style="enable-background:new 0 0 65 65;" version="1.1" viewBox="0 0 65 65" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <path d="M50.837,48.137V36.425c0-6.275-3.35-9.195-7.816-9.195  c-3.604,0-5.219,1.983-6.119,3.374V27.71h-6.79c0.09,1.917,0,20.427,0,20.427h6.79V36.729c0-0.609,0.044-1.219,0.224-1.655  c0.49-1.22,1.607-2.483,3.482-2.483c2.458,0,3.44,1.873,3.44,4.618v10.929H50.837z M22.959,24.922c2.367,0,3.842-1.57,3.842-3.531  c-0.044-2.003-1.475-3.528-3.797-3.528s-3.841,1.524-3.841,3.528c0,1.961,1.474,3.531,3.753,3.531H22.959z M34,64  C17.432,64,4,50.568,4,34C4,17.431,17.432,4,34,4s30,13.431,30,30C64,50.568,50.568,64,34,64z M26.354,48.137V27.71h-6.789v20.427  H26.354z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" width="8px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+</span></a>
+
+
+<a href="https://github.com/flaviosilveira" target="_blank" class="link-transition github link dib z-999 pt3 pt0-l mr1" title="Github link" rel="noopener" aria-label="follow on Github——Opens in a new window">
+  <svg  height="32px"  style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+  <path d="M256,32C132.3,32,32,134.8,32,261.7c0,101.5,64.2,187.5,153.2,217.9c11.2,2.1,15.3-5,15.3-11.1   c0-5.5-0.2-19.9-0.3-39.1c-62.3,13.9-75.5-30.8-75.5-30.8c-10.2-26.5-24.9-33.6-24.9-33.6c-20.3-14.3,1.5-14,1.5-14   c22.5,1.6,34.3,23.7,34.3,23.7c20,35.1,52.4,25,65.2,19.1c2-14.8,7.8-25,14.2-30.7c-49.7-5.8-102-25.5-102-113.5   c0-25.1,8.7-45.6,23-61.6c-2.3-5.8-10-29.2,2.2-60.8c0,0,18.8-6.2,61.6,23.5c17.9-5.1,37-7.6,56.1-7.7c19,0.1,38.2,2.6,56.1,7.7   c42.8-29.7,61.5-23.5,61.5-23.5c12.2,31.6,4.5,55,2.2,60.8c14.3,16.1,23,36.6,23,61.6c0,88.2-52.4,107.6-102.3,113.3   c8,7.1,15.2,21.1,15.2,42.5c0,30.7-0.3,55.5-0.3,63c0,6.1,4,13.3,15.4,11C415.9,449.1,480,363.1,480,261.7   C480,134.8,379.7,32,256,32z"/>
+</svg>
+
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" width="8px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+</span></a>
+
+
+
+
+</div>
+  </div>
+</footer>
+
+    
+
+  <script src="/dist/js/app.3fc0f988d21662902933.js"></script>
+
+
+  </body>
+</html>

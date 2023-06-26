@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Vida e Tecnologia  | Evoluindo Seu Primeiro Jogo Em HTML5</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="generator" content="Hugo 0.59.1" />
+    
+    
+      <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+    
+
+    
+    
+      <link href="/dist/css/app.4c68f34631ae16452eb7705d00567cd8.css" rel="stylesheet">
+    
+
+    
+
+    
+      
+    
+
+    
+    
+    <meta property="og:title" content="Evoluindo Seu Primeiro Jogo Em HTML5" />
+<meta property="og:description" content="O post de hoje é uma continuação do anteriormente escrito Seu primeiro jogo em HTML5. O objetivo dessa continuação é aprender mais alguns conceitos de desenvolvimento de jogos e animar um pouco o nosso game que não estava lá essas coisas de divertido. Você acompanha a primeira parte no seguinte link http://flaviosilveira.com/2013/seu-primeiro-jogo-em-html5/." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://flaviosilveira.com/2014/evoluindo-seu-primeiro-jogo-em-html5/" />
+<meta property="article:published_time" content="2014-02-17T00:00:00+00:00" />
+<meta property="article:modified_time" content="2014-02-17T00:00:00+00:00" />
+<meta itemprop="name" content="Evoluindo Seu Primeiro Jogo Em HTML5">
+<meta itemprop="description" content="O post de hoje é uma continuação do anteriormente escrito Seu primeiro jogo em HTML5. O objetivo dessa continuação é aprender mais alguns conceitos de desenvolvimento de jogos e animar um pouco o nosso game que não estava lá essas coisas de divertido. Você acompanha a primeira parte no seguinte link http://flaviosilveira.com/2013/seu-primeiro-jogo-em-html5/.">
+
+
+<meta itemprop="datePublished" content="2014-02-17T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2014-02-17T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="1723">
+
+
+
+<meta itemprop="keywords" content="" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Evoluindo Seu Primeiro Jogo Em HTML5"/>
+<meta name="twitter:description" content="O post de hoje é uma continuação do anteriormente escrito Seu primeiro jogo em HTML5. O objetivo dessa continuação é aprender mais alguns conceitos de desenvolvimento de jogos e animar um pouco o nosso game que não estava lá essas coisas de divertido. Você acompanha a primeira parte no seguinte link http://flaviosilveira.com/2013/seu-primeiro-jogo-em-html5/."/>
+
+  </head>
+
+  <body class="ma0 avenir bg-near-white">
+
+    
+   
+  
+
+  <header>
+    <div class="bg-black">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="http://flaviosilveira.com" class="f3 fw2 hover-white no-underline white-90 dib">
+      Vida e Tecnologia
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+      
+
+
+
+<a href="https://twitter.com/flaviosilveira" target="_blank" class="link-transition twitter link dib z-999 pt3 pt0-l mr1" title="Twitter link" rel="noopener" aria-label="follow on Twitter——Opens in a new window">
+  <svg height="32px"  style="enable-background:new 0 0 67 67;" version="1.1" viewBox="0 0 67 67" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M37.167,22.283c-2.619,0.953-4.274,3.411-4.086,6.101  l0.063,1.038l-1.048-0.127c-3.813-0.487-7.145-2.139-9.974-4.915l-1.383-1.377l-0.356,1.017c-0.754,2.267-0.272,4.661,1.299,6.271  c0.838,0.89,0.649,1.017-0.796,0.487c-0.503-0.169-0.943-0.296-0.985-0.233c-0.146,0.149,0.356,2.076,0.754,2.839  c0.545,1.06,1.655,2.097,2.871,2.712l1.027,0.487l-1.215,0.021c-1.173,0-1.215,0.021-1.089,0.467  c0.419,1.377,2.074,2.839,3.918,3.475l1.299,0.444l-1.131,0.678c-1.676,0.976-3.646,1.526-5.616,1.568  C19.775,43.256,19,43.341,19,43.405c0,0.211,2.557,1.397,4.044,1.864c4.463,1.377,9.765,0.783,13.746-1.568  c2.829-1.673,5.657-5,6.978-8.221c0.713-1.716,1.425-4.851,1.425-6.354c0-0.975,0.063-1.102,1.236-2.267  c0.692-0.678,1.341-1.419,1.467-1.631c0.21-0.403,0.188-0.403-0.88-0.043c-1.781,0.636-2.033,0.551-1.152-0.402  c0.649-0.678,1.425-1.907,1.425-2.267c0-0.063-0.314,0.042-0.671,0.233c-0.377,0.212-1.215,0.53-1.844,0.72l-1.131,0.361l-1.027-0.7  c-0.566-0.381-1.361-0.805-1.781-0.932C39.766,21.902,38.131,21.944,37.167,22.283z M33,64C16.432,64,3,50.569,3,34S16.432,4,33,4  s30,13.431,30,30S49.568,64,33,64z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/></svg>
+
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" width="8px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+</span></a>
+
+
+
+
+<a href="https://www.linkedin.com/in/flaviosilveira" target="_blank" class="link-transition linkedin link dib z-999 pt3 pt0-l mr1" title="LinkedIn link" rel="noopener" aria-label="follow on LinkedIn——Opens in a new window">
+  <svg  height="32px"  style="enable-background:new 0 0 65 65;" version="1.1" viewBox="0 0 65 65" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <path d="M50.837,48.137V36.425c0-6.275-3.35-9.195-7.816-9.195  c-3.604,0-5.219,1.983-6.119,3.374V27.71h-6.79c0.09,1.917,0,20.427,0,20.427h6.79V36.729c0-0.609,0.044-1.219,0.224-1.655  c0.49-1.22,1.607-2.483,3.482-2.483c2.458,0,3.44,1.873,3.44,4.618v10.929H50.837z M22.959,24.922c2.367,0,3.842-1.57,3.842-3.531  c-0.044-2.003-1.475-3.528-3.797-3.528s-3.841,1.524-3.841,3.528c0,1.961,1.474,3.531,3.753,3.531H22.959z M34,64  C17.432,64,4,50.568,4,34C4,17.431,17.432,4,34,4s30,13.431,30,30C64,50.568,50.568,64,34,64z M26.354,48.137V27.71h-6.789v20.427  H26.354z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" width="8px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+</span></a>
+
+
+<a href="https://github.com/flaviosilveira" target="_blank" class="link-transition github link dib z-999 pt3 pt0-l mr1" title="Github link" rel="noopener" aria-label="follow on Github——Opens in a new window">
+  <svg  height="32px"  style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+  <path d="M256,32C132.3,32,32,134.8,32,261.7c0,101.5,64.2,187.5,153.2,217.9c11.2,2.1,15.3-5,15.3-11.1   c0-5.5-0.2-19.9-0.3-39.1c-62.3,13.9-75.5-30.8-75.5-30.8c-10.2-26.5-24.9-33.6-24.9-33.6c-20.3-14.3,1.5-14,1.5-14   c22.5,1.6,34.3,23.7,34.3,23.7c20,35.1,52.4,25,65.2,19.1c2-14.8,7.8-25,14.2-30.7c-49.7-5.8-102-25.5-102-113.5   c0-25.1,8.7-45.6,23-61.6c-2.3-5.8-10-29.2,2.2-60.8c0,0,18.8-6.2,61.6,23.5c17.9-5.1,37-7.6,56.1-7.7c19,0.1,38.2,2.6,56.1,7.7   c42.8-29.7,61.5-23.5,61.5-23.5c12.2,31.6,4.5,55,2.2,60.8c14.3,16.1,23,36.6,23,61.6c0,88.2-52.4,107.6-102.3,113.3   c8,7.1,15.2,21.1,15.2,42.5c0,30.7-0.3,55.5-0.3,63c0,6.1,4,13.3,15.4,11C415.9,449.1,480,363.1,480,261.7   C480,134.8,379.7,32,256,32z"/>
+</svg>
+
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" width="8px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+</span></a>
+
+
+
+
+
+    </div>
+  </div>
+</nav>
+
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+
+    <header class="mt4 w-100">
+      <p class="f6 b helvetica tracked">
+          
+        POSTS
+      </p>
+      <h1 class="f1 athelas mb1">Evoluindo Seu Primeiro Jogo Em HTML5</h1>
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2014-02-17T00:00:00Z">February 17, 2014</time>
+      
+      
+    </header>
+
+    <section class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p>O post de hoje é uma continuação do anteriormente escrito Seu primeiro jogo em HTML5. O objetivo dessa continuação é aprender mais alguns conceitos de desenvolvimento de jogos e animar um pouco o nosso game que não estava lá essas coisas de divertido. Você acompanha a primeira parte no seguinte link <a href="http://flaviosilveira.com/2013/seu-primeiro-jogo-em-html5/" title="Seu primeiro jogo em HTML5 - Parte 1">http://flaviosilveira.com/2013/seu-primeiro-jogo-em-html5/</a>.</p>
+
+<p>Nessa continuação vamos adicionar um pouco de jogabilidade, variando a velocidade das bolas que caem e também seu tamanho e a sua pontuação.</p>
+
+<p><strong>Objeto</strong><br/>
+Estamos querendo tipos diferentes de bolas. Tamanhos diferente, velocidades diferentes, pontos diferentes. Ainda são bolas, mas cada uma de um jeito, certo?<br/>
+Estamos falando então de uma mesma coisa, mas com características e comportamentos diferentes, concorda?</p>
+
+<p>Vamos entrar aqui então com o conceito de programação orientada a objetos para resolver o problema.<br/>
+Dependendo do seu nível em programação, esse pode ser um conceito novo e, se esse é o caso, você vai precisar fazer algumas pesquisas caso queira entender melhor alguns pontos. Se você não conhece Orientação a Objetos recomendo que pare a leitura aqui e pesquise á respeito e também como é aplicado na linguagem javaScript. Não é necessário um conhecimento profundo neste momento, dê aquela lida no conceito, faça um exemplos simples em um papel e volte a leitura do post. Caso você já entenda o suficiente desse conceito é seguir em frente.</p>
+
+<p>Precisamos então programar algo que crie as bolas para a gente, uma fôrma das bolas, que é equivalente a uma classe em orientação a objetos. Em javaScript não temos classes propriamente ditas, tudo que precisamos fazer é uma função.</p>
+
+<p>Pegue então o código que desenvolvemos no post anterior.<br/>
+Antes da nossa função inicializar, vamos criar uma função chamada bola e dentro dela vamos colocar todas as variáveis iniciais referente a bola que estão hoje na função inicializar.<br/>
+Veja como fica:</p>
+
+<p>title = &ldquo;evoluindo seu primeiro jogo em html5&rdquo;
+    {
+                bolaDiametro = 10;
+                bolaPosX = canvas.width / 2;
+                bolaPosY = -10;
+        velocidadeBola = 10;
+        colisao = false;
+    }</p>
+
+<pre><code>function inicializar()
+{
+    barraAltura = 15;
+    barraLargura = 90;
+
+    pontosJogador = 0;
+    jogadorPosicaoX = (canvas.width - barraLargura) / 2;
+    velocidadeJogador = 20;
+
+    canvas = document.getElementById(&quot;canvas&quot;);
+    context = canvas.getContext(&quot;2d&quot;);              
+
+    document.addEventListener('keydown', keyDown);
+
+    setInterval(gameLoop, 30);
+}
+</code></pre>
+
+<p></pre></p>
+
+<p>Dentro da função inicializar vamos criar a primeira bola e adicionar ela dentro de um array. Esse array vai guardar todas as bolas que estiverem em cena. Dessa maneira teremos controle sobre elas.</p>
+
+<p>title = &ldquo;evoluindo seu primeiro jogo em html5&rdquo;
+    {
+        …<br />
+        var primeira = new bola()
+        bolas = new Array(primeira);
+        …
+    }
+</pre></p>
+
+<p>Rodando o seu código nesse momento verá que está tudo como antes. A questão é que nesse ponto não estamos utilizando nenhum conceito novo. Tudo que foi feito foi adicionar o código de antes para uma função, e chamar ela. Nem estamos trabalhando com o array criado não é mesmo?</p>
+
+<p>Vamos trocar a nossa função para ela realmente virar um objeto, com propriedades. Para isso adicione a palavra chave this a frente de todas as variáveis.<br/>
+Essa palavra chave fará referência para aquela instância de objeto e apenas ela. Caso não entenda isso aqui, talvez você entenda melhor quando trabalharmos com o array das bolas que estão em cena.</p>
+
+<p>title = &ldquo;evoluindo seu primeiro jogo em html5&rdquo;
+{
+    this.bolaDiametro = 10;
+    this.bolaPosX = canvas.width / 2;
+    this.bolaPosY = -10;
+    this.velocidadeBola = 10;
+    this.colisao = false;
+}
+</pre></p>
+
+<p>Neste momento o game para de funcionar. Isso porque as variáveis que temos dentro de nosso gameLoop já não existem mais. Temos agora um objeto bola e esse objeto adicionado a um array que é responsável por todas as bolas em cena. Precisamos trabalhar com esse array para as coisas voltarem a funcionar.</p>
+
+<p>Para questão de organização, já que as variáveis que definiam as características da bola não nos servem mais, podemos limpar elas da nossa definição inicial na primeira linha de javaScript. Mas não esqueça de adicionar a variável para o nosso array de bolas, para que fique acessível para todo o resto do código. Ficando assim:</p>
+
+<p>title = &ldquo;evoluindo seu primeiro jogo em html5&rdquo;
+</pre></p>
+
+<p>Agora vá até a função de gameLoop, e repare onde está a lógica da bola. Começa onde iniciamos com o desenho dela e termina com a verificação da colisão.<br/>
+O que vamos fazer aqui é tirar tudo isso, e aplicar para cada objeto dentro do array bolas usando um foreach. Fica dessa forma:</p>
+
+<p>title = &ldquo;evoluindo seu primeiro jogo em html5&rdquo;
+bolas.forEach(function(bola, indice){
+    context.beginPath();
+    context.arc(b.bolaPosX, b.bolaPosY, b.bolaDiametro, 0, Math.PI * 2, true);
+    context.fill();</p>
+
+<pre><code>if(bola.bolaPosY &amp;lt;= canvas.height)
+{
+    bola.bolaPosY += bola.velocidadeBola;
+}
+else
+{
+    bola.bolaPosX = Math.random() * 600;
+    bola.bolaPosY = -10;
+    bola.colisao = false;
+}
+
+// Checar Colisão
+if((bola.bolaPosX &amp;gt; jogadorPosicaoX &amp;&amp; bola.bolaPosX &amp;lt; jogadorPosicaoX + barraLargura) &amp;&amp; bola.bolaPosY &amp;gt;= canvas.height - barraAltura &amp;&amp; bola.colisao == false)
+{
+    pontosJogador++;
+    bola.colisao = true;
+}
+</code></pre>
+
+<p>});
+</pre></p>
+
+<p>Na função de forEach do javaScript o primeiro parâmetro é o elemento em si e o segundo o indíce.<br/>
+Para cada objeto dentro do array, ele vai executar uma vez.<br/>
+Note que agora nas variáveis com as características da bola de antes, adicionamos “b.”. É dessa maneira que acessamos as propriedades do objeto.<br/>
+Tome cuidado para não adicionar isso nas variáveis do jogador nem do canvas.<br/>
+Neste ponto se jogo volta a funcionar como antes, mas dessa vez usando bola com o conceito de orientação a objetos.</p>
+
+<p><strong>Cada bola um Objeto</strong><br/>
+Olhe o código e verá que quando a bola chega ao final do canvas ou quando ela colide com o jogador, não criamos uma nova, apenas editamos novamente as propriedades do mesmo objeto que foi criado da primeira vez. Vamos mudar isso alterando o if que checa se a bola já passou do canvas. Agora quando ela passar do canvas, vamos retirar ela do nosso array usando a função splice do javaScript.</p>
+
+<p>title = &ldquo;evoluindo seu primeiro jogo em html5&rdquo;
+    {
+        bola.bolaPosY += bola.velocidadeBola;
+    }
+    else
+    {
+        bolas.splice(indice, 1);
+    }
+</pre></p>
+
+<p>Tudo que estava dentro do else, que era usado para criar uma nova bola, não é mais necessário. Trocamos tudo isso pela função splice.<br/>
+Splice irá retirar um item do array baseado em seu índice. O primeiro parâmetro é o índice que queremos tirar e o segundo é a quantidade de índices a partir dele, que para nós será sempre 1.</p>
+
+<p>Rodando seu game agora, quando a bola passa pelo canvas, não é criado nenhuma nova.</p>
+
+<p><strong>Criando uma nova bola</strong><br/>
+Nosso foreach só é executado se tivermos bolas dentro dele. Como nossa primeira bola passou pelo canvas e foi destruída, vamos adicionar uma verificação antes do foreach para caso nosso array estiver vazio, criar uma nova bola dentro dele. Para isso vamos usar um push. Veja como fica:</p>
+
+<p>title = &ldquo;evoluindo seu primeiro jogo em html5&rdquo;
+{
+    bolas.push(new bola());
+}
+</pre></p>
+
+<p>Certo, mas todas as bolas estão saindo no mesmo lugar. Dá para ganhar o jogo parado!<br/>
+Isso está acontecendo por conta da posição X e Y estarem fixas dentro da criação do nosso objeto.<br/>
+Vamos alterar isso com a ajuda da classe Math de javaScript.</p>
+
+<p>title = &ldquo;evoluindo seu primeiro jogo em html5&rdquo;
+{
+    this.bolaDiametro = 10;
+    this.bolaPosX = Math.random() * 600;
+    this.bolaPosY = -10;
+    this.velocidadeBola = 10;
+    this.colisao = false;
+}
+</pre></p>
+
+<p>A posição Y da bola pode continuar sendo -10 para aparecer antes do canvas. Mas para deixar a posição X randômica, use Math.random multiplicando pela largura do seu canvas.</p>
+
+<p>Use um pouco da matemática aqui para alterar também a velocidade de sua bola.</p>
+
+<p>title = &ldquo;evoluindo seu primeiro jogo em html5&rdquo;
+{
+    this.bolaDiametro = 10;
+    this.bolaPosX = Math.random() * 600;
+    this.bolaPosY = -10;
+    this.velocidadeBola = Math.random() * (10 - 6) + 6;
+    this.colisao = false;
+}
+</pre></p>
+
+<p>No exemplo acima temos velocidades entre 10 e 6.<br/>
+Acima você vê como obter um número randômico entre um mínimo e um máximo. Math.random multiplicado pelo máximo diminuindo o mínimo e somado ao mínimo.<br/>
+Caso queira tentar entender o “truque” acima lembre-se que Math.random retorna um número entre 0 e 1.</p>
+
+<p><strong>Diâmetros e pontos variados</strong><br/>
+Para termos diâmetros variados e pontos baseados nesse diâmetro, vamos primeiro definir isso em um array, antes do nosso objeto bola.<br/>
+Nesse array, criamos um objeto que tem um dâimetro e uma pontuação.</p>
+
+<p>title = &ldquo;evoluindo seu primeiro jogo em html5&rdquo;</p>
+
+<p>var diametros = new Array(
+    {&lsquo;diametro&rsquo; : 7, &lsquo;pontos&rsquo; : 1},
+    {&lsquo;diametro&rsquo; : 10, &lsquo;pontos&rsquo; : 2},
+    {&lsquo;diametro&rsquo; : 15, &lsquo;pontos&rsquo; : 3}
+);
+</pre></p>
+
+<p>Com isso definido, vamos agora usar a mesma fórmula que usamos acima para pegar um número randômico que esteja dentro dos valores desse array. Lembrando que o array começa em 0, então vamos diminuir um ao final. Vamos armazenar esse número, e usar ele para o tamanho da bola e consequentemente sua pontuação. Veja como fica:</p>
+
+<p>title = &ldquo;evoluindo seu primeiro jogo em html5&rdquo;
+{
+    var indice = Math.round(Math.random() * (3 - 1) + 1) - 1;
+    this.bolaDiametro = diametros[indice][&lsquo;diametro&rsquo;];
+    this.pontos = diametros[indice][&lsquo;pontos&rsquo;];</p>
+
+<pre><code>this.bolaPosX = Math.random() * 600;
+this.bolaPosY = -10;
+this.velocidadeBola = Math.random() * (10 - 6) + 6;
+this.colisao = false;
+</code></pre>
+
+<p>}
+</pre></p>
+
+<p>Neste momento os tamanhos de bolas já aparecem diferentes na tela. Mas a pontuação continua somando 1 sempre.<br/>
+Precisamos alterar nosso gameLoop para pegar os pontos do objeto em questão. Veja como:</p>
+
+<p>title = &ldquo;evoluindo seu primeiro jogo em html5&rdquo;
+{
+    pontosJogador += bola.pontos;
+    bola.colisao = true;
+}
+</pre></p>
+
+<p>Trocamos o incrementar que tinha antes para um += que vai pegar o valor que já tinha na variável e somar o valor dos pontos daquela bola que colidiu.</p>
+
+<p>Mais de uma ao mesmo tempo e tudo junto<br/>
+Para finalizar, que tal deixar cair mais de uma bola ao mesmo tempo?</p>
+
+<p>Para fazer isso de forma bem simples, adicione dentro do foreach um verificação para caso aquela bola já tenha passado da posição 50 em Y, criar uma nova.</p>
+
+<p>title = &ldquo;evoluindo seu primeiro jogo em html5&rdquo;
+if(bola.bolaPosY &gt;= 50 &amp;&amp; bolas.length &lt;= 2)
+{
+    bolas.push(new bola());
+}
+</pre></p>
+
+<p>Cuidado! Veja no código acima que eu também verifiquei quantas bolas estão em cena antes de adicionar uma nova. Caso contrário você vai ter um efeito matrix em sua tela e travar seu navegador. Tente por sua conta e risco :).</p>
+
+<p><strong>Conclusão</strong><br/>
+Você pode aplicar o conceito de orientação a objetos para tudo o que for objeto na tela. Dessa maneira você vai ter um melhor controle das coisas e é a maneira correta de trabalhar em jogos.</p>
+
+<p>Acompanhe o repositório gitHub dessa série em <a href="https://github.com/flaviosilveira/primeiro-jogo-html5" title="Git Hub - Seu primeiro jogo em HTML5">https://github.com/flaviosilveira/primeiro-jogo-html5</a>.</p>
+
+<p>Aguarde o próximo post da série. Abraços!</p><ul class="pa0">
+  
+</ul>
+<div class="mt6">
+      
+        <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "flaviosilveira" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+      
+      
+      </div>
+    </section>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="http://flaviosilveira.com" >
+    &copy; 2020 Vida e Tecnologia
+  </a>
+    <div>
+
+
+
+<a href="https://twitter.com/flaviosilveira" target="_blank" class="link-transition twitter link dib z-999 pt3 pt0-l mr1" title="Twitter link" rel="noopener" aria-label="follow on Twitter——Opens in a new window">
+  <svg height="32px"  style="enable-background:new 0 0 67 67;" version="1.1" viewBox="0 0 67 67" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M37.167,22.283c-2.619,0.953-4.274,3.411-4.086,6.101  l0.063,1.038l-1.048-0.127c-3.813-0.487-7.145-2.139-9.974-4.915l-1.383-1.377l-0.356,1.017c-0.754,2.267-0.272,4.661,1.299,6.271  c0.838,0.89,0.649,1.017-0.796,0.487c-0.503-0.169-0.943-0.296-0.985-0.233c-0.146,0.149,0.356,2.076,0.754,2.839  c0.545,1.06,1.655,2.097,2.871,2.712l1.027,0.487l-1.215,0.021c-1.173,0-1.215,0.021-1.089,0.467  c0.419,1.377,2.074,2.839,3.918,3.475l1.299,0.444l-1.131,0.678c-1.676,0.976-3.646,1.526-5.616,1.568  C19.775,43.256,19,43.341,19,43.405c0,0.211,2.557,1.397,4.044,1.864c4.463,1.377,9.765,0.783,13.746-1.568  c2.829-1.673,5.657-5,6.978-8.221c0.713-1.716,1.425-4.851,1.425-6.354c0-0.975,0.063-1.102,1.236-2.267  c0.692-0.678,1.341-1.419,1.467-1.631c0.21-0.403,0.188-0.403-0.88-0.043c-1.781,0.636-2.033,0.551-1.152-0.402  c0.649-0.678,1.425-1.907,1.425-2.267c0-0.063-0.314,0.042-0.671,0.233c-0.377,0.212-1.215,0.53-1.844,0.72l-1.131,0.361l-1.027-0.7  c-0.566-0.381-1.361-0.805-1.781-0.932C39.766,21.902,38.131,21.944,37.167,22.283z M33,64C16.432,64,3,50.569,3,34S16.432,4,33,4  s30,13.431,30,30S49.568,64,33,64z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/></svg>
+
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" width="8px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+</span></a>
+
+
+
+
+<a href="https://www.linkedin.com/in/flaviosilveira" target="_blank" class="link-transition linkedin link dib z-999 pt3 pt0-l mr1" title="LinkedIn link" rel="noopener" aria-label="follow on LinkedIn——Opens in a new window">
+  <svg  height="32px"  style="enable-background:new 0 0 65 65;" version="1.1" viewBox="0 0 65 65" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <path d="M50.837,48.137V36.425c0-6.275-3.35-9.195-7.816-9.195  c-3.604,0-5.219,1.983-6.119,3.374V27.71h-6.79c0.09,1.917,0,20.427,0,20.427h6.79V36.729c0-0.609,0.044-1.219,0.224-1.655  c0.49-1.22,1.607-2.483,3.482-2.483c2.458,0,3.44,1.873,3.44,4.618v10.929H50.837z M22.959,24.922c2.367,0,3.842-1.57,3.842-3.531  c-0.044-2.003-1.475-3.528-3.797-3.528s-3.841,1.524-3.841,3.528c0,1.961,1.474,3.531,3.753,3.531H22.959z M34,64  C17.432,64,4,50.568,4,34C4,17.431,17.432,4,34,4s30,13.431,30,30C64,50.568,50.568,64,34,64z M26.354,48.137V27.71h-6.789v20.427  H26.354z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" width="8px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+</span></a>
+
+
+<a href="https://github.com/flaviosilveira" target="_blank" class="link-transition github link dib z-999 pt3 pt0-l mr1" title="Github link" rel="noopener" aria-label="follow on Github——Opens in a new window">
+  <svg  height="32px"  style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+  <path d="M256,32C132.3,32,32,134.8,32,261.7c0,101.5,64.2,187.5,153.2,217.9c11.2,2.1,15.3-5,15.3-11.1   c0-5.5-0.2-19.9-0.3-39.1c-62.3,13.9-75.5-30.8-75.5-30.8c-10.2-26.5-24.9-33.6-24.9-33.6c-20.3-14.3,1.5-14,1.5-14   c22.5,1.6,34.3,23.7,34.3,23.7c20,35.1,52.4,25,65.2,19.1c2-14.8,7.8-25,14.2-30.7c-49.7-5.8-102-25.5-102-113.5   c0-25.1,8.7-45.6,23-61.6c-2.3-5.8-10-29.2,2.2-60.8c0,0,18.8-6.2,61.6,23.5c17.9-5.1,37-7.6,56.1-7.7c19,0.1,38.2,2.6,56.1,7.7   c42.8-29.7,61.5-23.5,61.5-23.5c12.2,31.6,4.5,55,2.2,60.8c14.3,16.1,23,36.6,23,61.6c0,88.2-52.4,107.6-102.3,113.3   c8,7.1,15.2,21.1,15.2,42.5c0,30.7-0.3,55.5-0.3,63c0,6.1,4,13.3,15.4,11C415.9,449.1,480,363.1,480,261.7   C480,134.8,379.7,32,256,32z"/>
+</svg>
+
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" width="8px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+</span></a>
+
+
+
+
+</div>
+  </div>
+</footer>
+
+    
+
+  <script src="/dist/js/app.3fc0f988d21662902933.js"></script>
+
+
+  </body>
+</html>

@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Vida e Tecnologia  | Seu Primeiro Jogo Em HTML5</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="generator" content="Hugo 0.59.1" />
+    
+    
+      <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+    
+
+    
+    
+      <link href="/dist/css/app.4c68f34631ae16452eb7705d00567cd8.css" rel="stylesheet">
+    
+
+    
+
+    
+      
+    
+
+    
+    
+    <meta property="og:title" content="Seu Primeiro Jogo Em HTML5" />
+<meta property="og:description" content="Hoje quero ajudar você a desenvolver seu primeiro jogo, que talvez não fique aquele delírio de diversão, mas é o primeiro passo para você começar a entrar nesse mundo de desenvolvimento de jogos. E para isso vamos usar tecnologias que você tem em mãos no seu navegador. HTML5 e javascript.
+
+Vou passo a passo, tentando deixar claro o porque de algumas coisas primordiais em desenvolvimento de jogos. Cometendo erros para depois corrigi-los. Isso talvez torne o post um pouco extenso, então busque sua garrafa de água para manter seu cérebro hidratado." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://flaviosilveira.com/2013/seu-primeiro-jogo-em-html5/" />
+<meta property="article:published_time" content="2013-09-19T00:00:00+00:00" />
+<meta property="article:modified_time" content="2013-09-19T00:00:00+00:00" />
+<meta itemprop="name" content="Seu Primeiro Jogo Em HTML5">
+<meta itemprop="description" content="Hoje quero ajudar você a desenvolver seu primeiro jogo, que talvez não fique aquele delírio de diversão, mas é o primeiro passo para você começar a entrar nesse mundo de desenvolvimento de jogos. E para isso vamos usar tecnologias que você tem em mãos no seu navegador. HTML5 e javascript.
+
+Vou passo a passo, tentando deixar claro o porque de algumas coisas primordiais em desenvolvimento de jogos. Cometendo erros para depois corrigi-los. Isso talvez torne o post um pouco extenso, então busque sua garrafa de água para manter seu cérebro hidratado.">
+
+
+<meta itemprop="datePublished" content="2013-09-19T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2013-09-19T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="2226">
+
+
+
+<meta itemprop="keywords" content="" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Seu Primeiro Jogo Em HTML5"/>
+<meta name="twitter:description" content="Hoje quero ajudar você a desenvolver seu primeiro jogo, que talvez não fique aquele delírio de diversão, mas é o primeiro passo para você começar a entrar nesse mundo de desenvolvimento de jogos. E para isso vamos usar tecnologias que você tem em mãos no seu navegador. HTML5 e javascript.
+
+Vou passo a passo, tentando deixar claro o porque de algumas coisas primordiais em desenvolvimento de jogos. Cometendo erros para depois corrigi-los. Isso talvez torne o post um pouco extenso, então busque sua garrafa de água para manter seu cérebro hidratado."/>
+
+  </head>
+
+  <body class="ma0 avenir bg-near-white">
+
+    
+   
+  
+
+  <header>
+    <div class="bg-black">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="http://flaviosilveira.com" class="f3 fw2 hover-white no-underline white-90 dib">
+      Vida e Tecnologia
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+      
+
+
+
+<a href="https://twitter.com/flaviosilveira" target="_blank" class="link-transition twitter link dib z-999 pt3 pt0-l mr1" title="Twitter link" rel="noopener" aria-label="follow on Twitter——Opens in a new window">
+  <svg height="32px"  style="enable-background:new 0 0 67 67;" version="1.1" viewBox="0 0 67 67" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M37.167,22.283c-2.619,0.953-4.274,3.411-4.086,6.101  l0.063,1.038l-1.048-0.127c-3.813-0.487-7.145-2.139-9.974-4.915l-1.383-1.377l-0.356,1.017c-0.754,2.267-0.272,4.661,1.299,6.271  c0.838,0.89,0.649,1.017-0.796,0.487c-0.503-0.169-0.943-0.296-0.985-0.233c-0.146,0.149,0.356,2.076,0.754,2.839  c0.545,1.06,1.655,2.097,2.871,2.712l1.027,0.487l-1.215,0.021c-1.173,0-1.215,0.021-1.089,0.467  c0.419,1.377,2.074,2.839,3.918,3.475l1.299,0.444l-1.131,0.678c-1.676,0.976-3.646,1.526-5.616,1.568  C19.775,43.256,19,43.341,19,43.405c0,0.211,2.557,1.397,4.044,1.864c4.463,1.377,9.765,0.783,13.746-1.568  c2.829-1.673,5.657-5,6.978-8.221c0.713-1.716,1.425-4.851,1.425-6.354c0-0.975,0.063-1.102,1.236-2.267  c0.692-0.678,1.341-1.419,1.467-1.631c0.21-0.403,0.188-0.403-0.88-0.043c-1.781,0.636-2.033,0.551-1.152-0.402  c0.649-0.678,1.425-1.907,1.425-2.267c0-0.063-0.314,0.042-0.671,0.233c-0.377,0.212-1.215,0.53-1.844,0.72l-1.131,0.361l-1.027-0.7  c-0.566-0.381-1.361-0.805-1.781-0.932C39.766,21.902,38.131,21.944,37.167,22.283z M33,64C16.432,64,3,50.569,3,34S16.432,4,33,4  s30,13.431,30,30S49.568,64,33,64z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/></svg>
+
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" width="8px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+</span></a>
+
+
+
+
+<a href="https://www.linkedin.com/in/flaviosilveira" target="_blank" class="link-transition linkedin link dib z-999 pt3 pt0-l mr1" title="LinkedIn link" rel="noopener" aria-label="follow on LinkedIn——Opens in a new window">
+  <svg  height="32px"  style="enable-background:new 0 0 65 65;" version="1.1" viewBox="0 0 65 65" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <path d="M50.837,48.137V36.425c0-6.275-3.35-9.195-7.816-9.195  c-3.604,0-5.219,1.983-6.119,3.374V27.71h-6.79c0.09,1.917,0,20.427,0,20.427h6.79V36.729c0-0.609,0.044-1.219,0.224-1.655  c0.49-1.22,1.607-2.483,3.482-2.483c2.458,0,3.44,1.873,3.44,4.618v10.929H50.837z M22.959,24.922c2.367,0,3.842-1.57,3.842-3.531  c-0.044-2.003-1.475-3.528-3.797-3.528s-3.841,1.524-3.841,3.528c0,1.961,1.474,3.531,3.753,3.531H22.959z M34,64  C17.432,64,4,50.568,4,34C4,17.431,17.432,4,34,4s30,13.431,30,30C64,50.568,50.568,64,34,64z M26.354,48.137V27.71h-6.789v20.427  H26.354z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" width="8px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+</span></a>
+
+
+<a href="https://github.com/flaviosilveira" target="_blank" class="link-transition github link dib z-999 pt3 pt0-l mr1" title="Github link" rel="noopener" aria-label="follow on Github——Opens in a new window">
+  <svg  height="32px"  style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+  <path d="M256,32C132.3,32,32,134.8,32,261.7c0,101.5,64.2,187.5,153.2,217.9c11.2,2.1,15.3-5,15.3-11.1   c0-5.5-0.2-19.9-0.3-39.1c-62.3,13.9-75.5-30.8-75.5-30.8c-10.2-26.5-24.9-33.6-24.9-33.6c-20.3-14.3,1.5-14,1.5-14   c22.5,1.6,34.3,23.7,34.3,23.7c20,35.1,52.4,25,65.2,19.1c2-14.8,7.8-25,14.2-30.7c-49.7-5.8-102-25.5-102-113.5   c0-25.1,8.7-45.6,23-61.6c-2.3-5.8-10-29.2,2.2-60.8c0,0,18.8-6.2,61.6,23.5c17.9-5.1,37-7.6,56.1-7.7c19,0.1,38.2,2.6,56.1,7.7   c42.8-29.7,61.5-23.5,61.5-23.5c12.2,31.6,4.5,55,2.2,60.8c14.3,16.1,23,36.6,23,61.6c0,88.2-52.4,107.6-102.3,113.3   c8,7.1,15.2,21.1,15.2,42.5c0,30.7-0.3,55.5-0.3,63c0,6.1,4,13.3,15.4,11C415.9,449.1,480,363.1,480,261.7   C480,134.8,379.7,32,256,32z"/>
+</svg>
+
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" width="8px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+</span></a>
+
+
+
+
+
+    </div>
+  </div>
+</nav>
+
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+
+    <header class="mt4 w-100">
+      <p class="f6 b helvetica tracked">
+          
+        POSTS
+      </p>
+      <h1 class="f1 athelas mb1">Seu Primeiro Jogo Em HTML5</h1>
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2013-09-19T00:00:00Z">September 19, 2013</time>
+      
+      
+    </header>
+
+    <section class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p>Hoje quero ajudar você a desenvolver seu primeiro jogo, que talvez não fique aquele delírio de diversão, mas é o primeiro passo para você começar a entrar nesse mundo de desenvolvimento de jogos. E para isso vamos usar tecnologias que você tem em mãos no seu navegador. HTML5 e javascript.</p>
+
+<p>Vou passo a passo, tentando deixar claro o porque de algumas coisas primordiais em desenvolvimento de jogos. Cometendo erros para depois corrigi-los. Isso talvez torne o post um pouco extenso, então busque sua garrafa de água para manter seu cérebro hidratado.</p>
+
+<p>Para os sem saco, no final do post você tem um link para o código completo.</p>
+
+<p><strong>O Jogo</strong><br/>
+Eu havia pensado em desenvolver um <a href="http://en.wikipedia.org/wiki/Arkanoid">Arkanoid</a> para esse post, mas a criação e a lógica subiriam um pouco de nível e a intenção de começar devagar iria se perder. Então temos algo bem mais simples, bolas que caem do topo da tela e que você deve resgatá-las com a plataforma.<br/>
+<img src="../../../assets/uploads/2013/09/Imagem1-300x240.png" alt="" title="Imagem1" width="300" height="240" class="alignnone size-medium wp-image-660" /><br style="clear:both;" /></p>
+
+<p><strong>HTML</strong><br/>
+Para montar o desenho da tela, o jogador e a bola, vamos usar a tag canvas. Ela está presente há algum tempo nos navegadores, tendo começado no Safari da Apple, mas ganhou mais popularidade recentemente com o HTML5.</p>
+
+<p>Crie um arquivo HTML com qualquer nome e dentro dele crie um Canvas.</p>
+
+<p>title = &ldquo;seu primeiro jogo em html5&rdquo;
+&lt;html&gt;
+    &lt;head&gt;
+        &lt;title&gt;Seu Primeiro Jogo - HTML5&lt;/title&gt;
+    &lt;/head&gt;<br />
+    &lt;body&gt;
+        &lt;canvas id=&ldquo;canvas&rdquo; width=&ldquo;600&rdquo; height=&ldquo;480&rdquo;&gt;
+            Navegador não suporta HTML5
+        &lt;/canvas&gt;
+    &lt;/body&gt;
+&lt;/html&gt;
+</pre></p>
+
+<p>Usamos o Doctype do HTML5 junto com um título.<br/>
+Dentro da tag body vemos o canvas, onde definimos uma largura e uma altura.</p>
+
+<p>Carregando isso no navegador, não vemos nada. Mas não se preocupe, você não fez nada de errado. Vamos com ajuda de um CSS definir uma borda para nosso canvas, assim vamos ver ele na tela. Nosso head vai ficar como abaixo.</p>
+
+<p>title = &ldquo;seu primeiro jogo em html5&rdquo;
+    &lt;title&gt;Seu Primeiro Jogo - HTML5&lt;/title&gt;
+     &lt;style type=&ldquo;text/css&rdquo;&gt;
+    canvas {
+        border: 1px solid #000000;
+    }
+     &lt;/style&gt;
+&lt;/head&gt;<br />
+</pre></p>
+
+<p>Fique a vontade para alterar a cor, o tipo da borda ou o que mais quiser nesse CSS.</p>
+
+<p>Nosso trabalho com HTML acaba aqui. Tudo o que vamos usar agora é JavaScript. Para isso vamos então chamar uma função javaScript quando o body estiver totalmente carregado, da seguinte maneira.</p>
+
+<p>title = &ldquo;seu primeiro jogo em html5&rdquo;
+</pre></p>
+
+<p><strong>JavaScript</strong><br/>
+Vamos criar nosso JavaScript no mesmo arquivo do HTML. Nosso intuito não é discutir arquitetura aqui. Vamos criar uma tag script logo depois de nosso canvas, e já vamos definir nossa função inicializar que chamamos acima.</p>
+
+<p>title = &ldquo;seu primeiro jogo em html5&rdquo;
+function inicializar()
+{
+ // Nosso código aqui
+}
+&lt;/script&gt;
+</pre></p>
+
+<p><strong>Jogador</strong><br/>
+Vamos começar desenhando o jogador, que nada mais é do que uma barra.</p>
+
+<p>Vamos iniciar algumas variáveis acima da nossa função. barraAltura e barraLargura.<br/>
+Em seguida em nossa função inicializar setamos os valores desejados para elas.</p>
+
+<p>Para desenhar com o canvas, precisamos capturar o elemento com javaScript e usar o contexto que no nosso caso vai ser 2D.</p>
+
+<p>O método para desenhar retângulos com canvas é fillRect. Essa função nos pede a posição do elemento (pontos X e Y), sua largura e sua altura.</p>
+
+<p>Como a posição X (horizontal) do jogador vai ficar mudando, vamos criar uma variável para isso também. Já a posição Y (vertical) como não vai mudar, podemos deixá-la fixa usando a altura do canvas menos o tamanho da barra.</p>
+
+<p>Confira o código abaixo com as explicações acima:</p>
+
+<p>title = &ldquo;seu primeiro jogo em html5&rdquo;</p>
+
+<p>function inicializar()
+{
+    barraAltura = 15;
+    barraLargura = 90;</p>
+
+<pre><code>jogadorPosicaoX = 0;
+
+canvas = document.getElementById(&quot;canvas&quot;);
+context = canvas.getContext(&quot;2d&quot;);
+
+context.fillRect(jogadorPosicaoX, canvas.height - barraAltura, barraLargura, barraAltura);
+</code></pre>
+
+<p>}
+</pre></p>
+
+<p>Resultado na tela:<br/>
+<img src="../../../assets/uploads/2013/09/imagem2-300x240.png" alt="" title="imagem2" width="300" height="240" class="alignnone size-medium wp-image-659" /><br style="clear: both;" /></p>
+
+<p>Nosso jogador não ficou centralizado, porque definimos sua posição X como 0, ou seja, o canto esquerdo do canvas.<br/>
+Altere os valores de pouco em pouco para você perceber como o jogador irá se mover, isso também irá ajudar na lógica de colisão mais para frente. Entendido isso, vamos deixar nosso jogador centralizado, pegando o tamanho do canvas e dividindo por 2.</p>
+
+<p>Ao atualizar seu browser e conferir o resultado nesse ponto não se preocupe, você não está com problema na vista. É necessário diminuir o tamanho da barra para que o jogador fique exatamente no centro do canvas. Ficando então da seguinte maneira.</p>
+
+<p>title = &ldquo;seu primeiro jogo em html5&rdquo;
+</pre></p>
+
+<p>Use os parênteses para fazer a subtração primeiro.</p>
+
+<p><strong>Comandos do jogador</strong><br/>
+É hora de dar vida ao jogador.<br/>
+O que queremos é que quando for pressionado para a direita, para esquerda, a nossa barra obedeça isso.</p>
+
+<p>Vamos deixar nosso javaScript de olho quando o jogador apertar alguma tecla com os Event Listeners do javaScript.</p>
+
+<p>Então definimos a função desse listener. Aqui no meu notebook, o código das teclas para esquerda e para direita são respectivamente 37 e 39. Isso pode variar se você tem um tipo diferente de teclado ou ainda se quiser outras teclas de comando.</p>
+
+<p>Vamos agora reposicionar o jogador de acordo com as teclas pressionadas.<br/>
+Se apertar a tecla código 37, esquerda, diminuimos a posição do jogador. Se apertar a tecla código 39 vamos somar.</p>
+
+<p>Mas vamos somar/diminuir quanto? Vamos definir uma variável para a velocidade do jogador, essa velocidade será a quantidade de pixels que o jogador se movimenta a cada vez que é pressionado as teclas. Voltando então, se pressionar para a direita somamos a velocidade do jogador, se pressionar para a esquerda diminuimos a velocidade do jogador.</p>
+
+<p>Não esqueça de desenhar a barra novamente com a posição nova do jogador.</p>
+
+<p>Confira o código abaixo:</p>
+
+<p>title = &ldquo;seu primeiro jogo em html5&rdquo;</p>
+
+<p>function inicializar() &hellip;
+    velocidadeJogador = 20;
+    &hellip;
+    document.addEventListener(&lsquo;keydown&rsquo;, keyDown);
+}</p>
+
+<p>function keyDown(e)
+{
+    if(e.keyCode == 37)
+    {
+        jogadorPosicaoX -= velocidadeJogador;
+    }</p>
+
+<pre><code>if(e.keyCode == 39)
+{
+    jogadorPosicaoX += velocidadeJogador;
+}
+
+context.fillRect(jogadorPosicaoX, canvas.height - barraAltura, barraLargura, barraAltura);
+</code></pre>
+
+<p>}
+</pre></p>
+
+<p>Atualizando nossa tela e apertando as teclas você vê o resultado.<br/>
+<img src="../../../assets/uploads/2013/09/Imagem3-300x241.png" alt="" title="Imagem3" width="300" height="241" class="alignnone size-medium wp-image-658" /><br style="clear: both;" /></p>
+
+<p>Percebe um problema? Temos dois na verdade, mas vamos um de cada vez.<br/>
+O primeiro é que não estamos apagando a posição anterior do jogador. Estamos então tendo a sensação de que a barra está aumentando de tamanho.</p>
+
+<p>Para resolver isso temos que entender um conceito no desenvolvimento de jogos que é o GameLoop.<br/>
+Não vou entrar em detalhes á fundo, mas acompanhe.</p>
+
+<p><strong>Game Loop &#8211; Explicação ultra simples</strong><br/>
+Um jogo não passa de um loop infinito. Se você perde, você volta ao começo.<br/>
+Então pense em um loop que contêm algumas verificações dentro dele que serão os comandos do jogador, pontuação e etc.</p>
+
+<p>Durante esse loop, os inimigos, o jogador e outras coisas na tela irão mudar de posição o tempo todo.<br/>
+Mas você deve apagar a posição anterior caso contrário vai ficar um efeito como o que estamos tendo.</p>
+
+<p>Então vamos apagar tudo da tela e fazer aparecer novamente. Ok!<br/>
+Mas isso não pode ser visível ao jogador, a tela não pode parecer que está piscando.<br/>
+Então vamos definir um tempo, um certo número de frames que não permita que o jogador perceba isso.</p>
+
+<p>Então vamos re-estruturar nosso código, pensando nesse conceito.</p>
+
+<p>No topo temos a definição das variáveis.</p>
+
+<p>Em seguida na função inicializar, vamos deixar apenas o valor inicial das variável e o listener, e de dentro dela chamar o gameLoop.<br/>
+Para o loop, vamos usar setInterval e chamar nossa função a cada 30 milisegundos.<br/>
+Ficando assim:</p>
+
+<p>title = &ldquo;seu primeiro jogo em html5&rdquo;</p>
+
+<p>function inicializar()
+{
+    barraAltura = 15;
+    barraLargura = 90;</p>
+
+<pre><code>jogadorPosicaoX = (canvas.width - barraLargura) / 2;
+velocidadeJogador = 20;
+
+canvas = document.getElementById(&quot;canvas&quot;);
+context = canvas.getContext(&quot;2d&quot;);              
+
+document.addEventListener('keydown', keyDown);
+
+setInterval(gameLoop, 30);
+</code></pre>
+
+<p>}
+</pre></p>
+
+<p>Seguimos o código com a função keyDown que fizemos acima, mas já vamos resolver nosso segundo problema que não comentei anteriormente. O jogador não pode continuar indo para a direita ou para esquerda se ele chegar aos limites do canvas. Então adicionamos algumas verificações para isso. Repare também que não vamos mais redesenhar a tela a partir dessa função.</p>
+
+<p>title = &ldquo;seu primeiro jogo em html5&rdquo;
+{
+    if(e.keyCode == 37)
+    {
+        if(jogadorPosicaoX &gt; 0)
+        {
+            jogadorPosicaoX -= velocidadeJogador;
+        }
+    }</p>
+
+<pre><code>if(e.keyCode == 39)
+{
+    if(jogadorPosicaoX &amp;lt; (canvas.width - barraLargura))
+    {
+        jogadorPosicaoX += velocidadeJogador;
+    }
+}
+</code></pre>
+
+<p>}
+</pre></p>
+
+<p>Por último nosso gameLoop. Ele contém uma função que desenha um retângulo em branco em cima de toda a área do canvas.<br/>
+Isso limpa a nossa tela. E em seguida redesenhamos nosso jogador.</p>
+
+<p>title = &ldquo;seu primeiro jogo em html5&rdquo;
+{
+    context.clearRect(0, 0, canvas.width, canvas.height);</p>
+
+<pre><code>context.fillRect(jogadorPosicaoX, canvas.height - barraAltura, barraLargura, barraAltura);
+</code></pre>
+
+<p>}
+Recarregue sua tela e se divirta movimentando a barra.</p>
+
+<p>&lt;strong&gt;Bola&lt;/strong&gt;
+Vamos primeiro desenhar uma bola parada no topo da tela.
+Vamos definir algumas configurações para ela. Diâmetro, posição X, posição Y e sua velocidade.
+1
+var barraAltura, barraLargura, jogadorPosicaoX, velocidadeJogador, bolaDiametro, bolaPosX, bolaPosY, velocidadeBola;</p>
+
+<p>function inicializar()
+{
+    &hellip;
+    bolaDiametro = 10;
+    bolaPosX = canvas.width / 2;
+    bolaPosY = 0;
+    velocidadeBola = 10;
+    &hellip;
+}
+</pre></p>
+
+<p>Para desenhar a bola, adicione as seguintes linhas dentro de gameLoop.</p>
+
+<p>title = &ldquo;seu primeiro jogo em html5&rdquo;
+{
+    &hellip;
+    context.beginPath();
+    context.arc(bolaPosX, bolaPosY, bolaDiametro, 0, Math.PI * 2, true);
+    context.fill();
+    &hellip;
+}
+</pre></p>
+
+<p>Procure pesquisar some a função de desenho do arco que usamos acima. Foge do mérito desse artigo explicá-la.</p>
+
+<p>Como resultado você deve ver metade da bola desenhada no topo do canvas. Como abaixo:<br/>
+<img src="../../../assets/uploads/2013/09/Imagem4-300x240.png" alt="" title="Imagem4" width="300" height="240" class="alignnone size-medium wp-image-657" /><br style="clear: both;" /></p>
+
+<p>Vemos metade dela pois ela é desenhada a partir do centro, como setamos Y para 0, a outra metade está acima do canvas.<br/>
+Sendo desenhada do centro, não precisamos diminuir seu diâmetro para centralizar ela na tela, bastou dividir por 2 o eixo X.</p>
+
+<p><strong>Movimentando a bola</strong><br/>
+Bom, não queremos que a bola inicia com metade aparecendo, melhor que isso queremos que ela venha antes do canvas.<br/>
+Você pode setar o valor de bolaPosY para -10 para que isso aconteça.</p>
+
+<p>title = &ldquo;seu primeiro jogo em html5&rdquo;
+    bolaPosY = -10;
+    &hellip;
+</pre></p>
+
+<p>Agora vamos movimentar ela como se estivesse caindo, no eixo Y.<br/>
+Simples não? Basta a cada gameLoop diminuir a velocidade da bola.</p>
+
+<p>Mas veja que isso só pode acontecer se a posição Y da bola for menor que a altura do canvas, caso contrário a bola vai descer até o infinito.</p>
+
+<p>E já que a bola chegou ao fim do canvas, que tal iniciar outra lá no topo?</p>
+
+<p>Acompanhe isso no trecho abaixo:</p>
+
+<p>title = &ldquo;seu primeiro jogo em html5&rdquo;
+if(bolaPosY &lt;= canvas.height)
+{
+    bolaPosY += velocidadeBola;
+}
+else
+{
+    bolaPosY = -10;
+}
+&hellip;
+</pre></p>
+
+<p>Legal! Mas o jogo já não é muito divertido, se a bola ficar caindo sempre no mesmo lugar então.<br/>
+Vamos adicionar um cálculo para fazer a posição X da bola variar cada vez que é criada uma nova.<br/>
+Basta reformular o nosso else acima.</p>
+
+<p>title = &ldquo;seu primeiro jogo em html5&rdquo;
+else
+{
+    bolaPosX = Math.random() * 600;
+    bolaPosY = -10;
+}
+&hellip;
+</pre></p>
+
+<p>Você já pode ir treinando para o game final agora.</p>
+
+<p><strong>Colisão</strong><br/>
+Chegou a hora de checar se a bola colide com a barra e com isso marcar pontos para você.</p>
+
+<p>Vamos definir uma variável pontosJogador. Não esqueça de iniciá-la como zero dentro da função inicializar.</p>
+
+<p>title = &ldquo;seu primeiro jogo em html5&rdquo;</p>
+
+<p>function inicializar()
+{
+    &hellip;
+    pontosJogador = 0;
+    &hellip;
+}
+</pre></p>
+
+<p>Em seguida vamos pensar na matemática da colisão.<br/>
+Temos que fazer um cálculo que coloque a bola em cima da barra.<br/>
+Então primeiramente, a posição X da bola tem de ser maior que a posição X da barra.<br/>
+Mas também essa posição X da bola tem de ser menor que a posição X da barra + o tamanho dela.<br/>
+Lembrando que na barra, sua posição X é o início dela, no canto esquerdo, por isso somamos a sua largura.</p>
+
+<p>Não podemos bater apenas o ponto X. O eixo Y da bola tem de ser maior ou igual que a altura do canvas menos a altura da barra.</p>
+
+<p>Dentro do IF da colisão incrementamos os pontos do jogador.</p>
+
+<p>Em seguida temos um código para escrever a pontuação na tela.</p>
+
+<p>Confira o código abaixo com a explicação acima:</p>
+
+<p>title = &ldquo;seu primeiro jogo em html5&rdquo;
+{
+    pontosJogador++;
+}</p>
+
+<p>context.font = &ldquo;32pt Tahoma&rdquo;;
+context.fillText(pontosJogador, canvas.width - 70, 50);
+</pre></p>
+
+<p>Hora de rodar o seu jogo!<br/>
+<img src="../../../assets/uploads/2013/09/Imagem5-300x241.png" alt="" title="Imagem5" width="300" height="241" class="alignnone size-medium wp-image-656" /><br style="clear: both;" /></p>
+
+<p>Mas espere! Isso não é basquete e a cada bola que pegamos estamos fazendo 3 pontos ou mais.<br/>
+Porque isso está acontecendo?</p>
+
+<p>Ah, simples! Como refazemos a tela a cada 30 milesegundos, a bola leva muito mais tempo que isso para passar pela barra. Então ela está caindo no IF de colisão mais de uma vez.</p>
+
+<p>Para resolver isso vamos adicionar uma flag dizendo se colidiu ou não.<br/>
+Vamos primeiro definir essa variável, em seguida inicializar ela como false.</p>
+
+<p>title = &ldquo;seu primeiro jogo em html5&rdquo;</p>
+
+<p>function inicializar()
+{
+    &hellip;
+    colisao = false;
+    &hellip;
+}
+</pre></p>
+
+<p>Agora no IF onde checamos a colisão, mudamos o valor para true quando colidir, e antes de checar se colidiu verificamos se esse status ainda é false.</p>
+
+<p>title = &ldquo;seu primeiro jogo em html5&rdquo;
+{
+    pontosJogador++;
+    colisao = true;
+}
+</pre></p>
+
+<p>Por último, se uma bola nova começa a cair ela tem de vir com esse status como falso.<br/>
+Lembra do nosso else que cria uma nova bola no eixo X?</p>
+
+<p>title = &ldquo;seu primeiro jogo em html5&rdquo;
+else
+{
+    bolaPosX = Math.random() * 600;
+    bolaPosY = -10;
+    colisao = false;
+}
+&hellip;
+</pre></p>
+
+<p>Feito! Hora de chamar os amigos e iniciar um campeonato.</p>
+
+<p><strong>Conclusão</strong><br/>
+Estude alterando as variáveis como velocidade do jogador, velocidade da bola e etc.<br/>
+A partir daqui pode surgir muita coisa. Quem sabe não continuamos desenvolvendo esse jogo em um próximo post?</p>
+
+<p>Código completo aqui: <a href="https://github.com/flaviosilveira/primeiro-jogo-html5">https://github.com/flaviosilveira/primeiro-jogo-html5</a></p>
+
+<p>Abraço!</p><ul class="pa0">
+  
+</ul>
+<div class="mt6">
+      
+        <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "flaviosilveira" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+      
+      
+      </div>
+    </section>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="http://flaviosilveira.com" >
+    &copy; 2020 Vida e Tecnologia
+  </a>
+    <div>
+
+
+
+<a href="https://twitter.com/flaviosilveira" target="_blank" class="link-transition twitter link dib z-999 pt3 pt0-l mr1" title="Twitter link" rel="noopener" aria-label="follow on Twitter——Opens in a new window">
+  <svg height="32px"  style="enable-background:new 0 0 67 67;" version="1.1" viewBox="0 0 67 67" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M37.167,22.283c-2.619,0.953-4.274,3.411-4.086,6.101  l0.063,1.038l-1.048-0.127c-3.813-0.487-7.145-2.139-9.974-4.915l-1.383-1.377l-0.356,1.017c-0.754,2.267-0.272,4.661,1.299,6.271  c0.838,0.89,0.649,1.017-0.796,0.487c-0.503-0.169-0.943-0.296-0.985-0.233c-0.146,0.149,0.356,2.076,0.754,2.839  c0.545,1.06,1.655,2.097,2.871,2.712l1.027,0.487l-1.215,0.021c-1.173,0-1.215,0.021-1.089,0.467  c0.419,1.377,2.074,2.839,3.918,3.475l1.299,0.444l-1.131,0.678c-1.676,0.976-3.646,1.526-5.616,1.568  C19.775,43.256,19,43.341,19,43.405c0,0.211,2.557,1.397,4.044,1.864c4.463,1.377,9.765,0.783,13.746-1.568  c2.829-1.673,5.657-5,6.978-8.221c0.713-1.716,1.425-4.851,1.425-6.354c0-0.975,0.063-1.102,1.236-2.267  c0.692-0.678,1.341-1.419,1.467-1.631c0.21-0.403,0.188-0.403-0.88-0.043c-1.781,0.636-2.033,0.551-1.152-0.402  c0.649-0.678,1.425-1.907,1.425-2.267c0-0.063-0.314,0.042-0.671,0.233c-0.377,0.212-1.215,0.53-1.844,0.72l-1.131,0.361l-1.027-0.7  c-0.566-0.381-1.361-0.805-1.781-0.932C39.766,21.902,38.131,21.944,37.167,22.283z M33,64C16.432,64,3,50.569,3,34S16.432,4,33,4  s30,13.431,30,30S49.568,64,33,64z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/></svg>
+
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" width="8px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+</span></a>
+
+
+
+
+<a href="https://www.linkedin.com/in/flaviosilveira" target="_blank" class="link-transition linkedin link dib z-999 pt3 pt0-l mr1" title="LinkedIn link" rel="noopener" aria-label="follow on LinkedIn——Opens in a new window">
+  <svg  height="32px"  style="enable-background:new 0 0 65 65;" version="1.1" viewBox="0 0 65 65" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <path d="M50.837,48.137V36.425c0-6.275-3.35-9.195-7.816-9.195  c-3.604,0-5.219,1.983-6.119,3.374V27.71h-6.79c0.09,1.917,0,20.427,0,20.427h6.79V36.729c0-0.609,0.044-1.219,0.224-1.655  c0.49-1.22,1.607-2.483,3.482-2.483c2.458,0,3.44,1.873,3.44,4.618v10.929H50.837z M22.959,24.922c2.367,0,3.842-1.57,3.842-3.531  c-0.044-2.003-1.475-3.528-3.797-3.528s-3.841,1.524-3.841,3.528c0,1.961,1.474,3.531,3.753,3.531H22.959z M34,64  C17.432,64,4,50.568,4,34C4,17.431,17.432,4,34,4s30,13.431,30,30C64,50.568,50.568,64,34,64z M26.354,48.137V27.71h-6.789v20.427  H26.354z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" width="8px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+</span></a>
+
+
+<a href="https://github.com/flaviosilveira" target="_blank" class="link-transition github link dib z-999 pt3 pt0-l mr1" title="Github link" rel="noopener" aria-label="follow on Github——Opens in a new window">
+  <svg  height="32px"  style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+  <path d="M256,32C132.3,32,32,134.8,32,261.7c0,101.5,64.2,187.5,153.2,217.9c11.2,2.1,15.3-5,15.3-11.1   c0-5.5-0.2-19.9-0.3-39.1c-62.3,13.9-75.5-30.8-75.5-30.8c-10.2-26.5-24.9-33.6-24.9-33.6c-20.3-14.3,1.5-14,1.5-14   c22.5,1.6,34.3,23.7,34.3,23.7c20,35.1,52.4,25,65.2,19.1c2-14.8,7.8-25,14.2-30.7c-49.7-5.8-102-25.5-102-113.5   c0-25.1,8.7-45.6,23-61.6c-2.3-5.8-10-29.2,2.2-60.8c0,0,18.8-6.2,61.6,23.5c17.9-5.1,37-7.6,56.1-7.7c19,0.1,38.2,2.6,56.1,7.7   c42.8-29.7,61.5-23.5,61.5-23.5c12.2,31.6,4.5,55,2.2,60.8c14.3,16.1,23,36.6,23,61.6c0,88.2-52.4,107.6-102.3,113.3   c8,7.1,15.2,21.1,15.2,42.5c0,30.7-0.3,55.5-0.3,63c0,6.1,4,13.3,15.4,11C415.9,449.1,480,363.1,480,261.7   C480,134.8,379.7,32,256,32z"/>
+</svg>
+
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" width="8px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+</span></a>
+
+
+
+
+</div>
+  </div>
+</footer>
+
+    
+
+  <script src="/dist/js/app.3fc0f988d21662902933.js"></script>
+
+
+  </body>
+</html>
