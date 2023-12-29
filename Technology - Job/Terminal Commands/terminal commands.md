@@ -12,6 +12,11 @@ Rename all files matching **_example_480_490kbps.mp4*, and replacing *_example_4
 
 ```grep -rl 'HTTP_SERVER' templates/content/ | xargs sed -i 's/HTTP_SERVER/HTTPS_SERVER/g'```
 
+#### PGrep
+A better way instead of ps aux | grep ... 
+
+```pgrep -af 'Dropbox'```
+
 #### Find
 
 ```find . -name "product_listing_col.php"```
