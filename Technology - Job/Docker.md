@@ -138,3 +138,6 @@ Agora é fazer novamente o teste usando o nome da máquina no seu arquivo pdo.ph
 
 ### Docker attach/exec with detach keys option
 ```docker exec -ti --detach-keys="ctrl-a" [container-name] [command]```
+
+### Docker watch in docker compose 
+sync, rebuild, sync+start
