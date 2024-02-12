@@ -79,6 +79,10 @@ window.var_name -> works like a global scope
 ### Remove False values from array
 ```array.filter(Boolean);```
 
+---
+
+### Short-circuit evaluation
+
 #### The same thing as if (foo == 10) then doSomething();
 ```
 let foo = 10;  
@@ -87,6 +91,8 @@ foo === 10 && doSomething();
 
 #### The same thing as if (foo != 5) then doSomething();
 ```foo === 5 || doSomething();```
+
+---
 
 #### Spread
 ```
@@ -178,17 +184,6 @@ function identity<Type>(arg: Type): Type {
 
 let output = identity<string>("myString");
 ```
-
----
-
-### Unary Plus
-
-```
-const test = '1';
-const test2 = +test;
-
-```
-This is a Unary Plus, not a Pre Increment operator.
 
 ---
 

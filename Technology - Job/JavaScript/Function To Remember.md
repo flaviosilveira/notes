@@ -1,6 +1,3 @@
-for..in
-for..of
-
 typeof element === 'string'
 
 .join
