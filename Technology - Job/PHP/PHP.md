@@ -4,11 +4,10 @@
 
 - preg_replace always return an array
 
-- isset is always faster than other functions
-
 - PHP session_write_close() to prevent session blocking in requests
 Remember that this is the default behavior to File and Memcached session storage.
 Redis, do not lock the session. But, is this safe?
+
 - Constants can never be changed or undefinied
 
 - class_implements function receive a object or a class name and return a array of Interface name
