@@ -12,6 +12,85 @@ _____________________________________
 ## Design rules
 1. Keep configurable data at high levels.
 2. Prefer polymorphism to if/else or switch/case.
+
+Example Without Polymorphism
+
+```
+class Employee {
+    String role;
+    double salary;
+
+    public Employee(String role, double salary) {
+        this.role = role;
+        this.salary = salary;
+    }
+
+    public double calculateBonus() {
+        switch(role) {
+            case "Developer":
+                return salary * 0.1;
+            case "Manager":
+                return salary * 0.2;
+            case "Intern":
+                return salary * 0.05;
+            default:
+                return 0;
+        }
+    }
+}
+
+```
+
+Example With Polymorphism
+
+Now, let's refactor the above example using polymorphism. We can define an abstract class or an interface for Employee and let each employee type implement its own calculateBonus method.
+
+```
+abstract class Employee {
+    double salary;
+
+    public Employee(double salary) {
+        this.salary = salary;
+    }
+
+    abstract double calculateBonus();
+}
+
+class Developer extends Employee {
+    public Developer(double salary) {
+        super(salary);
+    }
+
+    @Override
+    double calculateBonus() {
+        return salary * 0.1;
+    }
+}
+
+class Manager extends Employee {
+    public Manager(double salary) {
+        super(salary);
+    }
+
+    @Override
+    double calculateBonus() {
+        return salary * 0.2;
+    }
+}
+
+class Intern extends Employee {
+    public Intern(double salary) {
+        super(salary);
+    }
+
+    @Override
+    double calculateBonus() {
+        return salary * 0.05;
+    }
+}
+
+```
+
 3. Separate multi-threading code.
 4. Prevent over-configurability.
 5. Use dependency injection.
