@@ -3,4 +3,3 @@
 - Rich Dad - Poor dad
 - The cashflow quadrant
 - Think and grow rich
-- Lean In
