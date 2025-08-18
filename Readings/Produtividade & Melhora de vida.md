@@ -1,5 +1,5 @@
 Lembrar mais do que lê
- - Fazer perguntas. Olhar o sumário e fazer perguntas sobre oq acabou de ele
+ - Fazer perguntas. Olhar o sumário e fazer perguntas sobre oq acabou de ler
  - Fazer anotações com suas próprias palavras
  - Pesquisar
  - Usar na vida real, mesmo que em uma conversa simples
