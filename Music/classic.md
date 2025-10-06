@@ -24,3 +24,10 @@ Clair de Lune is the third movement.
 
 ## Armide prelude
 Wind Sound
+
+# Carlos Gomes
+Any
+
+## Il Guarany
+## Fosca
+## Escravo
