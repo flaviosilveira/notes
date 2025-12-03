@@ -1,7 +1,7 @@
 Dom Pedro I, casado com Maria Leopoldina
 Maria Leopoldina irmã da Segunda esposa de Napoleão, Maria Luisa
 
-Dom Pedro I tinha como amante Domitilia de Castro co mquem teve 5 filhos, onde apenas 2 sobreviveram.
+Dom Pedro I tinha como amante Domitilia de Castro com quem teve 5 filhos, onde apenas 2 sobreviveram.
 Reconheceu os filhos fora do casamento oficialmente, dando titulos a eles.
 
 Dom Pedro I também teve um caso com a irmã de Domitilia, Maria Benedita, com quem também teve um filho dele, Rodrigo Delfim Pereira.
