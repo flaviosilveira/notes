@@ -1,0 +1,16 @@
+-Get a Real Alarm Clock 
+-Read One Book Every Week
+-Drink Nothing But Water
+-Start a Strength Training Program
+-Call Your Mom Once a Week
+-Give at Least One Compliment Every Day
+-Host a Dinner Party Once a Quarter
+-Take a Short Walk Every Day
+-Journal
+-Plan Your Weekends
+-Turn Off Notifications on Your Phone
+-Fast for 24 Hours Once a Month
+-Exercise and/or Commute One Day a Week Without Music/Podcasts
+-Floss. For Real This Time
+-Start a New Hobby
+-Attend Church Each Week
