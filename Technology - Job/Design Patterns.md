@@ -3,7 +3,7 @@
 Types: Creational, structural, behavioural
 
 ## Creational
--> All about diferrent ways to create objects
+-> All about different ways to create objects
 
 ### Factory
 useful when the type of objects to create is determined dynamically at runtime.
@@ -135,7 +135,7 @@ $db2 = DatabaseConnection::getInstance()->getConnection();
 ```
 
 ## Structural
--> All about the relationship between this objects
+-> All about the relationship between these objects
 
 ## Behavioural
 -> All about the interaction or communication about  

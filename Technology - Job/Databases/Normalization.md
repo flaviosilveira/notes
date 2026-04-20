@@ -8,8 +8,8 @@ It is a technique to organize the data in tables and bring:
 - Break down large tables into small ones
 
 ## First normal form
-- Single values Atributes, should not contain multiple values
-- Atribute domain should not change
+- Single values Attributes, should not contain multiple values
+- Attribute domain should not change
 - Unique name for atributes
 - Order doesn't matter
 

@@ -1,13 +1,13 @@
 # Subtle art of not giving a fuck
 
-In Modern society people expect to be extraordinary at everything, believe they mus t be positive all the time and that they can never fail. In this book Mark Manson clears up that misconceptions.
+In Modern society people expect to be extraordinary at everything, believe they must be positive all the time and that they can never fail. In this book Mark Manson clears up that misconceptions.
 
 To be truly successful in life he says you must doubt yourself, doubt others, allow negative feelings. Stop chasing fame and know that life is struggle.
 
 ## Feedback loop from hell and backwards law
 
 ### Feedback loop from hell
-You are anxious, angry or worried about somthing or someone. You cnat think of anything else. You cannot be productive and your anxiety holds you back. Then you wonder why you are feeling anxious and you become anxious for being anxious. Which makes you more anxious.
+You are anxious, angry or worried about somthing or someone. You can't think of anything else. You cannot be productive and your anxiety holds you back. Then you wonder why you are feeling anxious and you become anxious for being anxious. Which makes you more anxious.
 
 ### Backwards Law
 Part of the problem is that we are always focusing on positive, can do attitude, we are always leading to a rejection of any negative feelings. And instead of making our lives better, that rejection makes it even worse.
@@ -24,9 +24,9 @@ So basically, deciding to not give a fuck simply means reorienting your expectat
 ## Life is a struggle
 
 Suffering is an integral part of life.
-Budhism says: "The rich suffer because of their riches, The poor suffer because of their poverty".
+Buddhism says: "The rich suffer because of their riches, The poor suffer because of their poverty".
 
-You cannnot be happy or succesful without struggling. So the more important question to ask is not how to be happy, but what you are willing to go throught for happiness. Chose your struglle.
+You cannnot be happy or successful without struggling. So the more important question to ask is not how to be happy, but what you are willing to go through for happiness. Chose your struglle.
 
 Do you want to sacrifice your free time to stay at home studying? Are you going to awake from bed to chase a new job or an opportunity?
 
@@ -36,7 +36,7 @@ Struggle inspire growth. Success is actually measured by how many times you fail
 
 We sometimes cannot change what happens to us, but we can change the way we think about it. In reacting to outward influences, we can take an active role in what happens to us. Often, the same event can be good or bad, depending on the metrics we use to measure it.
 
-## Chosing the values to live by
+## Choosing the values to live by
 
 Just like social media is constantly telling us that everyone around us is leading the perfect life, our culture has also evolved to make us strive to become extraordinary. Actually, being “average” has come to be the same as being a failure. We live in a society that believes we are all entitled to be extraordinary, without actually having to work for it. Entitlement of this kind, however, isolates us. It makes us believe we are the center of the universe and prevents us from looking at the world with curiosity and a willingness to improve ourselves.
 

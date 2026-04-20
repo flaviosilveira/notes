@@ -1,7 +1,7 @@
 # Afonso Pena
 
-Sexto presidente do brasil
-Morreu de pneumonia no exercicio da função
+Sexto presidente do Brasil
+Morreu de pneumonia no exercício da função
 
 Nilo peçanha era seu vice, e assumiu imediatamente.
 

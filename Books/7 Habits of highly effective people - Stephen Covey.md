@@ -11,7 +11,7 @@ Habit 7: Continuous growth
 
 ## Be Proactive
 
-Dont be the reactive person that say: "There's nothing I can do." or "That's just the way I am."
+Don't be the reactive person that says: "There's nothing I can do." or "That's just the way I am."
 
 ## Begin with the End in Mind
 

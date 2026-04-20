@@ -21,14 +21,14 @@ Funções / Desejáveis
 - adotar um design de componentização
 - ter contato e conhecimento com outras aplicações na organização.
 - Durante o Design, quebrar a complexidade do desenvolvimento de aplicações em pedaços menores e melhores gerenciáveis.
-- Entender as funções de cada componete
+- Entender as funções de cada componente
 - Entender as interações e dependências entre os componentes de software
 - Comunicar esses pontos com os desenvolvedores
 
 Passos ?
 Definição de arquitetura de software
-- Levantamento dos requisítos não funcionais: Exemplos -> 24 / 7 ?   Rápido? o que é rápido, como fazer ficar rápido?
-- Definição de arquitetura: Definição baseada nos requisítos, estrutura, guidelines, princípios e aspectos técnicos.
+- Levantamento dos requisitos não funcionais: Exemplos -> 24 / 7 ?   Rápido? o que é rápido, como fazer ficar rápido?
+- Definição de arquitetura: Definição baseada nos requisitos, estrutura, guidelines, princípios e aspectos técnicos.
 - Escolha da tecnologia: licença, suporte, deploy, upgrades
 - Avaliação da arquitetura: Testar, ver se funciona
 - Documentar para todos

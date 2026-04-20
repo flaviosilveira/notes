@@ -4,13 +4,13 @@
 
 - It's much easier to gain mental muscle during childhood
 
-- When advertisy strikes, they do everything in their power to shelter their children from its effects. That is wrong parenting.
+- When adversity strikes, they do everything in their power to shelter their children from its effects. That is wrong parenting.
 
 - Instead, give them the tools they need to build mental strength
 
 ## Don't condone a victim mentality
 
-- Failure is a inevitable part of life. Encourage them to turn their struggles into strength.
+- Failure is an inevitable part of life. Encourage them to turn their struggles into strength.
 
 ## Don't make your child the center of universe
 
@@ -22,27 +22,27 @@ Teach them face their fears and encourage them to coach themselves.
 
 ## Don't give your child power over you
 
-- Don't get stucked into debates that allow your child to delay following your directions.
+- Don't get stuck in debates that allow your child to delay following your directions.
 
 ## Don't expect perfection
 
-- Look for excellence, not perfection. Help them became the best version of theirselves.
+- Look for excellence, not perfection. Help them become the best version of themselves.
 
 ## Experience is a better teacher than language
 
-- They have responsability for what they choose.
+- They have responsibility for what they choose.
 
 ## Don't shield your child from pain
 
 - When you are in pain – don’t mask your pain; when your child is – acknowledge it as well. Provide your children age-appropriate information about the realities of the world and teach them to recognize when pain is a friend and when it is an enemy.
 
-## Don't feel responsable for your child emotion
+## Don't feel responsible for your child's emotions
 
 - Don't entertain your child everytime they are bored, neither calm them when they are upset or sad. Teach them to label those emotions properly and help them discover mood boosters on their own. Never correct their emotions, correct their behaviour only.
 
 ## Mistakes are learning opportunities
 
-- Resist the urge to interfere and let your childen mess up. They will know what to do next time.
+- Resist the urge to interfere and let your children mess up. They will know what to do next time.
 
 ## Don't confuse discipline with punishment
 
@@ -54,6 +54,6 @@ Teach them face their fears and encourage them to coach themselves.
 
 ## Don't lose sight of your values
 
-- Know your values and talk about ethical dilemmas wherever these arrive.
+- Know your values and talk about ethical dilemmas wherever these arise.
 
 ## Be a guide, not a protector

@@ -4,4 +4,4 @@ Autor de Der Freischütz (O Franco-Atirador)
 
 Influenciou Wagner
 
-Figura potêmica da cultura germânica no século XIX
+Figura polêmica da cultura germânica no século XIX

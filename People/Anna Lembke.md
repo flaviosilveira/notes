@@ -8,8 +8,8 @@ They work like a balance. When you are in a pleasure situation, the balance goes
 
 ## The main rule
 
-One of the main rules of that process is that it has a tendancy to stay in the level.
-The brain do not want to be in the same way for a long period. Doesn't matter if pain or pleasure. 
+One of the main rules of that process is that it has a tendency to stay in the level.
+The brain does not want to be in the same way for a long period. Doesn't matter if pain or pleasure. 
 
 So, The brain will work to keep the balance in the middle.
 
@@ -21,13 +21,13 @@ Some biologist define stress as a detour.
 
 That can be the key of the modern life. Where we have a lot of pleasure stuff to do, but in that way we will just keep the balance in one side. That will keep us in the stress.
 
-## The opononent process 
+## The opponent process 
 
-If you insist in keep in one side of the balance. The brain will release some mechaninsms to bring you to the other side and try to get back the level, the balance.
+If you insist in keep in one side of the balance. The brain will release some mechanisms to bring you to the other side and try to get back the level, the balance.
 
-The danger here can be the ameostasis. Where you developed a great difficult to reach the other side of the balance, to reach the homeostasis.
+The danger here can be the homeostasis. Where you develop a great difficulty reaching the other side of the balance.
 
-The richest and bigger contries in the world have the great number of suicide and depression of the world. There you have a lot of ways to keep you in just the pleasure side of the balance. When you keep yourself in just one side of the balance for a long way, you can be playing against yourself.
+The richest and bigger countries in the world have the greatest number of suicides and depression in the world. There you have a lot of ways to keep you in just the pleasure side of the balance. When you keep yourself in just one side of the balance for a long way, you can be playing against yourself.
 
 ## How can we protect ourselves?
 

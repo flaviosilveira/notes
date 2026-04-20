@@ -16,8 +16,8 @@ Simple rules are shortcut thinking, and they simplify the processing of informat
 - Boundary rules - Yes / No Situations
 - Prioritizing rules
 - Stopping rules 
-- Hot to rules
-- Coordination rules (Example: japonese honeybee, Thermo Balling)
+- How to rules
+- Coordination rules (Example: Japanese honeybee, Thermo Balling)
 - Timing rules
 
 ## Create your own simple rules

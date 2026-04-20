@@ -11,9 +11,9 @@ Abolir o sofrimento é aniquilar o homem.
 Via com desconfiança qualquer sistema que prometesse felicidade através de soluções técnicas.
 Politica, projetos sociais, etc.. 
 
-Paradoxo: Se o sofrimento é inevitavel, como não sucumbir a ele?
+Paradoxo: Se o sofrimento é inevitável, como não sucumbir a ele?
 
-Flertou com o nilismo, a ideia onde nada faz sentido.
+Flertou com o niilismo, a ideia onde nada faz sentido.
 Em seus personagens, mostrava isso, nada faz sentido e tudo é permitido.
 Personagens que justificavam seus crimes, por conta de seu sofrimento.
 
@@ -37,7 +37,7 @@ Mas quando no abismo das escolhas, é nesse instante que a natureza do homem se 
 A liberdade é dom e maldição
 Pode gerar grandeza ou um grande caos.
 
-Talvez o homem não queira liberadade, preferem se entregar a líderes para aliviar o peso da escolha.
+Talvez o homem não queira liberdade, preferem se entregar a líderes para aliviar o peso da escolha.
 A Historia é cheia de povos que trocaram a liberdade pela promessa de pão e segurança.
 
 Mas ao aceitar perde-la, talvez você perca sua dignidade.
@@ -53,7 +53,7 @@ A liberdade, é o fardo que nos define.
 
 ## Culpa, redenção e o peso do perdão
 
-O homem livre para escolher, comete erros, e essos erros deixam cicatrizes na alma.
+O homem livre para escolher, comete erros, e esses erros deixam cicatrizes na alma.
 A verdadeira prisão, é a consciência.
 
 Cedo ou tarde, o mal cometido volta para atormentar quem o fez
@@ -66,13 +66,13 @@ Nem todos os personagens de Dostoievski chegam na redenção.
 Alguns se perdem na culpa.
 Buscam o esquecer em vícios, em ideologias, mas o peso nunca desaparece.
 
-A culpa é uma força ambigua, pode elevar como matar.
+A culpa é uma força ambígua, pode elevar como matar.
 
 Dostoievski, coloca a culpa como indispensavel..
 O homem precisa ver a escuridão dentro de si, para sentir a necessidade da luz
 possibilidade de transformação
 
-O mesmo peso que arrasta o homem ao desespero, pode leva-lo a salvação.
+O mesmo peso que arrasta o homem ao desespero, pode levá-lo à salvação.
 Um abismo, ou uma ponte.
 
 O caminho da culpa não é negá-la, mas atravessá-la
@@ -116,7 +116,7 @@ Precisamos acreditar, mesmo quando tudo parece desabar.
 Sofrimento, escola da alma.
 Não apenas punição, caminho para o crescimento, o encontro com o divino.
 
-Mas, nem todo sofrimento salva, alguns se perdem, invés de se resgatar, fecha a possibilidade de espoerança.
+Mas, nem todo sofrimento salva, alguns se perdem, em vez de se resgatar, fecha a possibilidade de esperança.
 
 Essa ambiguidade em Dostoievski é nítida.
 
@@ -126,12 +126,12 @@ O sofrimento é a chave que pode trancar, ou libertar a alma.
 
 ## A Psicologia profunda e a alma dividida
 
-Antes de Froid, Dostoievski já sabia da mente humana.
+Antes de Freud, Dostoievski já sabia da mente humana.
 Mostrava em seus livros, radiografias da alma.
 
 Dilemas morais maiores que si próprios.
 
-O homem não ee uno, mas várias vozes em constante conflito.
+O homem não é uno, mas várias vozes em constante conflito.
 Sua literatura, é psicanalise em forma de arte.
 
 O mal não está apenas lá fora, mas dentro de cada um.
@@ -142,7 +142,7 @@ A verdadeira compreensão do homem, só acontece quando encaramos sua escuridão
 
 ### O Amor a compaixão e o paradoxo da humanidade
 
-Para Dostoievski o amor verdadeiro é aspero, nasci do sofrimento e exige esforço.
+Para Dostoievski o amor verdadeiro é áspero, nasce do sofrimento e exige esforço.
 
 Amar é um ato de rebeldia contra as desesperanças.
 
@@ -162,7 +162,7 @@ Escolher é arriscado, não existe escolha neutra.
 
 O homem é capaz de se auto destruir, para provar que é livre.
 
-O destino pode nos empurrar, mas somos nos que decidimos se caimos ou levantamos.
+O destino pode nos empurrar, mas somos nós que decidimos se caímos ou levantamos.
 
 ### O Mal, o demônio interior e a luta
 
@@ -172,7 +172,7 @@ O mal disfarçado de bem, personagens que cometem crimes, acreditando servir a u
 Dostoievski não acreditava em utopias.
 pois o mal está dentro de nós.
 
-Quem ignora sua propria escuridão, acaba sendo dominada por ela.
+Quem ignora sua própria escuridão, acaba sendo dominado por ela.
 Nunca estaremos livres do mal, mas sempre podemos escolher lutar contra ele.
 
 ### A Eternidade do conflito humano e a busca por sentido
@@ -182,14 +182,14 @@ Consideram sua sabedoria sombria, pois ele reconhece que o conflito humano é et
 
 O homem está condenado a viver entre extremos.. a fé e a dúvida, o amor e o ódio, entre a liberdade e a tentação de se entregar.
 
-A Alma não é estática, é dinamica, marcada por quedas e ascensões.
+A Alma não é estática, é dinâmica, marcada por quedas e ascensões.
 
 Eternidade do conflito humano..
 Não existe paz duradoura, A vida é feita de tensões.
-O verdadeiro caminho nõa está em suprimir as trevas, mas em enfrenta-la todos os dias.
+O verdadeiro caminho não está em suprimir as trevas, mas em enfrentá-la todos os dias.
 
 Para Dostoievski, não se chega em um ponto de conforto absoluto.
-O conflito é inevitavel, e o que importa não é o final, mas como a gente atravessa a batalha.
+O conflito é inevitável, e o que importa não é o final, mas como a gente atravessa a batalha.
 
 Dostoievski nos ensina que a vida não é uma promessa de descanso, mas uma convocação para a luta.
 Não espere que a vida se resolva, não espere que as trevas desapareçam.
@@ -200,17 +200,17 @@ O que importa, é como você resolve caminhar por elas.
 O Risco de uma sociedade que se entrega a ideologias, sem fundamento espiritual.
 Não apenas na politica, mas na alma coletiva.
 
-Ordem aparente, sustentada pela medo ou pela força.
-Dostoievski adiantou vários mals do século 20.
+Ordem aparente, sustentada pelo medo ou pela força.
+Dostoievski adiantou vários males do século 20.
 
-O futuro da humanidade, depoende da luta silenciosa de cada consciência.
+O futuro da humanidade, depende da luta silenciosa de cada consciência.
 Não há futuro sem moralidade e não há moralidade sem espiritualidade.
 
 Cada ato pessoal, eco no destino coletivo.
 
 ### A Arte, a Literatura e a missão espiritual do escritor
 Dostoievski via a arte como um meio de explorar os abismos da alma humana.
-Cada romance, um campo de batalha entr ideias, sentimentos e destinos.
+Cada romance, um campo de batalha entre ideias, sentimentos e destinos.
 
 Une narrativa e filosofia.
 Seus personagens são encarnações de dilemas existenciais, expressões vivas do que significa ser humano.
@@ -218,10 +218,10 @@ Seus personagens são encarnações de dilemas existenciais, expressões vivas d
 ### A fé cristã ortodoxa
 A fé como papel em sua vida, espiritualidade visceral.
 
-Dostoievski via a fé como um antidoto ao nilismo.
+Dostoievski via a fé como um antídoto ao niilismo.
 onde apenas a fé, daria um sentido a liberdade humana.
 
-Sabia que o cristianismo, quando usada como ferramenta de poder, vira tirania.
+Sabia que o cristianismo, quando usado como ferramenta de poder, vira tirania.
 O que deveria libertar, se torna a prisão mais cruel.
 
 Sabedoria paradoxal.

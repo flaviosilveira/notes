@@ -21,7 +21,7 @@ Esfregar toda a borda, degraus e fundo.
 Com o catador, pegar as sujeiras grandes, folhas e etc e remover.
 
 ## Pré filtro
-Pré filtro é uma pequena peça que parece um canudo, que é encaixado abaixo doo local do filtro.
+Pré filtro é uma pequena peça que parece um canudo, que é encaixado abaixo do local do filtro.
 Deixando a piscina ligada sem o filtro, com produtos circulando, pode gerar um resíduo como areia no fundo.
 
 Remover a sujeira do fundo com a mão. A "areia" você pode remover com um pano após remover o pré filtro.
@@ -37,7 +37,7 @@ Lembre-se: Mantenha o retorno sempre aberto.
 
 ## Filtro
 O filtro é como um saco de aspirador. 
-Ele é preso com ooduas argolas, uma encaixada dentro e outra por fora, entrando abaixo do saco e fechando em cima.
+Ele é preso com duas argolas, uma encaixada dentro e outra por fora, entrando abaixo do saco e fechando em cima.
 
 Encaixe o filtro na casa de máquina. Ele não tem encaixe, é apenas na pressão.
 
@@ -62,7 +62,7 @@ Passe o cano de aspiração por dentro da entrada para a casa de máquinas e con
 
 ### Aspirar
 Feito isso basta ligar o motor em retorno e aspire.
-(Caso tenha feito decanação, vocøê precisa fazer a aspiracão com dreno, não retorno)
+(Caso tenha feito decantação, você precisa fazer a aspiração com dreno, não retorno)
 
 A aspiração é com movimentos leves, para não subir a sujeira.
 

@@ -22,7 +22,7 @@ Se o menor atomo que existe, Hidrogênio, fosse um prédio de 3 andares, seu n�
 
 - eu não sei, eu não tenho certeza, se as coisas são como são porque assim devem ser... ou se são como são por nós acreditarmos que assim devem ser.
 
-- Se a melhor forma de apreder é no Caos, o que os cursos estão fazendo? Tentando organizar o Caos? (Se mudar para o país de origem para aprender o idioma)
+- Se a melhor forma de aprender é no Caos, o que os cursos estão fazendo? Tentando organizar o Caos? (Se mudar para o país de origem para aprender o idioma)
 
 - Dado :: Cientistas dizem que a fluência é alcançada quando estamos de duas a três mil palavras em um idioma. Mas constata-se que no dia a dia só usamos em torno de 600 palavras. Pois as vivências humanas são bastante similares e semelhantes.
 

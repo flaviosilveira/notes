@@ -1,7 +1,7 @@
 # Neo4J
 
 Nodes
-Proporties: name:value
+Properties: name:value
 Labels
 
 Relationships
@@ -52,7 +52,7 @@ variáveis a para ator e aMovies para os filmes
 Retorna o node com as ligações, porque aqui estamos retornando o objeto
 MATCH (a {name:"Tom Hanks"}) -[:ACTED_IN]->(aMovies) RETURN a,aMovies
 Se retornar apenas aMovies apenas, vem os nodes dos filmes soltos
-Reparar que é como se desenhasse uma seta na query -[:relantioship]->
+Reparar que é como se desenhasse uma seta na query -[:relationship]->
 
 Busca de fora para dentro
 Quem dirigiu o filme

@@ -7,7 +7,7 @@ Seneca
 Cato
 
 - Praticar coisas, momentos onde você se sinta embaraçado (Roupa ridícula, Bigode)
-São coisas superficiais, que você mão deve ligar. É um treino para focar em coisas maiores.
+São coisas superficiais, que você não deve ligar. É um treino para focar em coisas maiores.
 
 - Pratique seus piores cenários, praticar a pobreza
 
@@ -39,7 +39,7 @@ Marcus Aurelius
 - Jejum de quinta a noite a sábado a noite
 - Hyperbaric oxygen => 2.5 Atmospheres. 1 hora, 3 vezes por semana
 
-- Reading fiction before bad - Insoomnia
+- Reading fiction before bed - Insomnia
 
  - Aprender qualquer coisa
 - Tolerar dor e sofrimento

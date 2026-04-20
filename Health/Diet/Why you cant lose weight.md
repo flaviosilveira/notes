@@ -1,14 +1,14 @@
-## Why you cant Lose Weight
+## Why You Can't Lose Weight
 
-#### You didnt set a goal. You got to be clear
+#### You didn't set a goal. You got to be clear
 
-#### You didnt create a roadmap
+#### You didn't create a roadmap
 
-#### You didnt identify your emotional eating
+#### You didn't identify your emotional eating
 
-#### You didnt hydrate yourself
+#### You didn't hydrate yourself
 
-#### You didnt avoid foods that increase your appetite
+#### You didn't avoid foods that increase your appetite
 
 Refined carbs, like white rice, sugar, fries and things made out of white flour increase your blood sugar dramatically, and very fast. High blood sugar is harmful to your body, so your body’s response is robust – it produces a load of insulin which brings your blood sugar back down quickly. The result is a rebound low blood sugar. This has you feeling really hungry, often only a short time after you’ve eaten. This drives you to eat more, even though you may have already eaten more calories than you need.
 

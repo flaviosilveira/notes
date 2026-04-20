@@ -5,7 +5,7 @@ bid is “the fundamental unit of emotional communication.” It can come in the
 
 Three ways to respond to a bind:
 - Turn Toward - Reply
-- Turn Against - Arguee
+- Turn Against - Argue
 - Turn Away - Ignore
 
 ## Gottman’s 5-step program to strengthening your relationships

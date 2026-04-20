@@ -33,9 +33,9 @@ Domain with a dot at the end.
 
 Root servers will know what TLD (Top-level Domain) servers will know the domain.
 TLD Servers will return with another server that may know the IP of the domain
-You can use DNSTracer software to check that happenning in real time.
+You can use DNSTracer software to check that happening in real time.
 
-In UDP/IP you dont know about the status of what you send. It is like a letter, you just sent.
+In UDP/IP you don't know about the status of what you send. It is like a letter, you just sent.
 
 ## HTTP
 Uses TCP/IP.

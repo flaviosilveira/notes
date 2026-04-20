@@ -2,7 +2,7 @@
 
 ## Execution Context
 
-Memory component - Also know as variable environment, this memory component is responsable for store variables and functions as key-values pairs.
+Memory component - Also know as variable environment, this memory component is responsible for storing variables and functions as key-values pairs.
 
 Code component - Also know as Thread of execution. Code component is the place where code is executed line by line.
 
@@ -20,10 +20,10 @@ console.log(sum);
 ```
 
 Browser will execute the code in two phase. Memory and Code.
-Javascript will scan thought all the code and allocate memory for all variables and functions.
-Variables will be set as undefinied and for functions it will keep the entire code of the function.
+Javascript will scan through all the code and allocate memory for all variables and functions.
+Variables will be set as undefined and for functions it will keep the entire code of the function.
 
-In the second phase, it starts going thrhough the whole code line by line. As it encounters var a = 2, it assign it to the memory, the same for b. And then it calculate the sum and store it in the memory. It will print the sum and destroy everything.
+In the second phase, it starts going through the whole code line by line. As it encounters var a = 2, it assign it to the memory, the same for b. And then it calculate the sum and store it in the memory. It will print the sum and destroy everything.
 
 ### Example 2
 ```
@@ -39,14 +39,14 @@ var square4 = square(4);
 ```
 It will work as in the example 1. When it face the function, it will allocated the function in the memory and jump to the next line.
 
-When the function is called, Javascript will create a new memory/code context. For all the parameters and variables it will allocated memory as undefinied and the execute code line by line. Once the function returns the value, it will destroy that context.
+When the function is called, Javascript will create a new memory/code context. For all the parameters and variables it will allocated memory as undefined and the execute code line by line. Once the function returns the value, it will destroy that context.
 
 Keep in mind that When a function is invoked in JavaScript, JavaScript creates an execution context. Execution context will get complicated as we nest functions inside a function.
 
 ---
 
 - var -> Exists in all the code
-- let -> Just exists in the block where it was definied
+- let -> Just exists in the block where it was defined
 - const -> works exactly like let, but for constants
 
 ```
@@ -187,9 +187,9 @@ let output = identity<string>("myString");
 
 ---
 
-### Unknow versus any
+### Unknown versus any
 
-- Unknow can just be unknow or any
+- Unknown can just be unknow or any
 - Any can be anything
 
 ---

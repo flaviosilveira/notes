@@ -5,7 +5,7 @@
 #### Get the doc with _id = 1
 ```{{url}}/index-name/_doc/1```
 
-####Search
+#### Search
 
 ```{{url}}/index-name/_search```
 
@@ -57,7 +57,7 @@ Must -> required, Should -> desirable, Must Not -> Not Desirable
 ```
 
 ##### Use Query string to use wildcards with the field names
-The example below will match fields liek *info.profile.age*, *info.details.age* and so on.
+The example below will match fields like *info.profile.age*, *info.details.age* and so on.
 
 ```
 {

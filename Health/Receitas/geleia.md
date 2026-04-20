@@ -1,3 +1,3 @@
-# Geléia de morango
+# Geleia de morango
 
 Ao fogo levar Morango, água e um pouco de sucralose

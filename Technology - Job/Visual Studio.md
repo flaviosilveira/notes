@@ -6,7 +6,7 @@
 ## Minimap
 ```CMD + p -> '> toogle minimap'```
 
-## All ocurrences in the file
+## All occurrences in the file
 CMD + d
 
 

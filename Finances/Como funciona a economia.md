@@ -5,7 +5,7 @@ José Kobori
 
 - Um habitante, fisicamente mais forte, toma a força as terras de outro. Os demais habitantes, se reunem e encontram como solução a criação do estado da ilha. Para estabelecer algumas regras e harmonia de todos.
 
-###Criação do estado
+### Criação do estado
 
 - Com a criação do estado da Ilha, os habitantes escolhem um presidente e elegem 3 representantes para que escrevam as regras que passarão a ser seguidas por todos. Em seguida escolhem um Juiz para fazer cumprir essas regras. Estão criados os 3 poderes.
 Criação da moeda
@@ -34,13 +34,13 @@ Então a criação da moeda: Facilitou a troca, Permitiu a expansão, ampliou as
 
 - Com o tempo foram necessários assessores para ajudar nas tarefas do estado. Além da solicitação de policiais para se fazerem cumprirem as decisões. O estado de antes 5 servidores públicos, agora eram 13. Com o aumento do custo do estado, foi necessário aumentar os tributos, que passaram a ser 30% da renda dos habitantes.
 
-### Criação da dívida públicos
+### Criação da dívida pública
 
 - Com isso o estado decidiu que era sua função fazer a limpeza de tudo, criar entretenimento, criar segurança. Mas não havia recursos, pois a arrecadação ia toda para a folha de pagamento.
 
 - Para não aumentar mais os tributos, o estado pede dinheiro emprestado para os habitantes. Criando um título de dívida. Os habitantes emprestariam seu dinheiro para o estado em troca de uma taxa de juros. 
 
-- Os poupadores agora tinham mais uma opção. Invés de emprestar dinheiro para os empreendedores, podia emprestar para o estado.
+- Os poupadores agora tinham mais uma opção. Em vez de emprestar dinheiro para os empreendedores, podiam emprestar para o estado.
 
 - O estado passa a ser o maior concorrente pelos recursos da ilha. Quanto mais dinheiro emprestado para o governo, menos dinheiro para os negócios produtivos dos habitantes da ilha.
 

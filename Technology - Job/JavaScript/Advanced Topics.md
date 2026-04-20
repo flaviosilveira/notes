@@ -1,7 +1,7 @@
 ## Closures
 
 Definition: 
-- 1) A function that remember it lexical scope even been executed outside his lexical scope. 
+- 1) A function that remembers its lexical scope even when executed outside its lexical scope. 
 - 2) A function that has access to its parent scope, even after the parent scope has closed.
 
 ```
@@ -78,7 +78,7 @@ Promises were introduced in JavaScript ES6.
 
 Definition: Webpack is a tool that lets you compile JavaScript modules, also known as module bundler. Given a large number of files, it generates a single file (or a few files) that run your app.
 
-##Babbel
+## Babel
 
 Definition: Babel is a toolchain that is mainly used to convert ECMAScript 2015+ code into a backwards compatible version of JavaScript in current and older browsers or environments.
 

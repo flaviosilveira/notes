@@ -1,7 +1,7 @@
-#French
+# French
 
 C’est joli
-C’est amusant - C’ets drôle
+C’est amusant - C’est drôle
 C’est nuageux
 C’est nul
 C’est orageux
@@ -53,9 +53,9 @@ C’est trop grand
 C’est trop petit
 C’est trop serré
 
-De quelle couller?
+De quelle couleur?
 
-Desolé, J’ai quelque chose de prévu demain.
+Désolé, J’ai quelque chose de prévu demain.
 Du 2 au 4 août
 
 Elle fait combien, cette chemise?
@@ -78,7 +78,7 @@ il fait froid
 il fait mauvais
 Il fait quel temps?
 il neige
-Il n’y a pas d’eau chaud
+Il n’y a pas d’eau chaude
 
 Il y a la télé dans la chambre?
 J’achète le journal
@@ -122,7 +122,7 @@ Le chauffage ne marche pas
 Où est l’ascenseur?
 
 Où est-ce que je peux garer ma voiture?
-Je m’ai pas bien compris
+Je n’ai pas bien compris
 
 Prenez la deuxième rue à droite
 Puis je travaille de une heure et demie à six heures

@@ -14,7 +14,7 @@
 
 22 - Ninguém se preocupa em viver bem, mas em viver muito.
 
-28 - De nada as viagens te benefeciam quando te levas contigo. O que buscas encontra-se em todos os lugares.
+28 - De nada as viagens te beneficiam quando te levas contigo. O que buscas encontra-se em todos os lugares.
 
 32 - Em tão breve vida, nós a tornamos ainda mais breve com nossa inconstância.
 
@@ -26,7 +26,7 @@
 
 84 - Aja sempre com a razão, renuncie prazeres do corpo e da alma. Eles amolecem e debilitam.
 
-88 - Uns não me dão a luz que poderá me conduzir para a compreensão da verdade; outros me arrancam os olhos. Se acredito em Protágoras, nada na natureza é incerto. Se acredito em Nausífeme, a única coisa certa é aincerteza. Se em Parmenide, só existe uma coisa; Se em Zenão, nenhuma.
+88 - Uns não me dão a luz que poderá me conduzir para a compreensão da verdade; outros me arrancam os olhos. Se acredito em Protágoras, nada na natureza é incerto. Se acredito em Nausífeme, a única coisa certa é a incerteza. Se em Parmenide, só existe uma coisa; Se em Zenão, nenhuma.
 
 93 - Viver muito tempo quem decide é o destino. Viver plenamente, teu espírito.
 

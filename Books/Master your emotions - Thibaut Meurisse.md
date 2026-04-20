@@ -33,10 +33,10 @@ slow breathing reduces anxiety, rapid breathing relieves stress
 In order to alter and modify something, you must first understand how it’s made.
 There are two kinds of emotions: Spontaneous (fear of a bear) and created emotions.
 
-We can change created oemotions by simple formula.
+We can change created emotions by simple formula.
 formula: interpretation + identification + repetition = strong emotion
 
-Interpretation: This interpretation is usually based on your ego. free from your ego. would you feel angry at someone for their political views if you stop thinking about your political beliefs as part of your ego?
+Interpretation: This interpretation is usually based on your ego. Free from your ego — would you feel angry at someone for their political views if you stop thinking about your political beliefs as part of your ego?
 
 Identification: The more attention you give it, the more powerful it becomes. The opposite is also true.
 

@@ -1,4 +1,4 @@
-# Marechal Floriano OPeixoto
+# Marechal Floriano Peixoto
 
 Foi meio ditador, em seu governo:
 

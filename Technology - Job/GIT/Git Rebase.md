@@ -7,20 +7,20 @@
 ```git rebase --abort```
 
 ## Reword a commit
-Inside de interactive mode, you have the commands.
+Inside the interactive mode, you have the commands.
 Use the reword command and change the commit message
 
 ## Editing the files of the commit itself
-Using the edit command inside the inrective mode, you will be moved to a stage where you are editing the commit.
+Using the edit command inside the interactive mode, you will be moved to a stage where you are editing the commit.
 After update everything that you want, use continue, and not commit.
 ```git rebase --continue```
 
 ## Squash commits
 Use the s command to combined the commit with the one above it
 
-## Execute arbitrary commands beetween commits
+## Execute arbitrary commands between commits
 In the interactive mode, you can execute arbitrary commands between the commits.
-Maybe you can run a code sniffer tool between them and check wich one break it.
+Maybe you can run a code sniffer tool between them and check which one breaks it.
 
 ## Break between them
 

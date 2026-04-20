@@ -10,7 +10,7 @@ The size to complete a function increases linear to the size of the input
 
 ```O(n)```
 
-### Contant Time
+### Constant Time
 The time it takes to complete a function, will not increase at all as the size of the input increases.
 
 ```O(1)```
@@ -20,13 +20,13 @@ The time it takes to complete a function, will not increase at all as the size o
 ```O(log n) ```
 
 ```
-Logarithm: The opposite of exponet. 
+Logarithm: The opposite of exponent. 
 How many times I have to divide base by log, to get one?
 ```
 
 ### QuasiLinear
 
-### Exponencial time
+### Exponential time
 
 #### Quadratic Time
 The time it takes to complete a function increases quadratic.
@@ -35,12 +35,12 @@ The time it takes to complete a function increases quadratic.
 
 #### Cubic time
 
-### Factorial runtime:w
+### Factorial runtime
 
 
 ## Space complexity
 
-### Contant Time
+### Constant Time
 O(1)
 
 

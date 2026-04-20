@@ -11,10 +11,9 @@ When I used past perfect, I can check which event happen before the other.
 
 ```She had just finished her exam when the timer went off```
 
-```I couldn't go oout to dinner because I had left my wallet at home```
+```I couldn't go out to dinner because I had left my wallet at home```
 
-```He had mentioned feeling sick, but then they were surprised when he suddenly
-faited```
+```He had mentioned feeling sick, but then they were surprised when he suddenly fainted```
 
 ### Formula
 
@@ -32,7 +31,7 @@ HAD + ADVERB + PAST PARTICIPLE
 
 ```had just...had really....had already```
 
-just -> Immediatly after
+just -> Immediately after
 already -> early than expected
 
 ```He had just got in the shower when he heard a knock in the door```

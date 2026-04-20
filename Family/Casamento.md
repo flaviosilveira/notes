@@ -1,10 +1,10 @@
-#
+# Casamento
 
-## Habitos
+## Hábitos
 
 - Carinhosos em qualquer lugar
 - Não fofocam um sobre o outro
-- Se abraçam e se beijam para começar e terinar o dia
+- Se abraçam e se beijam para começar e terminar o dia
 - Ir para o quarto juntos toda noite
 - Fazem pequenas coisas um pelo outro
 - Comemoram as conquistas do parceiro

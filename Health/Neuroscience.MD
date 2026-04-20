@@ -1,7 +1,0 @@
-#
-
-Andrew Huberman - Neoroscientist
-
-# 
-
-Dopamine

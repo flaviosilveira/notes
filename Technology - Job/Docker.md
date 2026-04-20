@@ -85,7 +85,7 @@ Mysql demora para subir. Acompanhe pelos logs o momento que ele está pronto par
 - No host para conexão no arquivo php, use o Alias que você escolheu no link
 - docker restart para reiniciar o serviço e voilá!
 
---link está depreciado e deve ser removida em breve, invés disso utilizar redes para comunicar os containers. docker network
+--link está depreciado e deve ser removido em breve, em vez disso utilizar redes para comunicar os containers. docker network
 - todo container tem um IP interno, ele pode ser visto com o comando docker inspect
 - docker port [nome do container] mostra as portas expostas dos containers
 
@@ -129,7 +129,7 @@ Agora é fazer novamente o teste usando o nome da máquina no seu arquivo pdo.ph
 
 - iniciar nginx
 - instalar pdo_mysql
-- reiniciar pp-fpm
+- reiniciar php-fpm
 
 ### Quer estudar Neo4j ?
 - Procure no docker hub

@@ -5,11 +5,11 @@
 At, is used for a specific thing, time, location. But it have nothing to do with transportation. 
 
 ### On
-On, is used for large veicles.
+On, is used for large vehicles.
 ```
 On the train
 On the bus
-On thre plane
+On the plane
 ```
 
 You are sharing those large ways of transportation with other people.
@@ -40,7 +40,7 @@ I got here by car.
 ```Meet me at my house```
 At is very specific. *at my house*, not in the street, not in the city, etc...
 
-Or in a specific addresss:
+Or in a specific address:
 ```Meet me at 657 Boulevard```
 Not *In*, not *on*... It is in that specific address.
 
@@ -52,7 +52,7 @@ Like in the trasportation, you use on for things or people that stand in the are
 ### In
 In, you use for surfaces also, but now you are inside, you have an obstacle between you and the thing or people you are talking about.
 ```He is in the house```
-You will need to open a door or break a wall to see he.
+You will need to open a door or break a wall to see him.
 
 ### By
 You use it with location to talk about something that is near or close.
@@ -63,13 +63,13 @@ You use it with location to talk about something that is near or close.
 
 ### At
 Remember that *at* is for specific thing. So:
-```At 9 o'clock'```
+```At 9 o'clock```
 
 ### On
 On is used for days
 ```On monday, on tuesday```
 Think in a day as a surface, it has 24 hours, so *on that day*
-```On my birthday, on christmass```
+```On my birthday, on Christmas```
 
 ### In
 You use In for weeks, months or years.

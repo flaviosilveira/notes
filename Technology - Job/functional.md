@@ -35,7 +35,7 @@ Focuses on "what" the function wants to achieve rather than "how" it achieves.
 The function should receive everything it needs to work. It should not rely on external (therefore not controllable) state.
 
 ### Recursion Over Iteration
-Prefer using recursing over loops to process sequential data.
+Prefer using recursion over loops to process sequential data.
 
 ### Lazy Evaluation
 Avoid computation until it is strictly necessary to improve performance.

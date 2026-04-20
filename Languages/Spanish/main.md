@@ -2,14 +2,14 @@
 
 Hola
 Buenos dias
-Como estas
+Cómo estás
 Muy Bien
 Bien
 Así Así
 Ni fu ni fa
 Ñ = Som de nh
 Hoy = Hoje
-Qué dia es hoy?
+Qué día es hoy?
 hoy vamos a caminar más
 Ayer = Ontem
 ayer caminó solamente
@@ -44,7 +44,7 @@ Me gustaría
 No sé
 No comprendo
 Puede repetir
-Usted habla demasiado rapido
+Usted habla demasiado rápido
 Puede hablar más despacio, por favor
 qué ha dicho?
 

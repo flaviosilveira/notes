@@ -1,4 +1,4 @@
-# Operationing Systems
+# Operating Systems
 
 ## 0th generation
 - John Atanasoff created a computer in 1940
@@ -28,19 +28,19 @@
 
 ###
 
-8-bits = 1 byte = 2 digts
+8-bits = 1 byte = 2 digits
 16-bits = 2 bytes = 4 digits
 
 ###
 
 A text editor is just able to read a group of binaries that represents letters, symbols and numbers
-Thats why when you open a ROM for example, you will see a bizarre text i the screen
+That's why when you open a ROM for example, you will see a bizarre text in the screen
 
 ```xxd -b text.txt```
 xxd allows a binary visualization in the files
 ```xxd text.txt``` will show in hexadecimal representation
 
-Unicode - Convention that map all characthers and all idioms
+Unicode - Convention that maps all characters and all idioms
 
 ### 
 

@@ -6,6 +6,6 @@
 
 - always see things in a way that can be, not how they are
 
-- be always a friend, listening, ask about the other sincerity. Learn to like people. Treat people how they were guests in your house.
+- be always a friend, listening, ask about the other sincerity. Learn to like people. Treat people as if they were guests in your house.
 
 - create an image from yourself ten years from now. Work, social, home.

@@ -1,9 +1,9 @@
 # isset / empty / is_null
 
-- isset return true only if a variable is not set as null
+- isset returns true only if a variable is not set as null
 isset is always faster than other functions
 
-- empty return if the variable is a empty string, array,NULL,0,? and even an unset variable
+- empty returns true if the variable is an empty string, array, NULL, 0, and even an unset variable
 
 - is_null can be used just for declared variables
 

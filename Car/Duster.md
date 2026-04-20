@@ -4,7 +4,7 @@
 - Desligar ar condicionado ao atingir a temperatura agradável
 
 - Manter Calibragem dos Pneus correta. Verificar toda semana
-A calibragem adequada está ao lado da porta do motorista ou na tampoa de combustível.
+A calibragem adequada está ao lado da porta do motorista ou na tampa de combustível.
 A calibragem deve ser feita com os pneus frios.
 
 - Não ande com os vidros abertos acima de 100km por hora. Isso aumenta o consumo em 4%.

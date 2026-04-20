@@ -6,6 +6,6 @@ The severity of the FDIV bug is debated. Though rarely encountered by most users
 
 In December 1994, Intel recalled the defective processors. In January 1995, Intel announced "a pre-tax charge of $475 million against earnings, ostensibly the total cost associated with replacement of the flawed processors." This is equivalent to $743 million in 2019.
 
-[Wikepedia](https://en.wikipedia.org/wiki/Pentium_FDIV_bug)
+[Wikipedia](https://en.wikipedia.org/wiki/Pentium_FDIV_bug)
 
 

@@ -8,7 +8,7 @@
 ## Pessoas
 
 - Umas buscam fugir do sofrimento, outras buscam prazer. São motivadores.
-2 funcionários, um foge do sofrimento o outro busca porazer. como motivá-los?
+2 funcionários, um foge do sofrimento o outro busca prazer. como motivá-los?
 
 - Você e os dois em uma sala. X evita sofrimento, Y busca prazer.
 "X, Eu, você e o Y vamos fazer um projeto. Vou te explicar o que vai acontecer de ruim se o projeto não der certo"
@@ -23,9 +23,9 @@
 
 - O Erro quando muito bem interpretado, é altamente pedagógico. Quando tudo da certo de primeira, você não aprende nada.
 
-- Aprender por eurística, o aluno descobri por si só o que é para ser aprendido.
+- Aprender por heurística, o aluno descobre por si só o que é para ser aprendido.
 
-- Inteligiencia é tornar o invísivel, visível. Se eu vejo algo que você não consegue, eu consigo fazer algo que você não consegue.
+- Inteligência é tornar o invisível, visível. Se eu vejo algo que você não consegue, eu consigo fazer algo que você não consegue.
 
 - Educação é aquilo que fica depois que você esquece tudo que aprendeu. o que fica? Modelos
 
@@ -33,7 +33,7 @@
 
 - A escola lhe passa informação, a vida lhe exige competência. O que cai na prova, não cai na vida.
 
-- A quantidade de dinheiro que você vai gerar na sua vioda, é diretamente proporcional a velocidade que a roda da abundância vai girar na sua vida. A roda da abundânica tem dois lados: Doar e receber. Você pode doar para quem precisa: Caridade. Ou você pode doar para quem não precisa: Generosidade. Doar é metade da roda. Doar é um grande segredo.
+- A quantidade de dinheiro que você vai gerar na sua vida, é diretamente proporcional a velocidade que a roda da abundância vai girar na sua vida. A roda da abundância tem dois lados: Doar e receber. Você pode doar para quem precisa: Caridade. Ou você pode doar para quem não precisa: Generosidade. Doar é metade da roda. Doar é um grande segredo.
 
 - Se você pratica só caridade, sua mensagem é: "No mundo só ganha quem precisa"
 - Se você pratica também generosidade, sua mensagem é: "Mesmo quem não precisa ganha. Não preciso fica precisado para receber"
@@ -55,7 +55,7 @@ Dízimo pessoal: Sagrado. Tirar 10% quando se recebe o dinheiro, é um imã para
 é uma mensagem sublinar para o universo. "Vivo em um mundo abundante, está sobrando"
 
 Preconceitos: é mais fácil um camelo passar pelo fundo de uma agulha do que um homem rico entrar no céu.
-Em jerusalém, qualquer caravana de camelo que chegasse após as 6 da tarde era proibidade entrar. A não ser que o camelo entrasse pelo fundo da agulha. Uma portinhola pequena, em que o camelo tinha que passar descarregado e de joelhos.
+Em jerusalém, qualquer caravana de camelo que chegasse após as 6 da tarde era proibido entrar. A não ser que o camelo entrasse pelo fundo da agulha. Uma portinhola pequena, em que o camelo tinha que passar descarregado e de joelhos.
 
 Ser humano quando chega no céu, não leva nada. Caixão não tem gaveta, mortalha não tem bolso. 
 Nada lhe pertence, você está tomando conta. não se apegue.
@@ -67,7 +67,7 @@ Levar ao pé da letra essa metáfora, sua vida é destinada errada.
 
 Mitos:
 - Trabalhar muito é causa de riqueza.
-Quem trabalha muito não tem tempo de ganhar dinehiro. Aprenda a alavancar.
+Quem trabalha muito não tem tempo de ganhar dinheiro. Aprenda a alavancar.
 
 - Não é certo trabalhar e se divertir ao mesmo tempo.
 Ter um hobby e cobrar por ele.

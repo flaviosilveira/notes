@@ -6,37 +6,37 @@ But have a life in music in Brazil is not that easy.
 
 
 
-At the time I had a student that invite Mme to work with him, I already create my websites at the time, with flash, html and css. I thought I knew a lot, but this guy teach me a lot
+At the time I had a student that invited me to work with him. I already created my websites at the time, with flash, HTML and CSS. I thought I knew a lot, but this guy taught me a lot.
 
 
 
-some time later he left the company and I thought that should be good for me also try my own path.
+Some time later he left the company and I thought that should be good for me to also try my own path.
 
-I became a developer in a company called IESDE. After 2 months one of the systems analysts go crazy and left the company. Since there is nobody else to do what that guy did, Here was me. I take control of the database administration and of the SVN version control. The company promoted me to analyst system.
+I became a developer in a company called IESDE. After 2 months one of the systems analysts went crazy and left the company. Since there was nobody else to do what that guy did, there was me. I took control of the database administration and the SVN version control. The company promoted me to systems analyst.
 
 
 
-But I thought that was to early to stop dirtying my hands with code, So I leave to work at home.
+But I thought that was too early to stop dirtying my hands with code, so I left to work at home.
 
 As a freelancer, remote. I got everything that comes to me. AdWords, SEO, E-commerces, WordPress Sites, and so on. One of the most cool things that I did was a code to located tractors in a parking, using GSM, Java and PHP.
 
 
 
-After that a recruiter called me for a opportunity in the Exxon mobil, The biggest oil company in the world. They have a office here in Curitiba. So I thought that was a opportunity for me to consolidate my English. And I think that works, since then I am more confident with my English already travel some other countries and work with a lot of guys outside Brazil. Was a temporary job, So after 1 and half year I was back to work at home.
+After that, a recruiter called me for an opportunity at ExxonMobil, the biggest oil company in the world. They have an office here in Curitiba. So I thought that was an opportunity for me to consolidate my English. And I think that worked — since then I am more confident with my English, have already traveled to other countries and worked with a lot of people outside Brazil. It was a temporary job, so after a year and a half I was back to working at home.
 
 
 
-But now, I was married, and my wife was not understanding very well how is to work at home.
+But now, I was married, and my wife was not understanding very well how it is to work at home.
 
-So I decided to looking for something and I found a developer job at a company called MalaPronta. An E-commerce where you get a room at a hotel and some stuff like that.
-
-
-
-The history repeats again, After 2 months as a developer, I became Team leader. And as team leader we killed the entire back log and also work in the website performance taking the website to 3 seconds average.
+So I decided to look for something and I found a developer job at a company called MalaPronta. An e-commerce where you can book a hotel room and similar things.
 
 
 
-That company close the doors, so my manager move to another one, A E-commerce again, furniture e-commerce called LojasKD, and he ask me togo with him. Since our company  was closed, we ask almost the same team to growth us. We have been working together for some time so was easy tosco the results and pass by a Black Friday with no problems.
+History repeated itself. After 2 months as a developer, I became team leader. As team leader we cleared the entire backlog and also worked on the website performance, taking the average load time to 3 seconds.
+
+
+
+That company closed its doors, so my manager moved to another one — an e-commerce again, a furniture e-commerce called LojasKD, and he asked me to go with him. Since our company was closed, we brought in almost the same team. We had been working together for some time, so it was easy to deliver results and get through a Black Friday with no problems.
 
 
 

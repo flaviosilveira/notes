@@ -12,7 +12,7 @@ Thoughts -> Feelings -> Actions -> Results
 
 Conditioning -> Thoughts -> Feelings -> Actions -> Results
 
-- When the mind needs to choose between the logical and the emotion, the emotion almost ever win.
+- When the mind needs to choose between the logical and the emotion, the emotion almost always wins.
 
 - Talking about money, we tend to be like our fathers. One of them in particular or a combination from both.
 
@@ -26,11 +26,11 @@ Conditioning -> Thoughts -> Feelings -> Actions -> Results
 PART 2
 
 - The first step for any change is the awareness
-- Choose the positive ways of think, and left the negative ones
+- Choose the positive ways of thinking, and leave the negative ones
 
 1 
 - I create my own life
-- Money is extremely important in areas where it makes results, and insignificant and areas where it doesn't have utility (What you choose? Your legs or your arms?)
+- Money is extremely important in areas where it makes results, and insignificant in areas where it has no utility (What you choose? Your legs or your arms?)
 - Not blame others, not justified to the others, not complaining of nothing
 
 2
@@ -45,7 +45,7 @@ PART 2
 - I commit to be rich
 
 4
-- The most of people think small because of the fear
+- Most people think small because of fear
 - I think Big. I choose to help a lot of people.
 - How can I reach 10 times more people that I am reaching now?
 
@@ -79,7 +79,7 @@ PART 2
 
 11
 - A life based in security is a life based in fear
-- I prefer be paid for my results, not for hour
+- I prefer to be paid for my results, not for hour
 
 12
 - You can’t have everything, but you can have what you want

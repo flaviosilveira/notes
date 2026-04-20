@@ -6,7 +6,7 @@ JavaScript Example
 ```
 
 No matter how high the precision is, you simply can’t represent the value exactly as it is in base 10 number system.
-Thats because of the way floating-point numbers are represented in binary. JavaScript follows the IEEE 754 standard for floating-point arithmetic, a common representation for floating-point numbers in computing, which can lead to precision issues with certain arithmetic operations.
+That's because of the way floating-point numbers are represented in binary. JavaScript follows the IEEE 754 standard for floating-point arithmetic, a common representation for floating-point numbers in computing, which can lead to precision issues with certain arithmetic operations.
 
 In PHP, 0.1 + 0.2 will often be 0.3, however it's important to note that the internal representation of floating-point numbers in PHP is subject to the same IEEE 754 standard, and the precision issues are still there; they just might not be apparent in simple echo statements depending on how PHP is configured or how the number is being used.
 

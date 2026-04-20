@@ -4,7 +4,7 @@
 
 - Iniciantes, aprender uma e ir para o trabalho. Conseguiu um trabalho, começa a olhar outras e se gostar vá aprendendo. Vc já vai estar com uma te sustentando e com a outra você vai aumentar seu arsenal.
 
-- Entender todas as camadas, seja curioso. Não apenas siga prosseguimentos. Em algum momento, saber as demais camadas vai salvar a sua pele. Se desafie!
+- Entender todas as camadas, seja curioso. Não apenas siga procedimentos. Em algum momento, saber as demais camadas vai salvar a sua pele. Se desafie!
 
 - Nunca se coloque no lugar em que você dependa única e exclusivamente de uma escolha. Você tem que diversificar.
 

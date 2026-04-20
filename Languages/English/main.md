@@ -5,7 +5,7 @@ Blizzard - Nevasca
 Spoil - Estragar
 Stranded - encalhado
 Drift - deriva
-Scoth Tape - Durex
+Scotch Tape - Durex
 Ceiling - Teto
 Stapler - Grampiador
 Complain - Reclamar
@@ -51,13 +51,13 @@ ship -
 Been there, done that / It aint my first rodeo
 
 Fat Chance  [Muito difícil de acontecer]
-Slim chance [Muito difícil de acontecer] Theres a slim chance of that happenning
-The Whole nine yards [tudo, completo, inteiro]
+Slim chance [Muito difícil de acontecer] There's a slim chance of that happening
+The Whole nine yards [tudo, completo, inteiro]
 
 Bend over backwards [quando se faz um esforço grande]
 I’m bending over backwards into these stuff
 
-What’s eating you? [O que te encomoda?]
+What’s eating you? [O que te incomoda?]
 
 Topped Off [Fechar com chave de ouro]
 With that, we can top this project off
@@ -79,7 +79,7 @@ Let me bounce off this idea, if I may.
 If you have a moment, I’d like to bounce an alternative plan off you.
 When you work in a team you can bounce your ideas off each other.
 
-Get a load of this, Its awesome! [Dá uma olhada nisso
+Get a load of this, It's awesome! [Dá uma olhada nisso
 
 
 Brick and Mortar store

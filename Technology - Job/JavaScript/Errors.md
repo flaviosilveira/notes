@@ -20,12 +20,12 @@ When an error appears, it is from one of the follow types:
 Out of the interval
 
 ### Reference Error
-Example: A variable not definied
+Example: A variable not defined
 
 ### Syntax error
 
 ### Type Error
-Example: A funcation that expect a number, and you pass a string
+Example: A function that expects a number, and you pass a string
 
 ### Assestion Error
 

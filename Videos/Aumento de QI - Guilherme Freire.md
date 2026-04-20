@@ -10,8 +10,8 @@
 
 Enquanto a Meditação moderna busca:
 Silenciar a mente, Observar pensamento, não julgar
-A Meditação agostianiana busca:
-Usar a mente, Dialogar com os pensamentos, Ciscenir, julgar e ordenar
+A Meditação agostiniana busca:
+Usar a mente, Dialogar com os pensamentos, Discernir, julgar e ordenar
 
 Para Guilherme Freire (e tradição cristã clássica), a mente não é um ruído a ser desligado, mas um instrumento a ser educado
 

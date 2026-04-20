@@ -1,6 +1,6 @@
 # Hugo
 
-Getting Start
+Getting Started
 https://gohugo.io/getting-started/usage/
 
 Migrate

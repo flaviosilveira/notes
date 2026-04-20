@@ -104,7 +104,7 @@ const clients: ClientSummary = {
 
 *Exclude utility*
 An alternative way is to use Exclude, but Pick is more robust since no changes
-are required when an additional propertie is added to Client Type.
+are required when an additional property is added to Client Type.
 ```
 type ClientSummary = Exclude<Client, 'dateOfBirth'>;
 ```

@@ -1,7 +1,7 @@
 # Bolo de Chocolate
 
 2 ovos inteiros
-2 colhetes Cacau em pó
+2 colheres de Cacau em pó
 2 colheres xilitol
 60 gramas de aveia
 200 ml de leite

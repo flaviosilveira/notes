@@ -7,7 +7,7 @@ SOURCE https://dev.to/nfrankel/hard-things-in-computer-science-4d0k
 
 ## Naming Things 
 
-I always cautioned about the following issues when talking with the business:
+I always caution about the following issues when talking with the business:
 
 - Using different words to cover the same reality
 - Using the same word to cover different realities

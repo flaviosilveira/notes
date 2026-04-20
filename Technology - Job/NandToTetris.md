@@ -1,6 +1,6 @@
 ## Nand To Tetris
 
-While learning a new programming language, we don't worry about the "how", just with the "what". when we see a code using print, actually p is a number for the computer, r is another number, and we listen about compilers and so on but we don't worry about that. Something need to make some pixels dark and other pixels light to write a HELLO in the screen, but we don't ask "how" just the "what". Thats the abstraction of a programming language, that help us.
+While learning a new programming language, we don't worry about the "how", just with the "what". when we see a code using print, actually p is a number for the computer, r is another number, and we listen about compilers and so on but we don't worry about that. Something need to make some pixels dark and other pixels light to write a HELLO in the screen, but we don't ask "how" just the "what". That's the abstraction of a programming language, that help us.
 
 ### Bit e Byte
 Bit é a menor unidade de informação que pode ser transmitida, podendo ter apenas dois valores, 0 ou 1, corte ou passagem de energia. Geralmente trabalhados em múltiplos de bits, os bytes. No começo os bytes tinham tamanhos variáveis, mas foi definido seu uso em octetos, 8 bits. b minúsculo é para representar bit. B maiúsculo é para representar Bytes, como em kB, MB, GB, TB.
@@ -49,7 +49,7 @@ But here I draw how to implement the NAND using NMOS implementation.
 VHDL, Verilog
 
 ### Unit 1.6
-- Multi-bit - Buses (a latin world that mean many or something like that)
+- Multi-bit - Buses (a Latin word that means "many" or something like that)
 - Buses are index right to left a[0] - the most right , a[15] - the most left
 
 ### Unit 1.7
@@ -138,9 +138,9 @@ Here is what people use. Something called 2's complement
 
 ### Computing -x
 Get the number, subtract from a number that is 1 in all spots, then add 1.
-When you subtract from a number that is 1 in all spots, you just flip all the binarys.
+When you subtract from a number that is 1 in all spots, you just flip all the bits.
 
-To add 1, flip all the binarys from right to left til the first 0 becomes a 1.
+To add 1, flip all the bits from right to left til the first 0 becomes a 1.
 
 ### Arithmetic Logic Unit
 John Von Neumann -> Von Neumann Architecture
@@ -151,12 +151,12 @@ In this course, we use 6 inputs to give the output of ours functions.
 ### Sequential Logic / Memory
 Until now, we just combine stuff since our first initial step, or NandGate. Now we need to do what computers must be able to, store state and data. To do that we will use memory elements.
 
-Implement memory elements, consist of a intricate art involving synchronization, clock and feedback loops.
+Implementing memory elements consists of an intricate art involving synchronization, clock and feedback loops.
 
 Remember something, is a thing that is time dependent. Thus, in order to build something that remember information, we need to have a way to represent the progress of time.
 
 ### Clock
-In most computers, the passage of time is represented by a master clock that using the hardware circuit send those signals to every chip in the computer. Is a simple sequence of two phases, 0 and 1, low and hight, tic - tac.. 
+In most computers, the passage of time is represented by a master clock that using the hardware circuit send those signals to every chip in the computer. Is a simple sequence of two phases, 0 and 1, low and high, tic - tac.. 
 
 The time between the beginning of a tic until the beginning of the next one, its called Cycle.
 

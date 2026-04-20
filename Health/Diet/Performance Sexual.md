@@ -2,7 +2,7 @@
 
 Alimentos com feniletilamina. O Queijo é melhor que chocolate nesse sentido.
 
-- Linchias
+- Lichias
   
 - Morango
   
@@ -18,7 +18,7 @@ Alimentos com feniletilamina. O Queijo é melhor que chocolate nesse sentido.
   
 - Queijo
   
-- Maça
+- Maçã
   
 - Amêndoas
   

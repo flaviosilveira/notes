@@ -1,4 +1,4 @@
-#Tallis Gomes
+# Tallis Gomes
 
 ## Monarquia vs. Democracia
 Ele se declara monarquista e critica duramente o sistema republicano e democrático brasileiro.

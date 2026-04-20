@@ -11,7 +11,7 @@ Produzir estimulos como se silêncio fosse fracasso.
 Você chama de vida chata, aquela rotina simples: Acordar, trabalhar, ler, caminhar.
 Mas isso não é tédio, é estabilidade.
 
-Quem não precisa de euforia, não ee fácil de manipular.
+Quem não precisa de euforia, não é fácil de manipular.
 
 ## O medo moderno do tédio
 
@@ -25,7 +25,7 @@ Encontra abstinência... e chamam isso de viver intensamente..
 Surgiu uma vergonha de dizer que no fim de semana você leu, descansou, caminhou.. 
 Como se ausência de espetáculo, fosse ausência de vida...
 
-Comparação constante.. Alguém que sempre está vioajando mais, fazendo mais...
+Comparação constante.. Alguém que sempre está viajando mais, fazendo mais...
 e você, parado.. parece estar ficando para trás.. 
 
 Mente desintoxicada... um encontro de você com você mesmo.. 
@@ -34,9 +34,9 @@ Acostumado a escutar seus pensamentos sem trilha sonora
 Você está realmente vivendo?
 Ou apenas se hiperestimulando para não sentir o que surge quando tudo fica em silêncio?
 
-## Waden
+## Walden
 
-Thoreau realmente foi morar as margens do lago Waden
+Thoreau realmente foi morar às margens do lago Walden
 Um experimento para fugir da rotina que pessoas tinham para bancar hábitos que nunca desejaram.
 
 Remover o excesso para enxergar o essencial.
@@ -54,7 +54,7 @@ A distração não é um efeito colateral da tecnologia.
 
 Uma mente inquieta reage
 Uma mente silenciosa escolhe
-Escolher é lento, exige pausa, exige criterio
+Escolher é lento, exige pausa, exige critério
 
 O sistema prefere velocidade
 velocidade impede consciência
@@ -72,7 +72,7 @@ conversar com alguém por horas, sem tirar o celular do bolso
 assistir ao por do sol, sem necessidade de provar q esteve ali
 
 A simplicidade não elimina a experiência
-Uma vida simples, não é monotomia, é previsibilidade emocional.
+Uma vida simples, não é monotonia, é previsibilidade emocional.
 
 ## O tédio como rito de passagem
 

@@ -80,11 +80,11 @@ Schedule the most challenge tasks for the time that you are productive, and meet
 - As a leader, make sure you spend time acquiring and keeping the best people in your company, rather than micro-managing and struggling to handle everything on your own. Hire people that are the best in areas that you are not. Be the dumbest person in the room.
 - if you need a quick boost of alertness, nap for 10 to 20 minutes; for cognitive memory processing, a 60-minute nap would suit best and a 90-minute nap will involve a full cycle of sleep, which boosts creativity, and emotional and procedural memory.
 - Do not check your email first in the morning. There are some CEOs that just check the email one or two times a week.
-- Listen to yourself. Check whats make you better, that fit better for you.
+- Listen to yourself. Check what makes you better, what fits better for you.
 - Set airplane days.
 - Use the 2-minute rule
 - Don't waste desk time. Reply emails on the go and save articles that you wanna read in some place better than a new tab.
-- Eat the frog first. Do the hard task first than others.
+- Eat the frog first. Do the hard task first, before others.
 - Always work with the decision matrix
 - Learn to say no. Learn to refuse invitations for every meeting. Go to one or two conferences per year.
 - Schedule appointments for yourself
@@ -113,7 +113,7 @@ Power of subconscious
 -Take at least one step every day from one of the items on your list
 -Visualize your goal repeatedly
 -Feel the feeling of success as if your goal were realised at this very moment
--Fake it it’ll you make it!
+-Fake it till you make it!
 -Relax your mind
 -Release your goal to your subconscious mind
 
@@ -135,7 +135,7 @@ Success is not that difficult if you decide to take one step at a time. Doing li
 - Read inspirational books for 30 minutes every day. Success leaves clues
   
 - Make time limits throughout your day
-- Take at less 30 minutes of your day for a physical activity. Take care of your body, it’s the only place where you have to live
+- Take at least 30 minutes of your day for a physical activity. Take care of your body, it’s the only place where you have to live
 - Make positive affirmations during the day
 - Every night say “Thank you”
 

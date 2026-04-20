@@ -10,7 +10,7 @@ Constituição de 1891: Um dos principais redatores da primeira constituição r
 
 Ministro da Fazenda: Criou a “política do encilhamento”, que tentou estimular a economia, mas acabou gerando inflação.
 
-Criou a primeira bandeira republicana, uma muito parecida com a dos estadops unidos. Ficou em vigor por 4 dias.
+Criou a primeira bandeira republicana, uma muito parecida com a dos Estados Unidos. Ficou em vigor por 4 dias.
 
 Em uma viagem a Paris, ele se encontra com D. Pedro II e fala: "Majestade, me perdoe, eu não sabia que a República era isso"; tamanha era a decepção com o estado do país após a proclamação da República. 
 

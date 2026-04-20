@@ -3,7 +3,7 @@
 ## Macro
 
 ### Carbohydrates
-The main font of energy to the body.
+The main source of energy for the body.
 Inside the body they are transformed into glucose.
 Glucose will keep the blood glucose, will feed our muscles with Glycogen.
 

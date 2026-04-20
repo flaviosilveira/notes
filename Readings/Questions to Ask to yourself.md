@@ -10,10 +10,10 @@ Q: Do I Live In The Present?
 A: Yes
 
 Q: What Are My Life Goals?
-A: in nowadays, I dont know!
+A: in nowadays, I don't know!
 
 Q: What Triggers My Stress?
-A: People that dont work properly.
+A: People that don't work properly.
 
 Q: Do I Recognize My Weaknesses?
 A: No

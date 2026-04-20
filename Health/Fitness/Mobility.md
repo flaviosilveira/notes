@@ -8,7 +8,7 @@
 - In Squat position, push the side of the knee to the floor
 - Stand up, Stretch to the floor
 - Same, crossing legs
-- Stand up, Strech Quadriceps
+- Stand up, Stretch Quadriceps
 - Sit Down, one leg to the front, one leg to the back, push the body forward
 
 ## Upper Members

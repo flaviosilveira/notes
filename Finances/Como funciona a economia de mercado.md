@@ -64,4 +64,4 @@
 
 - Quando você compra um título, o governo fica com seu dinheiro, você comprou um título dele. Se ele recomprar o título de você, ele está te devolvendo o dinheiro e assim incentivando o consumo. 
 
-- Aumento do consumo e aumento da impressão de papel moeda instimula o aumento dos preços. Ou seja, impulsionam a inflação de forma saudável, fazendo com que o banco central possa voltar a subir a taxa Selic.
+- Aumento do consumo e aumento da impressão de papel moeda estimula o aumento dos preços. Ou seja, impulsionam a inflação de forma saudável, fazendo com que o banco central possa voltar a subir a taxa Selic.

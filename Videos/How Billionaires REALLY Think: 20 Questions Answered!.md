@@ -21,12 +21,12 @@ Look for the fanatic experience of your customers
 - What qualities make a great candidate?
 Run from big fails, Fails are about small things that you fix while in the way
 
-- If you could start over, what would you do diferently?
+- If you could start over, what would you do differently?
 I would dream bigger..
 
-- Does Success make all your problems dissapear?
+- Does Success make all your problems disappear?
 The problems just get bigger...
-Happinness is just what you are
+Happiness is just what you are
 
 - Whats your biggest piece of advice?
 Wake up and write down 3 things you have to accomplish that day.. no 5, no 10, just 3..
@@ -57,8 +57,8 @@ Authenticity is impossible to replicate
 invest in something I didnt know about it
 dont chase easy money
 
-- What is a secret about scalling?
-No matter what do to, there is such a chaos in scalling
+- What is a secret about scaling?
+No matter what you do, there is always chaos in scaling
 
 - What is your biggest self-investment?
 Learning how to communicate
@@ -67,7 +67,7 @@ Learning how to communicate
 Pressure is a privilege of success
 he more success you get, the more pressure you will face
 
-- how do you became a great leader?
-people want to be lead, not manage
-dont tell people what to do, teach them with paraboles
+- How do you become a great leader?
+People want to be led, not managed
+Don't tell people what to do, teach them with parables
 Leaders have great histories

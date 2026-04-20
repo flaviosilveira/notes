@@ -10,7 +10,7 @@
 
 - * 1,2 + (20%)
 
-### Trainning
+### Training
 
 - Beginning - 300kcal
 - Intermediate - 375Kcal
@@ -18,8 +18,8 @@
 
 ### Cardio
 
-- Before Trainning: 250 to 300Kcal per 1 hour
-- After Trainning: 200Kcal per 30 min
+- Before Training: 250 to 300Kcal per 1 hour
+- After Training: 200Kcal per 30 min
 
 ## Losing weight
 - -20% of the caloric expenditure
@@ -31,6 +31,6 @@
 (30% carbo, 45% protein, 15% fat)
 
 ## Meals
-- I am very hungry at night, so 50% of the carbs of the day while in teh day and 50% in the last meal.
+- I am very hungry at night, so 50% of the carbs of the day during the day and 50% in the last meal.
 
 

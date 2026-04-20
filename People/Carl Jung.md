@@ -9,7 +9,7 @@ Quando algo em você se aquieta, mudanças silenciosas começam a acontecer.
 5 mudanças silenciosas que acontecem, segundo Jung
 
 ### 1
-A mente tem uma tendencia a rejeitar a realidade quando ela nõa corresponde ao que esperamos.
+A mente tem uma tendência a rejeitar a realidade quando ela não corresponde ao que esperamos.
 O sofrimento humano, não vem da situação, vem da recusa do aceitar.
 Essa recusa, ocupa espaço que poderia ser usado para enxergar soluções.
 As oportunidades existem, mas uma mente em conflito está ocupada demais tentando resistir.
@@ -22,7 +22,7 @@ Sinais que antes você ignorava.
 A vida não grita, ela sussura.
 E as pessoas estão aceleradas demais para ouvir o que ela fala.
 
-Sincronissidade, experiência de eventos que parecem não ter sentido entre si, mas que 
+Sincronicidade, experiência de eventos que parecem não ter sentido entre si, mas que 
 chegam juntos de uma maneira q não parece coincidência.
 Uma conversa no momento exato que você precisava, uma porta que se abre quando para de bater em outra,
 uma ideia que surge de lugar nenhum e muda a direção de um todo.
@@ -46,7 +46,7 @@ Jung entendia que as pessoas se comunicam em camadas muito mais profundas que as
 Existe uma linguagem anterior a fala e o raciocínio que outro capta instantaneamente.
 Essa linguagem é feita de estado interno, de como você realmente está, não de como tenta parecer.
 
-Quando você se acalma, você para de buscar nas outras pessoas aquilo que só poode vir de dentro de você.
+Quando você se acalma, você para de buscar nas outras pessoas aquilo que só pode vir de dentro de você.
 para de se aproximar dos outros, como quem precisa ser completado..
 para de carregar o peso invisível da urgência e da expectativa.
 
@@ -61,7 +61,7 @@ São as unicas que verdadeiramente ficam.
 
 ### 4
 As oportunidades começam a surgir com naturalidade
-Oportunidades não são conquistadas a força.
+Oportunidades não são conquistadas à força.
 Esforço e persistência são reais e necessários, existe um ponto onde esse excesso trabalha contra você de modo que você não percebe.
 
 A psique quando em necessidade por um resultado, não percebe, não explora.
@@ -80,7 +80,7 @@ A vida que emerge quando você para de fugir de si mesmo
 
 Uma vida construida de fora para dentro, ainda que com objetivos alcançados, existe uma sensação de desconforto sutil, que está sempre presente. 
 
-Na calma, você começa a percever o que realmente faz sentido para você.
+Na calma, você começa a perceber o que realmente faz sentido para você.
 Diferente, do que foi dito para você que importava.
 A diferença entre o que você realmente quer, e o que você foi condicionado a querer.
 
@@ -88,10 +88,10 @@ Você para de se dividir entre o que sente e o que acha que deveria sentir.
 entre o que pensa e o que achava que devia pensar.
 
 Individuação, se tornar aquilo que você é, não aquilo que o mundo quer que você seja.
-Existe uma paz em viver uma vida que é realmente sua. Mesmo nos desafios, mesmo nas incertezas, mesmo nos momentos dificéis.
+Existe uma paz em viver uma vida que é realmente sua. Mesmo nos desafios, mesmo nas incertezas, mesmo nos momentos difíceis.
 
 Parte do cansaço, vem não de trabalhar pouco, mas de resistir muito..
-De lutar contra a realidade, invés de trabalhar com ela.. 
+De lutar contra a realidade, em vez de trabalhar com ela.. 
 Algo que só pode ser encontrado quando você para e olha para dentro..
 
 Jung, descobriu que as pessoas não estão bloqueadas pelo mundo.. 
