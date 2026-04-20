@@ -33,7 +33,7 @@ Wake up and write down 3 things you have to accomplish that day.. no 5, no 10, j
 And do it, no matter what
 
 - What are the biggest red flag in business?
-I dont want to invest in someone who failure
+I don't want to invest in someone who failure
 Solid and mentally together
 Understand numbers. Every business has 2, 3 key numbers you have to watch everyday..
 
@@ -48,14 +48,14 @@ Dont go where the puck is, go where you think the puck is going
 Dont look for generalize people for help you, look for people that can help you in a specific problem.
 
 - How do you stand out in business?
-Customize, people dont want something that everybody else have
+Customize, people don't want something that everybody else have
 
 - How do you become great at sales?
 Authenticity is impossible to replicate
 
 - Whats the big mistake you did with money?
 invest in something I didnt know about it
-dont chase easy money
+don't chase easy money
 
 - What is a secret about scaling?
 No matter what you do, there is always chaos in scaling

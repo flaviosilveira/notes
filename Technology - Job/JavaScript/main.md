@@ -174,7 +174,7 @@ return Buffer.from(str, 'base64').toString('ascii');
 ### Generics
 
 A way to keep some components / functions flexible for whom use it.
-When you use any, you cant capture the type that was passed as parameter, you just have a any information.
+When you use any, you can’t capture the type that was passed as parameter, you just have a any information.
 With Generic type, you can capture the type.
 
 ```

@@ -1,4 +1,6 @@
-Quem causou o maior mal ao mundo: a ciência, a filosofia, as guerras, a religião ou os bancos? 
+# Socrático / Platônico / Aristotélico
+
+Quem causou o maior mal ao mundo: a ciência, a filosofia, as guerras, a religião ou os bancos?
 Quem causou o pior mal ao mundo foi o pensamento socrático, platônico e aristotélico. 
 
 Tá, vamos tentar entender isso aqui:

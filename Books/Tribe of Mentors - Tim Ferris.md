@@ -43,7 +43,7 @@
 
 #### Mike Mapples
 - Living Forward - Michael Hyatt and Daniel Harkavy (Book)
-- Good advice is more like "I cant answers your question, But that works for me..."
+- Good advice is more like "I can’t answers your question, But that works for me..."
 
 #### Soman Chainani
 - Book: The school for good and evil

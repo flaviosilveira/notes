@@ -1,15 +1,15 @@
 # Social Matrix
 [Video](https://youtu.be/RAqOMGnJ2MQ)
 
-- 99% of what we know, comes from others. We did not do the experiment, we weren't there in that time of history.
+- 99% of what we know comes from others. We did not do the experiment; we weren't there in that time of history.
 
-- So, our reality was told to us, by our parents, teachers, movies we watch, books we read.
+- Our reality is told to us by parents, teachers, movies, and books.
 
 - How are you sure of your reality if it was told for you?
 
-- There is no way that an individual can be so diluted as we are, unless we are doing it all together. When we do it together, that makes it seems more real.
+- An individual cannot be diluted unless we act together. Collective effort makes reality feel more real.
 
-- If you know nothing about an event in history. How to know what source is real?. If you were created in an environment where all believe that Earth is flat. When you read an article saying that earth is not flat, with evidences and all you will be skeptical about it. Thinking that is just Propaganda. If I was born in an environment where we not believe in flat Earth, I will read the same article and have another pair of eyes on it.
+- If you know nothing about a historical event, how can you identify a reliable source? In a flat‑Earth‑believing environment, any article claiming the Earth is round is dismissed as propaganda. Conversely, someone raised believing the Earth is round may reject flat‑Earth arguments.
 
 - If you love and follow a celebrity, for whatever reason, that became your reality. If I hate that same celebrity for whatever reason, that creates my reality. That draws different realities.
 
