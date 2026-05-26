@@ -67,3 +67,4 @@ The Princess de Broglie
 ## John Singer Sargent
 Madame X
 
+## Marten de Vos
