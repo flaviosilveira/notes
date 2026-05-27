@@ -12,3 +12,13 @@ A Familia de Amélia, impôs o afastamento de Domitilia da corte.
 Dom Pedro I e Maria Leopoldina tem o Filho Dom Pedro II
 Esse, se casa com 16 anos com Teresa Cristina
 tem a lenda do "pra frente e pra trás"
+
+Dom Pedro I → vida amorosa intensa, pública, impulsiva e cheia de casos.
+Dom Pedro II → perfil muito mais contido, disciplinado e sem histórico sólido de múltiplas amantes reconhecidas.
+
+Teresa Cristina, inclusive, costuma ser retratada como uma mulher bondosa e discreta
+mas sem grande sintonia intelectual com Pedro II..
+que era obcecado por ciência, línguas, filosofia, fotografia, astronomia etc.
+e com isso, lembramos da amizade dele com a Condessa de Barral, onde aparentava mais admiração intelectual.
+
+

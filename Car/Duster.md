@@ -13,13 +13,11 @@ A calibragem deve ser feita com os pneus frios.
 
 # Quando usar Etanol, Quando usar Gasolina
 
-- Com Etanol, o consumo é 30% maior. Use Gasolina para trechos curtos. Usar gasolina sempre?
+A conta tradicional dos 70%, mesmo com a lei permitindo até 35% e etanol na gasolina, 
+até faria sentido em um carro 2014/2015, mas na Duster:
+câmbio automático de 4 marchas, carro pesado, aerodinâmica ruim, motor 2.0 aspirado antigo (ñ turbo)
 
-A regra geral para carros flex no Brasil é que o etanol só é vantajoso se o preço do litro for até 70% do preço da gasolina, pois o consumo com etanol é cerca de 30% maior (ou seja, você percorre menos quilômetros com o mesmo volume de combustível).
+é consenso entre donos de Duster que o etanol quase nunca vale a pena, com exceção se tiver muito barato.
+MAS, a Duster responde melhor com Etanol, mais torque, mais desempoenho.
 
-Exemplo prático:
-Preço da gasolina: R$ 6,00/litro
-Preço do etanol: R$ 4,00/litro
-Calcule:
-0,7×6,00=4,20
-Nesse caso, o preço do etanol (R$ 4,00) é menor que R$ 4,20, então vale a pena abastecer com etanol.
+
