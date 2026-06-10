@@ -1,8 +1,16 @@
+...compreensão quase íntima de instrumentos que talvez nem tocassem em alto nível..
+
 # Vivaldi
 Any
 
 # Paganini
 Any
+
+# Mozart
+poucas correções ao fechar suas composições
+
+# Beethoven
+Obsessivo.. revisava, corrigia, mudava
 
 # Giuseppe Verdi
 
@@ -35,3 +43,7 @@ Any
 # Pachelbel
 
 ## Canon in D
+
+# Schostakowitsch
+
+# Dvorak
