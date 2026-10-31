@@ -1,12 +1,12 @@
 ## Caçadores coletores
 
 fogo
-ferramentas de pedra q nos érmitiram nos tornar o predador dominante da terra
+ferramentas de pedra q nos permitiram nos tornar o predador dominante da terra
 
 ## Agricultores
 
 sociedade começa a emergir
-domerticação de animais
+domesticação de animais
 permanecer onde estava e permetir que o alimento viesse até nós
 
 ## Sumeria
@@ -38,7 +38,7 @@ dinastia xia
 
 
 depois os xia foram conquistados pelos vizinhos do norte, os shang 
-trouzeram a china para a era do bronze
+trouxeram a china para a era do bronze
 carros de guerra puchados por cavalos
 
 ## Babilonia
@@ -99,7 +99,7 @@ no centro de onde é a turquia
 Teshub - deus da tempestade
 casamentos como ferramenta política internacional.
 
-lutaram contra os egipcios, liderados por Ramses II
+lutaram contra os egipcios, egipcios  que foram liderados por Ramses II
 a Batalha de Kadesh
 ambos reinvindicaram vitória, mas ninguém definiu vitória
 
@@ -138,16 +138,18 @@ Fundado pela princesa Dido
 porto circular
 
 Dido se apaixonou por enéas
-Enéas, recebeu uma mensagem de jupiter dizendo q deveria partir em segredo
+Enéas, recebeu uma mensagem de jupiter dizendo que deveria partir em segredo
 Dido, se matou em uma pira incendiária
 
-Enéas, seguiu seu caminho e foi pai de Romulo e Remo
+Enéas, seguiu seu caminho e foi pai de Romulo e Remo, ao menos é o que diz a lenda no poema Eneida.
+Em verdade Eneas era parente distante deles.
 
 ## Roma
 Fundada por Rômulo e Remo
 lenda de terem sido abandonados quando bebês, tendo sido cuidados por lobos, até serem encontrados por um pastor
+ponto de confusão aqui por conta da palavra Lupa, que além de lobo podia significar prostituta
 ao se tornarem adultos, fundaram roma, mas que só poderia ter um governante.
-Ao terminar a muralha da cidade, rômulo matou seu irmão a sangue frio
+A lenda ainda conta que ao terminar a muralha da cidade, rômulo matou seu irmão a sangue frio
 
 Nascimento de roma, define o início da era do ferro
 inicio da antiguidade clássica
@@ -214,7 +216,6 @@ passou a ser conhecido como o iluminado, o Buda.
 Conceito de Kharma
 
 ## Exploradores
-
 Hanno, o navegante
 passou as colunas de hércules (Gilbratar) ao mar exterior, mapeando a costa oeste da Africa
 encontrou vários povos, uns violentos outros amistosos
@@ -224,8 +225,7 @@ Com o Líder Pytheas, mapearam as ilhas britânicas e a escócia.
 Alcançou o círculo polar ártico, encontrando o limite absoluto do mundo
 
 ## Persia
-
-Ciro
+Ciro nascia
 O rei na época, recebeu uma profécia de que o bebê cresceria e tomaria tudo q era seu.
 mandou matar Ciro, mas um pastor o criou escondido
 Ao ser revelado a verdade o Rei pediu que Ciro desistisse, mas esse não se curvou e tomou tudo
@@ -244,18 +244,16 @@ criou Persépolis, grande capital do império persa
 exercito dos imortais, império de 10 mil homens, um morria, outro entrava no lugar.
 
 ### Guerra Greco-Persa
-
 Quis conquistar a Grécia (Athenas e Sparta)
 a Guerra Greco-Persa
 
-Darius mandou mensageiros para que a grécia se rendesse, os mensageiros foram executados na hora
+Darius mandou mensageiros para que a Grécia se rendesse, os mensageiros foram executados na hora
 Mais de 100 mil soldados foram mandados para Grécia
 O Exercito grego, deixou Athenas vazia para irem Lutar na cidade de Maratona e surpreenderam com apenas 192 baixas.
 Os sobreviventes persas, conseguiram pegar seus navios e foram em busca de uma Athenas deserta, para conquistá-la.
 
 Um mensageiro correu cerca de 42 kilometros para Athenas, exclamou "ganhamos" e caiu morto no chão.
 O exercito Persa foi repelido, e recuaram.
-
 
 Anos depois, os persas retornariam, decididos a acabar com a Grécia
 Foram confrontados pelo Rei de Sparta, Leônidas e seu exército
@@ -268,3 +266,85 @@ Os navios Athenienses esperavam os persas, que os dizimaram
 
 Em plateia, esmagaram de vez os persas.
 uma terceira invasão, nunca veio.
+
+### Zapotecas
+mexico, obsecados pela morte
+punições e rituais com sacrifício humano
+deram origem aos astecas e maias
+sumiram do nada
+
+### Pirro
+Lutando contra os romanos o grego Pirro, ganhava, mas tinha grnades perdas.
+usavam elefantes de guerra
+Falou "mas uma vitória dessa e eu estou perdido"
+dando origem a expressão vitória pírrica
+
+### República Romana
+os reis sairam do poder, começaram a serem governados pelo senado.
+após muitas derroras, treinaram e venceram pirro e seus elefantes.
+
+### Revolução filosófica - China
+Feudalismo
+Confúcio - familia, comunidade e o rei
+Taoismo - de Lao Tsu - devemos questionar tudo na vida
+Legismo - se provou a mais eficaz das 3 - com todo o poder ao rei - leis e punições
+Qin shi huan - coroado o primeiro imperador da china
+
+#### Dinastia Qin
+aboliu o fedaulismo
+construiu a muralha da china
+Exercito de terra kota - cada um com uma face diferente
+buscou a imortalidade - quem disse ter descoberto, era enterrado vivo para tentar provar o ponto
+acabou morrendo por ingestão de mercúrio - era um elixir de imortalidade q ele estava testando
+
+### Nabateos
+Arábia
+capital Petra - a Cidade Rosa
+considerados o povo mais injustamente esquecido da humanidade
+
+### Macedonia
+Philip II - morto no casamento da filha por um de seus guarda costas
+seu filho de 20 anos assumiu, havia sido educado por Aristóteles, Alexandre da Macedônia
+
+Alexandre conquistou muitas terras, até o próprio egito.
+Teve grandes atritos com Dariu III da pérsia, capturou ele e o executou.
+
+chamado de o rei do mundo conhecido, pelo tamanho da extensão que conquistou.
+Alexandre o grande.
+morreu no palácio nabucodonossor na babilônia, causado por uma febre, com 32 anos
+
+Seu extenso reino foi dividido entre seus generais.
+
+Pitolomeu ficou com o egito, com uma série de faraós cultos.
+Seleuco, criou o império selêucida.
+mas com a morte de Alexandre, as coisas rapidamente iriam ruir.
+
+### Mauria / Ashoka
+Mauria, começou uma retomada da india das mãos dos gregos.
+teve um filho, ashoka o grande
+que fez grandes guerras sangrentas para conquistar partes da india tribal
+ao se ver nisso, se converteu ao budismo, a não violência, acabou com a escravidão
+
+### Japão
+ilha com estilo de vida baseado na pesca e artesanato
+A dinastia Zhu da china, se interessou pela ilha
+e introduziu o vasto cultivo de arroz, quanto mais arroz se produzisse, mais poder se tinha
+nasciam os reis japoneses
+
+### Egito pitolomeu
+criou a biblioteca de Alexandria
+Arquimedes vivia na biblioteca, criou a formula da flutuação, e o parafuso de arquimedes
+Eratostones também vivia na biblioteca, e calculou precisamente a circunferência da Terra
+
+Lá também tinha o primeiro porto artificial.
+foram dominados pela república romana
+
+### Amazonia
+Floresta selvagem, que adaptou seres humanos para viver nela
+com pés maiores para as caminhadas e melhoria da visão para locais escuros
+os primeiros povos da Amazônia estavam no Equador
+
+Lenda do rei que de tão rico se passava pó de ouro todas as manhãs.
+levando a cidade a levar seu apelido, El Dourado
+
+
