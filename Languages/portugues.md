@@ -23,3 +23,7 @@ Confusão comum:
 Verbo defectivo 
 que não possui conjugação completa.. geralmente para evitar cacofonia ou ambiguidade.
 Exemplo: Falir -> Eu falo, ele fala. Não existem, pois se confunde com o verbo falar.
+
+--
+
+Calhau: pedra.
