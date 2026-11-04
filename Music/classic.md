@@ -14,6 +14,10 @@ Obsessivo.. revisava, corrigia, mudava
 
 # Giuseppe Verdi
 
+## Rigoletto
+- La donna è mobile
+- Caro Nome
+
 # Joseph Haydn
 
 ## Hob I:46 - Symphony No. 46 in B major
